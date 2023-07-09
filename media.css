@@ -117,7 +117,7 @@
   .statonline, .stattwenty {max-height:auto;}
 }
 @media (max-width:400px) {
-  .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important;}
+  .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
 }
 
 @media (min-height: 1500px) {
