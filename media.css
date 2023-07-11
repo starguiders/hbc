@@ -84,7 +84,6 @@
   .left-tabs {left:25px!important;}
   #profile {flex-direction:column;}
   #profile .profimg {max-width:none!important; width:100%; min-height:130px!important; border-left:none!important; border-top:var(--border1); background:var(--back1);}
-  .profimg .proflinks {position:relative!important; inset:0!important; flex:1; border-right:var(--border1); justify-content:space-around; padding:20px; align-items:center;}
   #profile .profimg .pccontent {width:130px!important; height:130px;}
 }
 @media (max-width: 700px) {
