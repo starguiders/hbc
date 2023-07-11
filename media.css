@@ -135,7 +135,7 @@
   #profile .profimg {min-height:auto!important;}
   .pfcuser {font-size:var(--fs-h3)!important;}
   #profile .profcont, #car-hold {min-height:500px!important;}
-  .pfcmain>div {flex:1 0 30%;}
+  .pfcmain>div {flex:1 0 30%!important;}
   .tab {padding:50px!important;}
 }
 @media (max-width:450px) {
