@@ -58,6 +58,9 @@
   .tdesc, .tlocupd, .teve, .tlst {flex:1 0 30%; min-width:170px;}
   .statonline, .stattwenty {flex:1 0 50%;}
   .afcred {flex:1 0 100%;}
+  .tab {padding:40px 60px;}
+  .right-tabs {right:16px;}
+  .left-tabs {left:16px;}
 }
 @media (max-width: 950px) {
   header {max-height:500px; padding:40px}
@@ -75,12 +78,24 @@
 @media (max-width: 900px) {
   header>a {font-size:var(--fs-display);}
   header>a>span {font-size:calc(var(--fs-display) - 3px)}
+  #profile {flex-direction:column;}
+  .tab {padding:60px 80px;}
+  .right-tabs {right:25px;}
+  .left-tabs {left:25px;}
+  #profile {flex-direction:column;}
+  #profile .profimg {max-width:none!important; width:100%; min-height:130px; border-left:none; border-top:var(--border1); background:var(--back1);}
+  .profimg .proflinks {position:relative; bottom:0px; left:0px; flex:1; border-right:var(--border1); justify-content:space-around; padding:20px; align-items:center;}
+  #profile .profimg .pccontent {width:130px; height:130px;}
 }
 @media (max-width: 700px) {
   .nvtree>a>span {max-width:80px;}
   header>a {font-size:var(--fs-h1);}
   header>a>span {font-size:calc(var(--fs-h1) - 3px)}
   .afherm {width:100%; max-height:none!important;}
+  #profile .profcont {min-width:auto!important;}
+  .tab {padding:40px 60px;}
+  .right-tabs {right:16px;}
+  .left-tabs {left:16px;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
@@ -115,6 +130,16 @@
   .stlstunam>strong {font-size:var(--fs-bigger);}
   .statsright, .statonline, .stattwenty {min-width:auto;}
   .statonline, .stattwenty {max-height:auto;}
+  #profile .profimg .pccontent {display:none;}
+  #profile .profimg {min-height:auto;}
+  .pfcuser {font-size:var(--fs-h3);}
+  #profile .profcont {min-height:500px;}
+  #car-hold {min-height:500px;}
+  .pfcmain>div {flex:1 0 30%;}
+  .tab {padding:50px;}
+  .right-tabs {right:-10px;}
+  .left-tabs {left:-10px;}
+  .left-tabs, .right-tabs {width:25px; height:25px;}
 }
 @media (max-width:400px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
