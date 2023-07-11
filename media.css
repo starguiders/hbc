@@ -83,8 +83,6 @@
   .right-tabs {right:25px!important;}
   .left-tabs {left:25px!important;}
   #profile {flex-direction:column;}
-  #profile .profimg {max-width:none!important; width:100%; min-height:130px!important; border-left:none!important; border-top:var(--border1); background:var(--back1);}
-  #profile .profimg .pccontent {width:130px!important; height:130px;}
 }
 @media (max-width: 700px) {
   .nvtree>a>span {max-width:80px;}
@@ -130,8 +128,6 @@
   .stlstunam>strong {font-size:var(--fs-bigger);}
   .statsright, .statonline, .stattwenty {min-width:auto;}
   .statonline, .stattwenty {max-height:auto;}
-  #profile .profimg .pccontent {display:none;}
-  #profile .profimg {min-height:auto!important;}
   .pfcuser {font-size:var(--fs-h3)!important;}
   #profile .profcont, #car-hold {min-height:500px!important;}
   .pfcmain>div {flex:1 0 30%!important;}
