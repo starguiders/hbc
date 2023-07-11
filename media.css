@@ -138,8 +138,9 @@
   .pfcmain>div {flex:1 0 30%!important;}
   .tab {padding:50px!important;}
 }
-@media (max-width:450px) {
+@media (max-width:400px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
+  #profile .profcont, #car-hold {min-height:550px!important;}
 }
 
 @media (min-height:1500px) {
