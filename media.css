@@ -133,16 +133,16 @@
   .statonline, .stattwenty {max-height:auto;}
   #profile .profimg .pccontent {display:none;}
   #profile .profimg {min-height:auto!important;}
-  .pfcuser {font-size:var(--fs-h3);}
+  .pfcuser {font-size:var(--fs-h3)!important;}
   #profile .profcont, #car-hold {min-height:500px!important;}
   .pfcmain>div {flex:1 0 30%;}
   .tab {padding:50px!important;}
 }
-@media (max-width:400px) {
+@media (max-width:450px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
 }
 
-@media (min-height: 1500px) {
+@media (min-height:1500px) {
   body {margin-left:125px!important;}
   header {max-height:800px;}
   .himg {background-image:var(--pngimg-2);}
@@ -182,7 +182,7 @@
   #statistics .statgroups>a {flex: 1 0 9%;}
 }
 
-@media (max-height: 500px) {
+@media (max-height:500px) {
   .nvnlinks, .nvupanel {gap:10px;}
   .nvava {display:none!important;}
 }
