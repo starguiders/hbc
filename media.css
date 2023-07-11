@@ -82,7 +82,9 @@
   .tab {padding:60px 80px!important;}
   .right-tabs {right:25px!important;}
   .left-tabs {left:25px!important;}
-  #profile {flex-direction:column;}
+  #profile .profimg .pccontent {position:relative!important; border-left:var(--border1)!important; height:130px!important; width:130px!important;}
+  #profile .profimg {background:var(--back1); max-width:none!important; border-left:none!important; border-top:var(--border1);  height:130px!important; min-height:auto!important; justify-content:space-between!important; align-items:center!important;}
+  .profimg .proflinks {justify-content:space-around!important; align-items:center;}
 }
 @media (max-width: 700px) {
   .nvtree>a>span {max-width:80px;}
@@ -94,6 +96,7 @@
   .right-tabs {right:-10px!important;}
   .left-tabs {left:-10px!important;}
   .left-tabs, .right-tabs {width:25px!important; height:25px!important;}
+  .profimg .proflinks a {font-size:var(--fs-h5)!important;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
@@ -132,6 +135,7 @@
   #profile .profcont, #car-hold {min-height:500px!important;}
   .pfcmain>div {flex:1 0 30%!important;}
   .tab {padding:50px!important;}
+  #profile .profimg .pccontent {display:none!important;}
 }
 @media (max-width:400px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
