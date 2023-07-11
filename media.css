@@ -134,8 +134,7 @@
   #profile .profimg .pccontent {display:none;}
   #profile .profimg {min-height:auto!important;}
   .pfcuser {font-size:var(--fs-h3);}
-  #profile .profcont {min-height:500px;}
-  #car-hold {min-height:500px;}
+  #profile .profcont, #car-hold {min-height:500px!important;}
   .pfcmain>div {flex:1 0 30%;}
   .tab {padding:50px!important;}
 }
