@@ -85,6 +85,7 @@
   #profile .profimg .pccontent {position:relative!important; border-left:var(--border1)!important; height:130px!important; width:130px!important;}
   #profile .profimg {background:var(--back1); max-width:none!important; border-left:none!important; border-top:var(--border1);  height:130px!important; min-height:auto!important; justify-content:space-between!important; align-items:center!important;}
   .profimg .proflinks {justify-content:space-around!important; align-items:center;}
+  #glenjams-05 {display:none!important;}
 }
 @media (max-width: 700px) {
   .nvtree>a>span {max-width:80px;}
