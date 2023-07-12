@@ -136,6 +136,7 @@
   #profile .profcont, #car-hold {min-height:500px!important;}
   .pfcmain>div {flex:1 0 30%!important;}
   .tab {padding:50px!important;}
+  .pfcmain {padding:20px!important;}
   #profile .profimg .pccontent {display:none!important;}
 }
 @media (max-width:400px) {
