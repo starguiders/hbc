@@ -144,7 +144,7 @@
 }
 @media (max-width:400px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
-  #profile .profcont, #car-hold {min-height:550px!important;}
+  #profile .profcont, #car-hold {min-height:560px!important;}
 }
 
 @media (min-height:1500px) {
@@ -185,7 +185,7 @@
   .statlinks, .statsright {flex:1 0 100%; flex-direction:row!important;}
   .statonline, .stattwenty {max-height:auto;}
   #statistics .statgroups>a {flex: 1 0 9%;}
-  #profile .profcont, #car-hold {min-height:550px!important;}
+  #profile .profcont, #car-hold {min-height:600px!important;}
   .tab {padding:60px 80px!important;}
   .right-tabs {right:25px!important;}
   .left-tabs {left:25px!important;}
