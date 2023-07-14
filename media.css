@@ -138,6 +138,9 @@
   .tab {padding:50px!important;}
   .pfcmain {padding:20px!important;}
   #profile .profimg .pccontent {display:none!important;}
+  .pfcstats>.pccontent>div>strong {flex:1 0 25%; font-size:var(--fs-body);}
+  .pfcstats>.pccontent>div>strong>i {font-size:var(--fs-bigger);}
+  .pfctrank {font-size:var(--fs-h4);}
 }
 @media (max-width:400px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
