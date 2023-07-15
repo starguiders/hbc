@@ -146,6 +146,8 @@
   .pfcstats>.pccontent>div>strong>i {font-size:var(--fs-bigger)!important;}
   .pfctrank {font-size:var(--fs-h4)!important;}
   .pfchabs, .pfcinve {line-height:128%!important;}
+  fieldset dd {margin-left:0px!important;}
+  fieldset dt {width: 100%!important;}
 }
 @media (max-width:450px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
