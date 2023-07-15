@@ -122,6 +122,10 @@
   #afiliados, .footerlogin {margin-top:20px;}
   .tadm {flex-direction:row!important; width:100%;}
   .tdesc, .tupd, .tlst, .tlult, .afcred {max-height:initial; height:initial!important; overflow:initial!important; padding:0px!important;}
+  .tlupst {display:none!important;}
+  .tlupst:nth-of-type(1), .tlupst:nth-of-type(2), .tlupst:nth-of-type(3), .tlupst:nth-of-type(4), .tlupst:nth-of-type(5), .tlupst:nth-of-type(6) {display:block!important;}
+  .tlupst:nth-of-type(6) {margin-bottom:0px!important;}
+  .tlocupd, .teve {flex:1 0 100%!important;}
   .forum {flex-direction:column!important; flex:1 0 100%;}
   .forum .forcont {border-right:none;}
   .forum .forava {width:100%; max-width:none!important; border-top:var(--border1); min-height:auto; min-width:auto; padding:20px; position:initial!important; gap:20px; flex-direction:row-reverse; align-items:flex-end; justify-content:end;}
