@@ -102,6 +102,7 @@
   .profimg .proflinks a {font-size:var(--fs-h5)!important;}
   .pfchabs, .pfcinve {line-height:130%!important;}
   .pfcstats>.pccontent>div>strong {flex:1 0 25%!important; font-size:var(--fs-body)!important;}
+  input.inputbox, select.inputbox {width:100%!important; display:flex!important;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
