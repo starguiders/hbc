@@ -16,7 +16,7 @@
   ul#notif_list, .navigationpanel {margin-top:30px!important; left:150px!important;}
   mainbody {max-width:1800px; padding:120px;}
   #tablon {margin-bottom:120px;}
-  #afiliados {margin-top:120px;}
+  #afiliados, .footerlogin {margin-top:120px;}
   .tdesc, .tadm, .tlocupd, .teve, .tlst {max-height:270px!important; height:270px!important;}
   .tadm>a, .tlocupd .tloc, .tlocupd .tupd, .teve .teeve {height:50%!important;}
   #page-footer .skincredit>span>em {font-size:calc(var(--fs-big) + 6px)!important;}
@@ -73,7 +73,7 @@
   .nvtree>a>span {max-width:100px;}
   mainbody {padding:40px;}
   #tablon {margin-bottom:40px;}
-  #afiliados {margin-top:40px;}
+  #afiliados, .footerlogin {margin-top:40px;}
   .forum {max-width:none;}
 }
 @media (max-width: 900px) {
@@ -118,7 +118,7 @@
   .nvtop {padding:6px;}
   mainbody {padding:20px;}
   #tablon {margin-bottom:20px;}
-  #afiliados {margin-top:20px;}
+  #afiliados, .footerlogin {margin-top:20px;}
   .tadm {flex-direction:row!important; width:100%;}
   .tdesc, .tupd, .tlst, .tlult, .afcred {max-height:initial; height:initial!important; overflow:initial!important; padding:0px!important;}
   .forum {flex-direction:column!important; flex:1 0 100%;}
