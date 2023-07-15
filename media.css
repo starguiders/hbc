@@ -61,6 +61,7 @@
   .tab {padding:40px 60px!important;}
   .right-tabs {right:16px!important;}
   .left-tabs {left:16px!important;}
+  .pfchabs, .pfcinve {line-height:130%!important;}
 }
 @media (max-width: 950px) {
   header {max-height:500px; padding:40px}
@@ -86,6 +87,7 @@
   #profile .profimg {background:var(--back1); max-width:none!important; border-left:none!important; border-top:var(--border1);  height:130px!important; min-height:auto!important; justify-content:space-between!important; align-items:center!important;}
   .profimg .proflinks {justify-content:space-around!important; align-items:center;}
   #glenjams-05 {display:none!important;}
+  .pfchabs, .pfcinve {line-height:128%!important;}
 }
 @media (max-width: 700px) {
   .nvtree>a>span {max-width:80px;}
@@ -98,6 +100,7 @@
   .left-tabs {left:-10px!important;}
   .left-tabs, .right-tabs {width:25px!important; height:25px!important;}
   .profimg .proflinks a {font-size:var(--fs-h5)!important;}
+  .pfchabs, .pfcinve {line-height:130%!important;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
@@ -141,6 +144,7 @@
   .pfcstats>.pccontent>div>strong {flex:1 0 25%!important; font-size:var(--fs-body)!important;}
   .pfcstats>.pccontent>div>strong>i {font-size:var(--fs-bigger)!important;}
   .pfctrank {font-size:var(--fs-h4)!important;}
+  .pfchabs, .pfcinve {line-height:128%!important;}
 }
 @media (max-width:400px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
@@ -195,6 +199,7 @@
   .profimg .proflinks {justify-content:space-around!important; align-items:center;}
   #glenjams-05 {display:none!important;}
   .pfctwo {gap:30px!important;}
+  .pfchabs, .pfcinve {line-height:125%!important;}
 }
 
 @media (max-height:500px) {
