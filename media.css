@@ -101,6 +101,7 @@
   .left-tabs, .right-tabs {width:25px!important; height:25px!important;}
   .profimg .proflinks a {font-size:var(--fs-h5)!important;}
   .pfchabs, .pfcinve {line-height:130%!important;}
+  .pfcstats>.pccontent>div>strong {flex:1 0 25%!important; font-size:var(--fs-body)!important;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
@@ -141,14 +142,15 @@
   .tab {padding:50px!important;}
   .pfcmain {padding:20px!important;}
   #profile .profimg .pccontent {display:none!important;}
-  .pfcstats>.pccontent>div>strong {flex:1 0 25%!important; font-size:var(--fs-body)!important;}
   .pfcstats>.pccontent>div>strong>i {font-size:var(--fs-bigger)!important;}
   .pfctrank {font-size:var(--fs-h4)!important;}
   .pfchabs, .pfcinve {line-height:128%!important;}
 }
-@media (max-width:400px) {
+@media (max-width:450px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
   #profile .profcont, #car-hold {min-height:560px!important;}
+  .pfctraits {flex-direction:column!important;}
+  .pfctraits>div {width: 100%!important;}
 }
 
 @media (min-height:1500px) {
