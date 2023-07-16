@@ -62,6 +62,9 @@
   .right-tabs {right:16px!important;}
   .left-tabs {left:16px!important;}
   .pfchabs, .pfcinve {line-height:130%!important;}
+  .ucp-paneldecontroldelosavatares fieldset {height:auto!important; flex-direction:column!important;}
+  .ucp-paneldecontroldelosavatares dl:not(.ucp-muestraunapequeaimagenentusmen) {width:100%!important;}
+  .ucp-paneldecontroldelosavatares dl.ucp-muestraunapequeaimagenentusmen {width:100%!important;}
 }
 @media (max-width: 950px) {
   header {max-height:500px; padding:40px}
