@@ -108,6 +108,10 @@
   input.inputbox, select.inputbox {width:100%!important; display:flex!important;}
   #cp-main.ucp-vigi table tbody tr td:nth-of-type(4), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(4), #cp-main.ucp-vigi table tbody tr td:nth-of-type(6), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(6) {display:none!important;}
   .panel.ucp-informacinderegistro dl.ucp- {display:none!important;}
+  .ftopic {flex-direction:column!important; padding:0px!important; gap:0px!important;}
+  .ftopic>div {width:100%!important; padding:20px;}
+  .ftopicz2 {border-top:var(--border1); background:var(--back2);}
+  .ftoplava {display:none!important;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
