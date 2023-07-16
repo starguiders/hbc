@@ -155,12 +155,15 @@
   .pfchabs, .pfcinve {line-height:128%!important;}
   fieldset dd {margin-left:0px!important;}
   fieldset dt {width: 100%!important;}
+  #cp-main {padding:20px!important;}
+  #cp-main .panel {padding:12px!important;}
+  #cp-main h1 {margin-bottom:20px!important;}
 }
 @media (max-width:450px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
   #profile .profcont, #car-hold {min-height:560px!important;}
   .pfctraits {flex-direction:column!important;}
-  .pfctraits>div {width: 100%!important;}
+  .pfctraits>div {width:100%!important;}
 }
 
 @media (min-height:1500px) {
