@@ -89,6 +89,8 @@
   #profile .profimg .pccontent {position:relative!important; border-left:var(--border1)!important; height:130px!important; width:130px!important;}
   #profile .profimg {background:var(--back1); max-width:none!important; border-left:none!important; border-top:var(--border1);  height:130px!important; min-height:auto!important; justify-content:space-between!important; align-items:center!important;}
   .profimg .proflinks {justify-content:space-around!important; align-items:center;}
+  .profimg .proflinks a {font-size:var(--fs-h4)!important; background:transparent!important; border:none!important; width:auto!important; height:auto!important;}
+  .profimg .proflinks a:hover {color:var(--group)!important; background:transparent!important; border:none!important;}
   #glenjams-05 {display:none!important;}
   .pfchabs, .pfcinve {line-height:128%!important;}
 }
