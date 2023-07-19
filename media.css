@@ -117,8 +117,8 @@
   .mbsmember {flex-direction:column!important;}
   .mbsmava>img {display:none!important;}
   .mbsmava {width:100%; max-width:100%!important; min-width:100%!important; border-right:none; border-bottom:var(--border1); height:250px; min-height:auto;}
-  .mbsimgpro {display:block; width:100%; height:100%;}
-  .mbsmember {max-width:350px; min-width:auto!important; flex:1 0 100%;}
+  .mbsimgpro {display:block!important; width:100%; height:100%;}
+  .mbsmember {max-width:350px; min-width:auto!important; flex:1 0 100%!important;}
   .mbsimgpro img {filter:var(--filter2); object-fit:cover; object-position:center; width:100%; height:100%;}
   .mbsimgpro>div {width:100%; height:100%;}
   .mbsmcont {min-width:auto!important;}
