@@ -118,7 +118,7 @@
   .mbsmava {width:100%; max-width:100%!important; min-width:100%!important; border-right:none!important; border-bottom:var(--border1); height:250px!important; min-height:auto!important;}
   .mbsimgpro {display:block!important; width:100%; height:100%;}
   .mbsmember {flex-direction:column!important; max-width:350px!important; min-width:auto!important; flex:1 0 100%!important;}
-  .mbsimgpro img {filter:var(--filter2); object-fit:cover; object-position:center; width:100%; height:100%;}
+  .mbsimgpro img {filter:var(--filter2); object-fit:cover; object-position:center 30%; width:100%; height:100%;}
   .mbsimgpro>div {width:100%; height:100%;}
   .mbsmcont {min-width:auto!important;}
 }
@@ -238,7 +238,7 @@
   .mbsmava {width:100%; max-width:100%!important; min-width:100%!important; border-right:none!important; border-bottom:var(--border1); height:250px!important; min-height:auto!important;}
   .mbsimgpro {display:block!important; width:100%; height:100%;}
   .mbsmember {flex-direction:column!important; max-width:350px!important; min-width:auto!important; flex:1 0 45%!important;}
-  .mbsimgpro img {filter:var(--filter2); object-fit:cover; object-position:center; width:100%; height:100%;}
+  .mbsimgpro img {filter:var(--filter2); object-fit:cover; object-position:center 30%; width:100%; height:100%;}
   .mbsimgpro>div {width:100%; height:100%;}
   .mbsmcont {min-width:auto!important;}
 }
