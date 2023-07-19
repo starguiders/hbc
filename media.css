@@ -25,6 +25,7 @@
   .forcont .frcinfo .frclinks {margin-top:30px;}
   .statlastu>.stlstuava {width:160px; height:160px;}
   .statgroups>a {height:73px;}
+  .mbsmava {max-width:250px!important;}
 }
 @media (min-width: 1700px) {
   :root, *, ::before, ::after {--fs-bigger:25px; --fs-big:22px; --fs-body:20px; --fs-text:19px; --fs-small:17px; --fs-smaller:16px; --fs-smallest:15px; --fs-title:90px; --fs-display:62px; --fs-h1:54px; --fs-h2:42px; --fs-h3:34px; --fs-h4:30px; --fs-h5:26px;}
