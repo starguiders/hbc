@@ -180,7 +180,7 @@
   #profile .profcont, #car-hold {min-height:560px!important;}
   .pfctraits {flex-direction:column!important;}
   .pfctraits>div {width:100%!important;}
-  a.usgp {flex:1 0 100%!important; max-width:100%!important;}
+  a.usgp {flex:1 0 40%!important; max-width:100%!important;}
 }
 
 @media (min-height:1500px) {
