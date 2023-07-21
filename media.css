@@ -123,6 +123,7 @@
   .mbsimgpro img {filter:var(--filter2); object-fit:cover; object-position:center 30%; width:100%; height:100%;}
   .mbsimgpro>div {width:100%; height:100%;}
   .mbsmcont {min-width:auto!important;}
+  .mbsimgava {display:none!important;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
