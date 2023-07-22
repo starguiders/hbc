@@ -29,6 +29,7 @@
   .mbsmclinks a {width:40px!important; height:40px!important;}
   .postprofile {display:none!important;}
   .postbody ul li:before {top:13px!important;}
+  .dicethrow .diceres>strong {max-width:132px!important;}
 }
 @media (min-width: 1700px) {
   :root, *, ::before, ::after {--fs-bigger:25px; --fs-big:22px; --fs-body:20px; --fs-text:19px; --fs-small:17px; --fs-smaller:16px; --fs-smallest:15px; --fs-title:90px; --fs-display:62px; --fs-h1:54px; --fs-h2:42px; --fs-h3:34px; --fs-h4:30px; --fs-h5:26px;}
@@ -63,6 +64,7 @@
   .tnbuttons>a {width:60px!important; height:60px!important;}
   .qmadminlinks>a {width:50px!important; height:50px!important;}
   .phmparent:before {width:140px!important;}
+  .dicethrow .diceres>strong {flex:1 0 11%!important; max-width:115px!important;}
 }
 @media (max-width: 1100px) {
   body {margin-left:70px!important;}
@@ -292,6 +294,7 @@
   .tnbuttons {gap:20px!important;}
   .tnbuttons>a {width:60px!important; height:60px!important;}
   .qmadminlinks>a {width:50px!important; height:50px!important;}
+  .dicethrow .diceres>strong {flex:1 0 16%!important; max-width:145px!important;}
 }
 
 @media (max-height:500px) {
