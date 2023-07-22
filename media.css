@@ -273,6 +273,7 @@
   .mbsmcont {min-width:auto!important;}
   .postprofile {display:none!important;}
   .phmname, .phsubject {font-size:var(--fs-h4)!important;}
+  .mhava {display:none!important;}
 }
 
 @media (max-height:500px) {
