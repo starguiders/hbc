@@ -62,6 +62,7 @@
   .tnbuttons {gap:20px!important;}
   .tnbuttons>a {width:60px!important; height:60px!important;}
   .qmadminlinks>a {width:50px!important; height:50px!important;}
+  .phmparent:before {width:140px!important;}
 }
 @media (max-width: 1100px) {
   body {margin-left:70px!important;}
@@ -112,6 +113,7 @@
 }
 @media (max-width: 800px) {
   .postprofile {display:none!important;}
+  .phmparent:before {width:80px!important;}
 }
 @media (max-width: 700px) {
   .nvtree>a>span {max-width:80px;}
@@ -204,6 +206,7 @@
   .postbody .content {padding:20px!important;}
   .postheader>a {width:35px!important; height:35px!important; font-size:var(--fs-big)!important;}
   .phicon img, .phicon:empty:before, .mhava img {width:50px!important; height:50px!important;}
+  .phmparent:before {width:30px!important;}
 }
 @media (max-width:500px) {
   .mhava {display:none!important;}
