@@ -196,9 +196,11 @@
   .pbinfo {top:29px!important;}
   .postbody .content {padding:20px!important;}
   .postheader>a {width:35px!important; height:35px!important; font-size:var(--fs-big)!important;}
+  .phicon img, .phicon:empty:before, .mhava img {width:50px!important; height:50px!important;}
 }
 @media (max-width:500px) {
-  .phicon img, .phicon:empty:before, .mhava img {width:50px!important; height:50px!important;}
+  .mhava {display:none!important;}
+  .phmname, .phsubject {font-size:var(--fs-h5)!important;}
 }
 @media (max-width:450px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
