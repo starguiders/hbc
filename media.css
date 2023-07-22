@@ -57,6 +57,11 @@
   .ppcistats .pccontent>strong {font-size:var(--fs-text)!important; line-height:90%!important;}
   .postheader>a {width:60px!important; height:60px!important;}
   .postbody ul li:before {top:12px!important;}
+  #textarea_content .sceditor-group {gap:20px!important;}
+  .sceditor-container .sceditor-toolbar {gap:12px 20px!important;}
+  .tnbuttons {gap:20px!important;}
+  .tnbuttons>a {width:60px!important; height:60px!important;}
+  .qmadminlinks>a {width:50px!important; height:50px!important;}
 }
 @media (max-width: 1100px) {
   body {margin-left:70px!important;}
@@ -276,7 +281,14 @@
   .postprofile {display:none!important;}
   .phmname, .phsubject {font-size:var(--fs-h4)!important;}
   .mhava {display:none!important;}
-  .postbody ul li:before {top:13px!important;}
+  .phicon img, .phicon:empty:before {width:50px!important; height:50px!important;}
+  .postbody ul li:before {top:12px!important;}
+  .postheader>a {width:60px!important; height:60px!important;}
+  #textarea_content .sceditor-group {gap:20px!important;}
+  .sceditor-container .sceditor-toolbar {gap:12px 20px!important;}
+  .tnbuttons {gap:20px!important;}
+  .tnbuttons>a {width:60px!important; height:60px!important;}
+  .qmadminlinks>a {width:50px!important; height:50px!important;}
 }
 
 @media (max-height:500px) {
