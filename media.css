@@ -130,12 +130,12 @@
   .mbsimgava {display:none!important;}
   .phmname {font-size:var(--fs-h3)!important;}
   .phmain {gap:12px!important;}
-  .phicon img, .phicon:empty:before {width:70px!important; height:70px!important;}
-  .postheader {padding:20px!important;}
+  .phicon img, .phicon:empty:before, .phicon img {width:70px!important; height:70px!important;}
+  .postheader, .messheader {padding:20px!important;}
   .phmparent:before {width:50px!important;}
 }
 @media (max-width: 600px) {
-  .phmname {font-size:var(--fs-h4)!important;}
+  .phmname, .phsubject {font-size:var(--fs-h4)!important;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
@@ -192,7 +192,7 @@
   .postheader>a {width:35px!important; height:35px!important; font-size:var(--fs-big)!important;}
 }
 @media (max-width:500px) {
-  .phicon img, .phicon:empty:before {width:50px!important; height:50px!important;}
+  .phicon img, .phicon:empty:before, .mhava img {width:50px!important; height:50px!important;}
 }
 @media (max-width:450px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
