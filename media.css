@@ -27,6 +27,7 @@
   .statgroups>a {height:73px;}
   .mbsmava {max-width:250px!important;}
   .mbsmclinks a {width:40px!important; height:40px!important;}
+  .postprofile {display:none!important;}
 }
 @media (min-width: 1700px) {
   :root, *, ::before, ::after {--fs-bigger:25px; --fs-big:22px; --fs-body:20px; --fs-text:19px; --fs-small:17px; --fs-smaller:16px; --fs-smallest:15px; --fs-title:90px; --fs-display:62px; --fs-h1:54px; --fs-h2:42px; --fs-h3:34px; --fs-h4:30px; --fs-h5:26px;}
@@ -49,6 +50,11 @@
   #c3 .forum .forava {display:flex!important;}
   #c3 .fralastpost {padding:0px!important; border-top:none!important;}
   #page-footer .skincredit>span>em {font-size:calc(var(--fs-big) + 4px);}
+  .pbinfo, .postprofile {top:50px!important;}
+  .ppcicweap {font-size:var(--fs-bigg)!important;}
+  .ppcidata .ppcid>em {line-height:100%; font-size:var(--fs-smaller)!important;}
+  .ppcistats .pccontent>strong {font-size:var(--fs-text)!important; line-height:90%!important;}
+  .postheader>a {width:60px!important; height:60px!important;}
 }
 @media (max-width: 1100px) {
   body {margin-left:70px!important;}
@@ -263,6 +269,8 @@
   .mbsimgpro img {filter:var(--filter2); object-fit:cover; object-position:center 30%; width:100%; height:100%;}
   .mbsimgpro>div {width:100%; height:100%;}
   .mbsmcont {min-width:auto!important;}
+  .postprofile {display:none!important;}
+  .phmname, .phsubject {font-size:var(--fs-h4)!important;}
 }
 
 @media (max-height:500px) {
