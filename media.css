@@ -95,6 +95,10 @@
   .profimg .proflinks a:hover {color:var(--group)!important; background:transparent!important; border:none!important;}
   #glenjams-05 {display:none!important;}
   .pfchabs, .pfcinve {line-height:128%!important;}
+  .phmname {font-size:var(--fs-h2)!important;}
+}
+@media (max-width: 800px) {
+  .postprofile {display:none!important;}
 }
 @media (max-width: 700px) {
   .nvtree>a>span {max-width:80px;}
@@ -124,6 +128,8 @@
   .mbsimgpro>div {width:100%; height:100%;}
   .mbsmcont {min-width:auto!important;}
   .mbsimgava {display:none!important;}
+  .phmname {font-size:var(--fs-h3)!important;}
+  .phicon img, .phicon:empty:before {width:70px; height:70px;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
@@ -175,6 +181,8 @@
   fieldset dt {width: 100%!important;}
   #cp-main.ucp-vigi table tbody tr td:nth-of-type(3), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(3) {display:none!important;}
   .mbsmcont {padding:20px!important;}
+  .pbinfo {top:29px!important;}
+  .postbody .content {padding:20px!important;}
 }
 @media (max-width:450px) {
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important; flex:1 0 100%;}
