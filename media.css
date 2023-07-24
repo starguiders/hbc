@@ -209,6 +209,8 @@
   .postheader>a {width:35px!important; height:35px!important; font-size:var(--fs-big)!important;}
   .phicon img, .phicon:empty:before, .mhava img {width:50px!important; height:50px!important;}
   .phmparent:before {width:30px!important;}
+  .signature_div {margin-bottom:0px!important;}
+  .sigcont .signature_div>br:first-of-type {display:none!important;}
 }
 @media (max-width:500px) {
   .mhava {display:none!important;}
