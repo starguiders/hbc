@@ -204,7 +204,7 @@
   fieldset dt {width: 100%!important;}
   #cp-main.ucp-vigi table tbody tr td:nth-of-type(3), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(3) {display:none!important;}
   .mbsmcont {padding:20px!important;}
-  .pbinfo {top:29px!important;}
+  .pbinfo {top:28px!important;}
   .postbody .content {padding:20px!important;}
   .postheader>a {width:35px!important; height:35px!important; font-size:var(--fs-big)!important;}
   .phicon img, .phicon:empty:before, .mhava img {width:50px!important; height:50px!important;}
