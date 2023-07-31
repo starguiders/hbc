@@ -54,7 +54,7 @@ div.blockquote {border-left:var(--tborder); border-right:var(--tborder); border-
 .registeredsec>em.tanatos:before, .registeredsec>em.TANATOS:before, .registeredsec>em.tánatos:before, .registeredsec>em.TÁNATOS:before, .registeredsec>em.Tanatos:before, .registeredsec>em.Tánatos:before {background:var(--ttanatos);}
 .registeredsec>em.khione:before, .registeredsec>em.KHIONE:before, .registeredsec>em.Khione:before {background:var(--tkhione);}
 .registeredsec>em.atenea:before, .registeredsec>em.ATENEA:before, .registeredsec>em.Atenea:before {background:var(--tatenea);}
-.registeredsec>em.demeter:before, .registeredsec>em.DEMETER:before, .registeredsec>em.deméter:before, .registeredsec>em.DEMÉTER:before, .registeredsec>em.Demeter:before, .registeredsec>em.Démeter:before {background:var(--tdemeter);}
+.registeredsec>em.demeter:before, .registeredsec>em.DEMETER:before, .registeredsec>em.deméter:before, .registeredsec>em.DEMÉTER:before, .registeredsec>em.Demeter:before, .registeredsec>em.Deméter:before {background:var(--tdemeter);}
 .registeredsec>em.iris:before, .registeredsec>em.IRIS:before, .registeredsec>em.Iris:before {background:var(--tiris);}
 .registeredsec>em.hermes:before, .registeredsec>em.HERMES:before, .registeredsec>em.Hermes:before {background:var(--thermes);}
 .registeredsec>em.apolo:before, .registeredsec>em.APOLO:before, .registeredsec>em.Apolo:before {background:var(--tapolo);}
@@ -72,7 +72,7 @@ div.blockquote {border-left:var(--tborder); border-right:var(--tborder); border-
 .registeredsec>em.tanatos>a, .registeredsec>em.TANATOS>a, .registeredsec>em.tánatos>a, .registeredsec>em.TÁNATOS>a, .registeredsec>em.Tanatos>a, .registeredsec>em.Tánatos>a {color:var(--tanatos);}
 .registeredsec>em.khione>a, .registeredsec>em.KHIONE>a, .registeredsec>em.Khione>a {color:var(--khione);}
 .registeredsec>em.atenea>a, .registeredsec>em.ATENEA>a, .registeredsec>em.Atenea>a {color:var(--atenea);}
-.registeredsec>em.demeter>a, .registeredsec>em.DEMETER>a, .registeredsec>em.deméter>a, .registeredsec>em.DEMÉTER>a, .registeredsec>em.Demeter>a, .registeredsec>em.Démeter>a {color:var(--demeter);}
+.registeredsec>em.demeter>a, .registeredsec>em.DEMETER>a, .registeredsec>em.deméter>a, .registeredsec>em.DEMÉTER>a, .registeredsec>em.Demeter>a, .registeredsec>em.Deméter>a {color:var(--demeter);}
 .registeredsec>em.iris>a, .registeredsec>em.IRIS>a, .registeredsec>em.Iris>a {color:var(--iris);}
 .registeredsec>em.hermes>a, .registeredsec>em.HERMES>a, .registeredsec>em.Hermes>a {color:var(--hermes);}
 .registeredsec>em.apolo>a, .registeredsec>em.APOLO>a, .registeredsec>em.Apolo>a {color:var(--apolo);}
