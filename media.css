@@ -222,6 +222,8 @@
   .pfctraits {flex-direction:column!important;}
   .pfctraits>div {width:100%!important;}
   a.usgp {flex:1 0 40%!important; max-width:100%!important;}
+  blockquote, dl.codebox dd, dl.codebox.spoiler .spoiler_content.hidden {padding:12px!important;}
+  dl.codebox dt {padding:6px!important;}
 }
 
 @media (min-height:1500px) {
