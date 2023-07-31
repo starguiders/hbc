@@ -1,0 +1,109 @@
+/* ADMINISTRATIVAS */
+.guidecont:not(.preactive) {display:none;} #guidebook {justify-content:space-between;align-items:flex-start; gap:12px;}
+#guidebook>br, #guidelinks>br, #guideconts>br, .adtitleimg>br, .adtitle>br, .adtitmain>br {display:none!important;}
+#guidelinks {text-align:left; padding:20px; border:var(--border1); border-radius:var(--bradius); background:var(--back2); gap:6px; flex:1 0 15%; min-width:145px;} 
+#guidelinks>strong {text-transform:uppercase; color:var(--txt1); font:900 var(--fs-body) var(--font2); line-height:120%; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; text-decoration-color:var(--taccent);}
+#guidelinks>strong:not(:first-of-type) {margin-top:4px;}
+#guidelinks>a {cursor:var(--crs2); text-transform:uppercase;font:bold var(--fs-small) var(--font3); line-height:100%; color:var(--txt4); margin-left:6px;}
+#guidelinks>a.preactive {color:var(--txt2);}
+#guidelinks>a:before {content:""; width:0px; height:2px; display:inline-block; background:var(--taccent); margin-right:0px; position:relative; top:-3px; transition:var(--trs1);}
+#guidelinks>a.preactive:before {width:20px; margin-right:6px;}
+#guideconts {flex:1 0 70%; border:var(--border1); padding:20px; background:var(--back1); min-height:460px;}
+.guidecont {width:100%;}
+.adtitleimg {justify-content:center; align-items:center; position:relative; border-radius:var(--bradius); overflow:hidden; border:var(--border2); width:100%; min-height:250px; padding:20px; text-align:center; gap:12px;}
+#guidebook .adtitleimg>img, .admintab .adtitleimg>img {position:absolute; z-index:0; width:100%; height:100%; object-fit:cover; object-position:center; filter:var(--filter2); opacity:0.4;}
+#guidebook .adtitleimg *, .admintab .adtitleimg * {position:relative; z-index:2;}
+#guidebook .adtitleimg>i, .admintab .adtitleimg>i {position:absolute; font-size:calc(var(--fs-title) + var(--fs-h1)); color:var(--taccent); opacity:0.6; z-index:1;}
+#guidebook .adtitleimg>h2, .admintab .adtitleimg>h2 {font-weight:900!important; margin:0px!important; text-align:center!important; line-height:85%!important; text-shadow:var(--shadow2);} 
+#guidebook .adtitleimg>h2 {font-size:var(--fs-h1); max-width:550px;}
+#guidebook .adtitleimg>em, .admintab .adtitleimg>em {text-transform:uppercase; color:var(--txt4); font:bold var(--fs-small) var(--font3); width:100%; line-height:100%; text-align:justify; text-align-last:center;}
+#guidebook .adtitleimg>em {max-width:550px;}
+#guidebook .adtitmain, .admintab .adtitmain {justify-content:center; align-items:center; text-align:center!important; gap:6px; margin:12px auto 70px; width:100%; max-width:380px; position:relative; border-top:var(--border2); border-bottom:var(--border2); padding:40px 0px; border-radius:var(--bradius);}
+#guidebook .adtitmain:after, .admintab .adtitmain:after {content:"\f329"; font:700 var(--fs-big) var(--font4); position:absolute; bottom:-45px; color:var(--accent)!important;}
+#guidebook .adtitmain *, .admintab .adtitmain * {display:block; position:relative; z-index:1;}
+#guidebook .adtitmain>i, .admintab .adtitmain>i {position:absolute; z-index:0; color:var(--taccent); font-size:var(--fs-display)!important;}
+#guidebook .adtitmain>u, .admintab .adtitmain>u {text-transform:uppercase; font-weight:700; font-size:var(--fs-text); color:var(--txt1); text-decoration-color:var(--accent)!important;}
+#guidebook .adtitmain>h2, .admintab .adtitmain>h2 {margin:0px!important; text-align:center!important;}
+#guidebook .adtitmain>em, .admintab .adtitmain>em {text-transform:uppercase; text-align:justify; text-align-last:center!important; font:bold var(--fs-small) var(--font3); line-height:110%!important; color:var(--txt4);}
+#guidebook .adtitle *, .admintab .adtitle * {display:block;}
+#guidebook .adtitle>i, .admintab .adtitle>i {float:left; width:35px; height:35px; margin-top:4px; background:var(--tback2); border-radius: var(--bradius); border:var(--border1); display:flex; justify-content:center; align-items:center; font-size:var(--fs-bigger); color:var(--txt1); margin-right:12px;}
+#guidebook .adtitle>em, .admintab .adtitle>em {text-transform:lowercase; font:normal var(--fs-small) var(--font3); line-height:110%; font-style:italic; color:var(--txt4); margin-top:6px;}
+#guidebook .adtitle>em:before, .admintab .adtitle>em:before {content:""; content:""; width:40px; height:2px; display:inline-block; background:var(--taccent); margin-right:6px; position:relative; top:-2px;}
+#guidebook .adtitle h2, .admintab .adtitle h2 {margin:0px!important; line-height:110%!important; text-shadow:var(--shadow2)!important;}
+#guidebook .adtitle h3, .admintab .adtitle h3 {color:var(--accent)!important; text-align:left; text-align-last:left; font-family:var(--font2)!important; margin:0px!important;}
+#guidebook .adtitle h4, .admintab .adtitle h4 {text-align:left; margin:0px!important; text-decoration-color:var(--taccent)!important;}
+div.blockquote {border-left:var(--tborder); border-right:var(--tborder); border-radius:var(--bradius); display:block!important; padding:12px 20px; margin:0px 12px;}
+.reminder {width:100%; display:block; border:var(--aborder); border-radius:var(--bradius); background:var(--taccent); padding:20px; line-height:100%!important; font:700 var(--fs-text) var(--font2); text-transform:uppercase;}
+.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!important;}
+.admintab .registeredsec {column-count:1; column-rule:var(--border2); column-gap:20px; column-width:160px; margin:0px 20px;}
+.admintab .registeredsec.regcol {column-count:2;}
+.admintab .registeredsec>em {font-style:normal; font-size:var(--fs-text); color:var(--txt3);}
+.admintab .registeredsec>em:before {content:""; width:12px; height:2px; display:inline-block; background:var(--taccent); margin-right:6px; position:relative; top:-3px;}
+.admintab .registeredsec>em>a, .registeredsec>em>b {text-transform:uppercase; font-weight:900;}
+.admintab .registeredsec>em>a {color:var(--accent);}
+.admintab .registeredsec>em>b {color:var(--txt2);}
+.admintab .registeredsec>i {text-transform:uppercase; font:bold var(--fs-smaller) var(--font3); font-style:normal; color:var(--txt4);}
+.registeredsec>em.nemesis:before, .registeredsec>em.NEMESIS:before, .registeredsec>em.némesis:before, .registeredsec>em.NÉMESIS:before, .registeredsec>em.Nemesis:before, .registeredsec>em.Némesis:before {background:var(--tnemesis);}
+.registeredsec>em.tyche:before, .registeredsec>em.TYCHE:before, .registeredsec>em.Tyche:before {background:var(--ttyche);}
+.registeredsec>em.dioniso:before, .registeredsec>em.DIONISO:before, .registeredsec>em.Dioniso:before {background:var(--tdioniso);}
+.registeredsec>em.afrodita:before, .registeredsec>em.AFRODITA:before, .registeredsec>em.Afrodita:before {background:var(--tafrodita);}
+.registeredsec>em.hypnos:before, .registeredsec>em.HYPNOS:before, .registeredsec>em.Hypnos:before {background:var(--thypnos);}
+.registeredsec>em.hades:before, .registeredsec>em.HADES:before, .registeredsec>em.Hades:before {background:var(--thades);}
+.registeredsec>em.hecate:before, .registeredsec>em.HECATE:before, .registeredsec>em.hécate:before, .registeredsec>em.HÉCATE:before, .registeredsec>em.Hecate:before, .registeredsec>em.Hécate:before {background:var(--thecate);}
+.registeredsec>em.poseidon:before, .registeredsec>em.POSEIDON:before, .registeredsec>em.poseidón:before, .registeredsec>em.POSEIDÓN:before, .registeredsec>em.Poseidon:before, .registeredsec>em.Poseidón:before {background:var(--tposeidon);}
+.registeredsec>em.tanatos:before, .registeredsec>em.TANATOS:before, .registeredsec>em.tánatos:before, .registeredsec>em.TÁNATOS:before, .registeredsec>em.Tanatos:before, .registeredsec>em.Tánatos:before {background:var(--ttanatos);}
+.registeredsec>em.khione:before, .registeredsec>em.KHIONE:before, .registeredsec>em.Khione:before {background:var(--tkhione);}
+.registeredsec>em.atenea:before, .registeredsec>em.ATENEA:before, .registeredsec>em.Atenea:before {background:var(--tatenea);}
+.registeredsec>em.demeter:before, .registeredsec>em.DEMETER:before, .registeredsec>em.deméter:before, .registeredsec>em.DEMÉTER:before, .registeredsec>em.Demeter:before, .registeredsec>em.Démeter:before {background:var(--tdemeter);}
+.registeredsec>em.iris:before, .registeredsec>em.IRIS:before, .registeredsec>em.Iris:before {background:var(--tiris);}
+.registeredsec>em.hermes:before, .registeredsec>em.HERMES:before, .registeredsec>em.Hermes:before {background:var(--thermes);}
+.registeredsec>em.apolo:before, .registeredsec>em.APOLO:before, .registeredsec>em.Apolo:before {background:var(--tapolo);}
+.registeredsec>em.zeus:before, .registeredsec>em.ZEUS:before, .registeredsec>em.Zeus:before {background:var(--tzeus);}
+.registeredsec>em.hefesto:before, .registeredsec>em.HEFESTO:before, .registeredsec>em.Hefesto:before {background:var(--thefesto);}
+.registeredsec>em.ares:before, .registeredsec>em.ARES:before, .registeredsec>em.Ares:before {background:var(--tares);}
+.registeredsec>em.nemesis>a, .registeredsec>em.NEMESIS>a, .registeredsec>em.némesis>a, .registeredsec>em.NÉMESIS>a, .registeredsec>em.Nemesis>a, .registeredsec>em.Némesis>a {color:var(--nemesis);}
+.registeredsec>em.tyche>a, .registeredsec>em.TYCHE>a, .registeredsec>em.Tyche>a {color:var(--tyche);}
+.registeredsec>em.dioniso>a, .registeredsec>em.DIONISO>a, .registeredsec>em.Dioniso>a {color:var(--dioniso);}
+.registeredsec>em.afrodita>a, .registeredsec>em.AFRODITA>a, .registeredsec>em.Afrodita>a {color:var(--afrodita);}
+.registeredsec>em.hypnos>a, .registeredsec>em.HYPNOS>a, .registeredsec>em.Hypnos>a {color:var(--hypnos);}
+.registeredsec>em.hades>a, .registeredsec>em.HADES>a, .registeredsec>em.Hades>a {color:var(--hades);}
+.registeredsec>em.hecate>a, .registeredsec>em.HECATE>a, .registeredsec>em.hécate>a, .registeredsec>em.HÉCATE>a, .registeredsec>em.Hecate>a, .registeredsec>em.Hécate>a {color:var(--hecate);}
+.registeredsec>em.poseidon>a, .registeredsec>em.POSEIDON>a, .registeredsec>em.poseidón>a, .registeredsec>em.POSEIDÓN>a, .registeredsec>em.Poseidon>a, .registeredsec>em.Poseidón>a {color:var(--poseidon);}
+.registeredsec>em.tanatos>a, .registeredsec>em.TANATOS>a, .registeredsec>em.tánatos>a, .registeredsec>em.TÁNATOS>a, .registeredsec>em.Tanatos>a, .registeredsec>em.Tánatos>a {color:var(--tanatos);}
+.registeredsec>em.khione>a, .registeredsec>em.KHIONE>a, .registeredsec>em.Khione>a {color:var(--khione);}
+.registeredsec>em.atenea>a, .registeredsec>em.ATENEA>a, .registeredsec>em.Atenea>a {color:var(--atenea);}
+.registeredsec>em.demeter>a, .registeredsec>em.DEMETER>a, .registeredsec>em.deméter>a, .registeredsec>em.DEMÉTER>a, .registeredsec>em.Demeter>a, .registeredsec>em.Démeter>a {color:var(--demeter);}
+.registeredsec>em.iris>a, .registeredsec>em.IRIS>a, .registeredsec>em.Iris>a {color:var(--iris);}
+.registeredsec>em.hermes>a, .registeredsec>em.HERMES>a, .registeredsec>em.Hermes>a {color:var(--hermes);}
+.registeredsec>em.apolo>a, .registeredsec>em.APOLO>a, .registeredsec>em.Apolo>a {color:var(--apolo);}
+.registeredsec>em.zeus>a, .registeredsec>em.ZEUS>a, .registeredsec>em.Zeus>a {color:var(--zeus);}
+.registeredsec>em.hefesto>a, .registeredsec>em.HEFESTO>a, .registeredsec>em.Hefesto>a {color:var(--hefesto);}
+.registeredsec>em.ares>a, .registeredsec>em.ARES>a, .registeredsec>em.Ares>a {color:var(--ares);}
+/* MEDIA */
+@media (min-width:2000px) {
+#guidebook .adtitleimg>h2, #guidebook .adtitleimg>em {max-width:700px!important;}
+}
+@media (min-width:1700px) {
+#guidebook .adtitleimg>h2, #guidebook .adtitleimg>em {max-width:600px;}
+}
+@media (max-width:900px) {
+#guidebook {flex-wrap:wrap!important;}
+#guidelinks {flex-direction:row!important; flex-wrap:wrap!important; justify-content:space-evenly; align-items:center; gap:6px 12px!important;}
+#guidelinks>strong {display:none!important;}
+#guidelinks>a {margin-left:0px!important;}
+#guidelinks>a.preactive:before {width:15px; margin-right:4px;}
+}
+@media (max-width:800px) {
+#guidebook .adtitleimg>h2 {font-size:var(--fs-h2)!important;}
+}
+@media (max-width:600px) {
+#guidebook .adtitleimg>h2 {font-size:var(--fs-h3)!important;}
+.adtitmain {padding:20px 0px!important;}
+}
+@media (max-width:550px) {
+.registeredsec {margin:0px 12px!important;}
+}
+@media (max-width:450px) {
+#guidelinks, #guideconts, .blockquote, .reminder, .adtitleimg, .admintab {padding:12px!important;}
+.blockquote, .registeredsec {margin:0px 6px!important;}
+}
