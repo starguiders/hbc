@@ -1,7 +1,7 @@
 /* ADMINISTRATIVAS */
 .guidecont:not(.preactive) {display:none;} #guidebook {justify-content:space-between;align-items:flex-start; gap:12px;}
 #guidebook>br, #guidelinks>br, #guideconts>br, .adtitleimg>br, .adtitle>br, .adtitmain>br {display:none!important;}
-#guidelinks {text-align:left; padding:20px; border:var(--border1); border-radius:var(--bradius); background:var(--back2); gap:6px; flex:1 0 15%; min-width:145px;} 
+#guidelinks {position:sticky; top:92px; text-align:left; padding:20px; border:var(--border1); border-radius:var(--bradius); background:var(--back2); gap:6px; flex:1 0 15%; min-width:145px;} 
 #guidelinks>strong {text-transform:uppercase; color:var(--txt1); font:900 var(--fs-body) var(--font2); line-height:120%; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; text-decoration-color:var(--taccent);}
 #guidelinks>strong:not(:first-of-type) {margin-top:4px;}
 #guidelinks>a {cursor:var(--crs2); text-transform:uppercase;font:bold var(--fs-small) var(--font3); line-height:100%; color:var(--txt4); margin-left:6px;}
@@ -83,9 +83,11 @@ div.blockquote {border-left:var(--tborder); border-right:var(--tborder); border-
 /* MEDIA */
 @media (min-width:2000px) {
 #guidebook .adtitleimg>h2, #guidebook .adtitleimg>em {max-width:700px!important;}
+#guidelinks {top:112px!important;}
 }
 @media (min-width:1700px) {
 #guidebook .adtitleimg>h2, #guidebook .adtitleimg>em {max-width:600px;}
+#guidelinks {top:109px!important;}
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
@@ -93,6 +95,7 @@ div.blockquote {border-left:var(--tborder); border-right:var(--tborder); border-
 #guidelinks>strong {display:none!important;}
 #guidelinks>a {margin-left:0px!important;}
 #guidelinks>a.preactive:before {width:15px; margin-right:4px;}
+#guidelinks {position:relative!important; top:unset!important;}
 }
 @media (max-width:800px) {
 #guidebook .adtitleimg>h2 {font-size:var(--fs-h2)!important;}
