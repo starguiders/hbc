@@ -1,37 +1,4 @@
 /*MEDIA*/
-@media (min-width: 2000px) {
-  body {margin-left:125px!important;}
-  header {max-height:800px;}
-  .himg {background-image:var(--pngimg-2);}
-  :root, *, *::before, *::after {--fs-bigger:28px!important; --fs-big:26px!important; --fs-body:24px!important; --fs-text:23px!important; --fs-small:21px!important; --fs-smaller:20px!important; --fs-smallest:19px!important; --fs-title:96px!important; --fs-display:66px!important; --fs-h1:58px!important; --fs-h2:46px!important; --fs-h3:38px!important; --fs-h4:34px!important; --fs-h5:30px!important;}
-  #page-footer .navbar ul {gap:12px; justify-content:space-between;}
-  #page-footer ul.linklist li.footer-home {font-size:0px;}
-  #page-footer ul.linklist li.footer-home:after {content:""; display:none;}
-  #page-footer ul.linklist li.footer-home>a:before {content:"\f80a"; font:300 var(--fs-bigger) var(--font4);}
-  .nvside {width:125px; padding:50px 10px;}
-  .nvava {height:75px; width:75px;}
-  .nvnlinks, .nvupanel {gap:40px;}
-  .nvnlinks>a:before, .nvupanel a:before {font-size:var(--fs-h2)!important;}
-  .nvtop {padding:20px;}
-  ul#notif_list, .navigationpanel {margin-top:30px!important; left:150px!important;}
-  mainbody {max-width:1800px; padding:120px;}
-  #tablon {margin-bottom:120px;}
-  #afiliados, .footerlogin {margin-top:120px;}
-  .tdesc, .tadm, .tlocupd, .teve, .tlst {max-height:270px!important; height:270px!important;}
-  .tadm>a, .tlocupd .tloc, .tlocupd .tupd, .teve .teeve {height:50%!important;}
-  #page-footer .skincredit>span>em {font-size:calc(var(--fs-big) + 6px)!important;}
-  .forum {max-width:800px;}
-  .forum .forcont, #c3 .forum .forava {padding:40px;}
-  .forcont .frcinfo .frclinks {margin-top:30px;}
-  .statlastu>.stlstuava {width:160px; height:160px;}
-  .statgroups>a {height:73px;}
-  .mbsmava {max-width:250px!important;}
-  .mbsmclinks a {width:40px!important; height:40px!important;}
-  .postprofile {display:none!important;}
-  .postbody ul li:before {top:13px!important;}
-  .dicethrow .diceres>strong {max-width:132px!important;}
-  .pbinfo {top:70px!important;}
-}
 @media (min-width: 1700px) {
   :root, *, ::before, ::after {--fs-bigger:25px; --fs-big:22px; --fs-body:20px; --fs-text:19px; --fs-small:17px; --fs-smaller:16px; --fs-smallest:15px; --fs-title:90px; --fs-display:62px; --fs-h1:54px; --fs-h2:42px; --fs-h3:34px; --fs-h4:30px; --fs-h5:26px;}
   #page-footer .skincredit>img {height:40px;}
@@ -66,6 +33,39 @@
   .qmadminlinks>a {width:50px!important; height:50px!important;}
   .phmparent:before {width:140px!important;}
   .dicethrow .diceres>strong {flex:1 0 11%!important; max-width:115px!important;}
+}
+@media (min-width: 2000px) {
+  body {margin-left:125px!important;}
+  header {max-height:800px;}
+  .himg {background-image:var(--pngimg-2);}
+  :root, *, *::before, *::after {--fs-bigger:28px!important; --fs-big:26px!important; --fs-body:24px!important; --fs-text:23px!important; --fs-small:21px!important; --fs-smaller:20px!important; --fs-smallest:19px!important; --fs-title:96px!important; --fs-display:66px!important; --fs-h1:58px!important; --fs-h2:46px!important; --fs-h3:38px!important; --fs-h4:34px!important; --fs-h5:30px!important;}
+  #page-footer .navbar ul {gap:12px; justify-content:space-between;}
+  #page-footer ul.linklist li.footer-home {font-size:0px;}
+  #page-footer ul.linklist li.footer-home:after {content:""; display:none;}
+  #page-footer ul.linklist li.footer-home>a:before {content:"\f80a"; font:300 var(--fs-bigger) var(--font4);}
+  .nvside {width:125px; padding:50px 10px;}
+  .nvava {height:75px; width:75px;}
+  .nvnlinks, .nvupanel {gap:40px;}
+  .nvnlinks>a:before, .nvupanel a:before {font-size:var(--fs-h2)!important;}
+  .nvtop {padding:20px;}
+  ul#notif_list, .navigationpanel {margin-top:30px!important; left:150px!important;}
+  mainbody {max-width:1800px; padding:120px;}
+  #tablon {margin-bottom:120px;}
+  #afiliados, .footerlogin {margin-top:120px;}
+  .tdesc, .tadm, .tlocupd, .teve, .tlst {max-height:270px!important; height:270px!important;}
+  .tadm>a, .tlocupd .tloc, .tlocupd .tupd, .teve .teeve {height:50%!important;}
+  #page-footer .skincredit>span>em {font-size:calc(var(--fs-big) + 6px)!important;}
+  .forum {max-width:800px;}
+  .forum .forcont, #c3 .forum .forava {padding:40px;}
+  .forcont .frcinfo .frclinks {margin-top:30px;}
+  .statlastu>.stlstuava {width:160px; height:160px;}
+  .statgroups>a {height:73px;}
+  .mbsmava {max-width:250px!important;}
+  .mbsmclinks a {width:40px!important; height:40px!important;}
+  .postprofile {display:none!important;}
+  .postbody ul li:before {top:13px!important;}
+  .dicethrow .diceres>strong {max-width:132px!important;}
+  .pbinfo {top:70px!important;}
 }
 @media (max-width: 1100px) {
   body {margin-left:70px!important;}
