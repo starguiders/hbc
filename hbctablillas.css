@@ -92,6 +92,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 @media (min-width:1700px) {
 #guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:600px;}
 #guidelinks {top:109px!important;}
+.admiman>i {width:50px!important; height:50px!important;}
 }
 @media (min-width:2000px) {
 #guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:700px!important;}
