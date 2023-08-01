@@ -119,4 +119,5 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #guidelinks>strong {display:none!important;}
 #guidelinks>a {margin-left:0px!important;}
 #guidelinks>a.preactive:before {width:15px; margin-right:4px;}
+#guidebook .admtitle>i, .admintab .admtitle>i {height:45px!important; width:45px!important;}
 }
