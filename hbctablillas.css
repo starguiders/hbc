@@ -1,5 +1,6 @@
 /* ADMINISTRATIVAS */
-.guidecont:not(.preactive) {display:none;} #guidebook {justify-content:space-between;align-items:flex-start; gap:12px;}
+.guidecont:not(.preactive) {display:none;}
+#guidebook {justify-content:space-between;align-items:flex-start; gap:12px;}
 #guidebook>br, #guidelinks>br, #guideconts>br, .admtitleimg>br, .admtitle>br, .admtitmain>br {display:none!important;}
 #guidelinks {position:sticky; top:92px; text-align:left; padding:20px; border:var(--border1); border-radius:var(--bradius); background:var(--back2); gap:6px; flex:1 0 15%; min-width:145px;} 
 #guidelinks>strong {text-transform:uppercase; color:var(--txt1); font:900 var(--fs-body) var(--font2); line-height:120%; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; text-decoration-color:var(--taccent);}
@@ -28,10 +29,10 @@
 #guidebook .admtitle *, .admintab .admtitle * {display:block;}
 #guidebook .admtitle>i, .admintab .admtitle>i {float:left; width:35px; height:35px; margin-top:4px; background:var(--tback2); border-radius: var(--bradius); border:var(--border1); display:flex; justify-content:center; align-items:center; font-size:var(--fs-bigger); color:var(--txt1); margin-right:12px;}
 #guidebook .admtitle>em, .admintab .admtitle>em {text-transform:lowercase; font:normal var(--fs-small) var(--font3); line-height:110%; font-style:italic; color:var(--txt4); margin-top:6px;}
-#guidebook .admtitle>em:before, .admintab .admtitle>em:before {content:""; content:""; width:40px; height:2px; display:inline-block; background:var(--taccent); margin-right:6px; position:relative; top:-2px;}
+#guidebook .admtitle>em:before, .admintab .admtitle>em:before {content:""; width:40px; height:2px; display:inline-block; background:var(--taccent); margin-right:6px; position:relative; top:-2px;}
 #guidebook .admtitle h2, .admintab .admtitle h2 {margin:0px!important; line-height:110%!important; text-shadow:var(--shadow2)!important;}
 #guidebook .admtitle h3, .admintab .admtitle h3 {color:var(--accent)!important; text-align:left; text-align-last:left; font-family:var(--font2)!important; margin:0px!important;}
-#guidebook .admtitle h4, .admintab .admtitle h4 {text-align:left; margin:0px!important; text-decoration-color:var(--taccent)!important; color:var(--txt1); font:900 var(--fs-big) var(--font2)!important; text-transform:uppercase; line-height:125%!important; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; text-decoration-color:var(--taccent);}
+#guidebook .admtitle h4, .admintab .admtitle h4 {text-align:left; margin:0px!important; text-decoration-color:var(--taccent)!important; color:var(--txt1); font:900 var(--fs-big) var(--font2)!important; text-transform:uppercase; line-height:125%!important; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px;}
 div.blockquote {border-left:var(--tborder); border-right:var(--tborder); border-radius:var(--bradius); display:block!important; padding:12px 20px; margin:0px 12px;}
 .reminder {width:100%; display:block; border:var(--aborder); border-radius:var(--bradius); background:var(--taccent); padding:20px; line-height:100%!important; font:700 var(--fs-text) var(--font2); text-transform:uppercase;}
 .reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!important;}
