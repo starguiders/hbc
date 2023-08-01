@@ -293,6 +293,7 @@
   .mhava {display:none!important;}
   .phicon img, .phicon:empty:before {width:50px!important; height:50px!important;}
   .postbody ul li:before {top:12px!important;}
+  .pbinfo {top:72px!important;}
   .postheader>a {width:60px!important; height:60px!important;}
   #textarea_content .sceditor-group {gap:20px!important;}
   .sceditor-container .sceditor-toolbar {gap:12px 20px!important;}
