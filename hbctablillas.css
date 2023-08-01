@@ -82,6 +82,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .registeredsec>em.hefesto>a, .registeredsec>em.HEFESTO>a, .registeredsec>em.Hefesto>a {color:var(--hefesto);}
 .registeredsec>em.ares>a, .registeredsec>em.ARES>a, .registeredsec>em.Ares>a {color:var(--ares);}
 /* MEDIA */
+/* media:width */
 @media (min-width:2000px) {
 #guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:700px!important;}
 #guidelinks {top:112px!important;}
@@ -110,4 +111,12 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 @media (max-width:450px) {
 #guidelinks, #guideconts, .blockquote, .reminder, .admtitleimg, .admintab {padding:12px!important;}
 .blockquote, .registeredsec {margin:0px 6px!important;}
+}
+/* media:height */
+@media (min-height: 1500px) {
+#guidebook {flex-wrap:wrap!important;}
+#guidelinks {position:relative!important; top:unset!important; flex:1 0 100%!important; flex-direction:row!important; flex-wrap:wrap!important; justify-content:space-evenly; align-items:center; gap:6px 12px!important;}
+#guidelinks>strong {display:none!important;}
+#guidelinks>a {margin-left:0px!important;}
+#guidelinks>a.preactive:before {width:15px; margin-right:4px;}
 }
