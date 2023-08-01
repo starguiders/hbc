@@ -1,7 +1,7 @@
 /* ADMINISTRATIVAS */
 .guidecont:not(.preactive) {display:none;}
 #guidebook {justify-content:space-between;align-items:flex-start; gap:12px;}
-#guidebook>br, #guidelinks>br, #guideconts>br, .admtitleimg>br, .admtitle>br, .admtitmain>br {display:none!important;}
+#guidebook>br, #guidelinks>br, #guideconts>br, .admtitleimg>br, .admtitle>br, .admtitmain>br, .admiman>br {display:none!important;}
 #guidelinks {position:sticky; top:92px; text-align:left; padding:20px; border:var(--border1); border-radius:var(--bradius); background:var(--back2); gap:6px; flex:1 0 15%; min-width:145px;} 
 #guidelinks>strong {text-transform:uppercase; color:var(--txt1); font:900 var(--fs-body) var(--font2); line-height:120%; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; text-decoration-color:var(--taccent);}
 #guidelinks>strong:not(:first-of-type) {margin-top:4px;}
@@ -81,15 +81,23 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .registeredsec>em.zeus>a, .registeredsec>em.ZEUS>a, .registeredsec>em.Zeus>a {color:var(--zeus);}
 .registeredsec>em.hefesto>a, .registeredsec>em.HEFESTO>a, .registeredsec>em.Hefesto>a {color:var(--hefesto);}
 .registeredsec>em.ares>a, .registeredsec>em.ARES>a, .registeredsec>em.Ares>a {color:var(--ares);}
+.admiman {justify-content:center;align-items:center; text-align:center; margin:0 auto; max-width:400px; width:100%; padding:30px; gap:6px; background:var(--back2); border:var(--border1); border-radius:var(--bradius);}
+.admiman>i {background:var(--accent); width:30px; height:30px; display:flex; justify-content:center; align-items:center; color:var(--back1); font-size:var(--fs-big); border-radius:var(--bradius);}
+.admiman h3 {text-transform:uppercase; font:900 var(--fs-h3) var(--font1); color:var(--txt1)!important; text-shadow:var(--shadow2); margin:0px!important; line-height:90%!important; padding:0px!important;}
+.admiman>em {text-transform:uppercase; font:bold var(--fs-small) var(--font3); color:var(--txt3); line-height:110%!important; margin-top:4px!important;}
+.admiman dl.codebox {width:100%!important; text-align:justify; text-align-last:center; margin-top:12px!important;}
+.admiman dl.codebox dd {padding:12px!important; font-size:var(--fs-text); color:var(--txt4);}
 /* MEDIA */
 /* media:width */
-@media (min-width:2000px) {
-#guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:700px!important;}
-#guidelinks {top:112px!important;}
-}
 @media (min-width:1700px) {
 #guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:600px;}
 #guidelinks {top:109px!important;}
+}
+@media (min-width:2000px) {
+#guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:700px!important;}
+#guidelinks {top:112px!important;}
+.admintab {max-width:770px!important;}
+.admiman {max-width:500px!important;}
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
@@ -107,9 +115,11 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 }
 @media (max-width:550px) {
 .registeredsec {margin:0px 12px!important;}
+.admiman {padding:20px!important;}
+.admiman h3 {font-size:var(--fs-h4)!important;}
 }
 @media (max-width:450px) {
-#guidelinks, #guideconts, .blockquote, .reminder, .admtitleimg, .admintab {padding:12px!important;}
+#guidelinks, #guideconts, .blockquote, .reminder, .admtitleimg, .admintab, .admiman {padding:12px!important;}
 .blockquote, .registeredsec {margin:0px 6px!important;}
 }
 /* media:height */
