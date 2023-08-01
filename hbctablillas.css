@@ -91,11 +91,10 @@ div.blockquote {border-left:var(--tborder); border-right:var(--tborder); border-
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
-#guidelinks {flex-direction:row!important; flex-wrap:wrap!important; justify-content:space-evenly; align-items:center; gap:6px 12px!important;}
+#guidelinks {position:relative!important; top:unset!important; flex:1 0 100%!important; flex-direction:row!important; flex-wrap:wrap!important; justify-content:space-evenly; align-items:center; gap:6px 12px!important;}
 #guidelinks>strong {display:none!important;}
 #guidelinks>a {margin-left:0px!important;}
 #guidelinks>a.preactive:before {width:15px; margin-right:4px;}
-#guidelinks {position:relative!important; top:unset!important;}
 }
 @media (max-width:800px) {
 #guidebook .adtitleimg>h2 {font-size:var(--fs-h2)!important;}
