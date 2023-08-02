@@ -152,5 +152,5 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #guidelinks>a.preactive:before {width:15px; margin-right:4px;}
 #guidebook .admtitle>i, .admintab .admtitle>i {height:45px!important; width:45px!important;}
 .admiman>i {width:50px!important; height:50px!important;}
-#nonplayercharacters .gbnpc {height:350px!important;}
+#nonplayercharacters .gbnpc {height:350px!important; flex:1 0 40%!important;}
 }
