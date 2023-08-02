@@ -87,6 +87,22 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .admiman>em {text-transform:uppercase; font:bold var(--fs-small) var(--font3); color:var(--txt3); line-height:110%!important; margin-top:4px!important;}
 .admiman dl.codebox {width:100%!important; text-align:justify; text-align-last:center; margin-top:12px!important;}
 .admiman dl.codebox dd {padding:12px!important; font-size:var(--fs-text); color:var(--txt4);}
+#nonplayercharacters div.flex>br {display:none!important;}
+#nonplayercharacters>div.flex {flex-wrap:wrap; gap:12px; justify-content:center; align-items:center}
+#nonplayercharacters .gbnpc {flex:1 0 30%; width:100%; max-width:400px; position:relative; height:280px; overflow:hidden; border-radius:var(--bradius); border:var(--border1);}
+#nonplayercharacters .gbnpc:after {z-index:2; width:100%; height:1px; content:""; display:block; background:var(--border2-c); position:absolute; bottom:-1px; left:0px; right:0px; transition:var(--trs1);}
+#nonplayercharacters .gbnpc * {transition:var(--trs1);}
+#nonplayercharacters .gbnpc .gbnpcimg {inset:0; position:absolute; z-index:0; justify-content:flex-end; align-items:flex-end; text-align:right; padding:20px;}
+#nonplayercharacters .gbnpc .gbnpcimg>img {position:absolute!important; z-index:0!important; width:100%; height:100%; object-fit:cover; object-position:center; filter:var(--filter2); opacity:0.6; inset:0;}
+#nonplayercharacters .gbnpc .gbnpcname {text-transform:uppercase; font:bold var(--fs-text) var(--font2); color:var(--txt2); text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; line-height:120%; margin-bottom:4px; text-decoration-color:var(--tgroup);}
+#nonplayercharacters .gbnpc .gbnpcdesc {top:unset!important; bottom:-100%; position:absolute; left:0px; background:var(--tback2); border:10px solid transparent; border-right-width:6px; padding-right:6px; overflow:auto; font-size:var(--fs-text); height:130px; width:100%; z-index:1;}
+#nonplayercharacters .gbnpc .gbnpcimg * {position:relative; z-index:1;}
+#nonplayercharacters .gbnpc .gbnpctraits {text-transform:uppercase; font:bold var(--fs-small) var(--font3); color:var(--txt4); line-height:100%;}
+#nonplayercharacters .gbnpc .gbnpcrole { text-transform:uppercase; font:bold var(--fs-smaller) var(--font3); color:var(--txt3); line-height:100%; border-radius:var(--bradius); border-top:var(--tborder); border-left:var(--tborder); border-right:var(--tborder); margin-top:7px; padding:4px 6px;}
+#nonplayercharacters .gbnpc #gbnpcreadmore {position:absolute; z-index:1; right:20px; top:20px; font-size:var(--fs-bigger); color:var(--group); cursor:var(--crs2);}
+#nonplayercharacters .gbnpc.clicked .gbnpcimg {padding-bottom:140px;}
+#nonplayercharacters .gbnpc.clicked:after {bottom:129px;}
+#nonplayercharacters .gbnpc.clicked .gbnpcdesc {bottom:0px;}
 /* MEDIA */
 /* media:width */
 @media (min-width:1700px) {
