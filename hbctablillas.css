@@ -53,8 +53,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .registeredsec>em.hecate:before, .registeredsec>em.HECATE:before, .registeredsec>em.hécate:before, .registeredsec>em.HÉCATE:before, .registeredsec>em.Hecate:before, .registeredsec>em.Hécate:before {background:var(--thecate);}
 .registeredsec>em.poseidon:before, .registeredsec>em.POSEIDON:before, .registeredsec>em.poseidón:before, .registeredsec>em.POSEIDÓN:before, .registeredsec>em.Poseidon:before, .registeredsec>em.Poseidón:before {background:var(--tposeidon);}
 .registeredsec>em.hypnos:before, .registeredsec>em.HYPNOS:before, .registeredsec>em.Hypnos:before {background:var(--thypnos);}
-.registeredsec>em.hebe:before, .registeredsec>em.HEBE:before, .registeredsec>em.Hebe:before {background:var(--thebe);}
 .registeredsec>em.khione:before, .registeredsec>em.KHIONE:before, .registeredsec>em.Khione:before {background:var(--tkhione);}
+.registeredsec>em.hebe:before, .registeredsec>em.HEBE:before, .registeredsec>em.Hebe:before {background:var(--thebe);}
 .registeredsec>em.atenea:before, .registeredsec>em.ATENEA:before, .registeredsec>em.Atenea:before {background:var(--tatenea);}
 .registeredsec>em.demeter:before, .registeredsec>em.DEMETER:before, .registeredsec>em.deméter:before, .registeredsec>em.DEMÉTER:before, .registeredsec>em.Demeter:before, .registeredsec>em.Deméter:before {background:var(--tdemeter);}
 .registeredsec>em.iris:before, .registeredsec>em.IRIS:before, .registeredsec>em.Iris:before {background:var(--tiris);}
@@ -71,8 +71,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .registeredsec>em.hecate>a, .registeredsec>em.HECATE>a, .registeredsec>em.hécate>a, .registeredsec>em.HÉCATE>a, .registeredsec>em.Hecate>a, .registeredsec>em.Hécate>a {color:var(--hecate);}
 .registeredsec>em.poseidon>a, .registeredsec>em.POSEIDON>a, .registeredsec>em.poseidón>a, .registeredsec>em.POSEIDÓN>a, .registeredsec>em.Poseidon>a, .registeredsec>em.Poseidón>a {color:var(--poseidon);}
 .registeredsec>em.hypnos>a, .registeredsec>em.HYPNOS>a, .registeredsec>em.Hypnos>a {color:var(--hypnos);}
-.registeredsec>em.hebe>a, .registeredsec>em.HEBE>a, .registeredsec>em.Hebe>a {color:var(--hebe);}
 .registeredsec>em.khione>a, .registeredsec>em.KHIONE>a, .registeredsec>em.Khione>a {color:var(--khione);}
+.registeredsec>em.hebe>a, .registeredsec>em.HEBE>a, .registeredsec>em.Hebe>a {color:var(--hebe);}
 .registeredsec>em.atenea>a, .registeredsec>em.ATENEA>a, .registeredsec>em.Atenea>a {color:var(--atenea);}
 .registeredsec>em.demeter>a, .registeredsec>em.DEMETER>a, .registeredsec>em.deméter>a, .registeredsec>em.DEMÉTER>a, .registeredsec>em.Demeter>a, .registeredsec>em.Deméter>a {color:var(--demeter);}
 .registeredsec>em.iris>a, .registeredsec>em.IRIS>a, .registeredsec>em.Iris>a {color:var(--iris);}
