@@ -49,11 +49,11 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .registeredsec>em.tyche:before, .registeredsec>em.TYCHE:before, .registeredsec>em.Tyche:before {background:var(--ttyche);}
 .registeredsec>em.dioniso:before, .registeredsec>em.DIONISO:before, .registeredsec>em.Dioniso:before {background:var(--tdioniso);}
 .registeredsec>em.afrodita:before, .registeredsec>em.AFRODITA:before, .registeredsec>em.Afrodita:before {background:var(--tafrodita);}
-.registeredsec>em.hypnos:before, .registeredsec>em.HYPNOS:before, .registeredsec>em.Hypnos:before {background:var(--thypnos);}
 .registeredsec>em.hades:before, .registeredsec>em.HADES:before, .registeredsec>em.Hades:before {background:var(--thades);}
 .registeredsec>em.hecate:before, .registeredsec>em.HECATE:before, .registeredsec>em.hécate:before, .registeredsec>em.HÉCATE:before, .registeredsec>em.Hecate:before, .registeredsec>em.Hécate:before {background:var(--thecate);}
 .registeredsec>em.poseidon:before, .registeredsec>em.POSEIDON:before, .registeredsec>em.poseidón:before, .registeredsec>em.POSEIDÓN:before, .registeredsec>em.Poseidon:before, .registeredsec>em.Poseidón:before {background:var(--tposeidon);}
-.registeredsec>em.tanatos:before, .registeredsec>em.TANATOS:before, .registeredsec>em.tánatos:before, .registeredsec>em.TÁNATOS:before, .registeredsec>em.Tanatos:before, .registeredsec>em.Tánatos:before {background:var(--ttanatos);}
+.registeredsec>em.hypnos:before, .registeredsec>em.HYPNOS:before, .registeredsec>em.Hypnos:before {background:var(--thypnos);}
+.registeredsec>em.hebe:before, .registeredsec>em.HEBE:before, .registeredsec>em.Hebe:before {background:var(--thebe);}
 .registeredsec>em.khione:before, .registeredsec>em.KHIONE:before, .registeredsec>em.Khione:before {background:var(--tkhione);}
 .registeredsec>em.atenea:before, .registeredsec>em.ATENEA:before, .registeredsec>em.Atenea:before {background:var(--tatenea);}
 .registeredsec>em.demeter:before, .registeredsec>em.DEMETER:before, .registeredsec>em.deméter:before, .registeredsec>em.DEMÉTER:before, .registeredsec>em.Demeter:before, .registeredsec>em.Deméter:before {background:var(--tdemeter);}
@@ -67,11 +67,11 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .registeredsec>em.tyche>a, .registeredsec>em.TYCHE>a, .registeredsec>em.Tyche>a {color:var(--tyche);}
 .registeredsec>em.dioniso>a, .registeredsec>em.DIONISO>a, .registeredsec>em.Dioniso>a {color:var(--dioniso);}
 .registeredsec>em.afrodita>a, .registeredsec>em.AFRODITA>a, .registeredsec>em.Afrodita>a {color:var(--afrodita);}
-.registeredsec>em.hypnos>a, .registeredsec>em.HYPNOS>a, .registeredsec>em.Hypnos>a {color:var(--hypnos);}
 .registeredsec>em.hades>a, .registeredsec>em.HADES>a, .registeredsec>em.Hades>a {color:var(--hades);}
 .registeredsec>em.hecate>a, .registeredsec>em.HECATE>a, .registeredsec>em.hécate>a, .registeredsec>em.HÉCATE>a, .registeredsec>em.Hecate>a, .registeredsec>em.Hécate>a {color:var(--hecate);}
 .registeredsec>em.poseidon>a, .registeredsec>em.POSEIDON>a, .registeredsec>em.poseidón>a, .registeredsec>em.POSEIDÓN>a, .registeredsec>em.Poseidon>a, .registeredsec>em.Poseidón>a {color:var(--poseidon);}
-.registeredsec>em.tanatos>a, .registeredsec>em.TANATOS>a, .registeredsec>em.tánatos>a, .registeredsec>em.TÁNATOS>a, .registeredsec>em.Tanatos>a, .registeredsec>em.Tánatos>a {color:var(--tanatos);}
+.registeredsec>em.hypnos>a, .registeredsec>em.HYPNOS>a, .registeredsec>em.Hypnos>a {color:var(--hypnos);}
+.registeredsec>em.hebe>a, .registeredsec>em.HEBE>a, .registeredsec>em.Hebe>a {color:var(--hebe);}
 .registeredsec>em.khione>a, .registeredsec>em.KHIONE>a, .registeredsec>em.Khione>a {color:var(--khione);}
 .registeredsec>em.atenea>a, .registeredsec>em.ATENEA>a, .registeredsec>em.Atenea>a {color:var(--atenea);}
 .registeredsec>em.demeter>a, .registeredsec>em.DEMETER>a, .registeredsec>em.deméter>a, .registeredsec>em.DEMÉTER>a, .registeredsec>em.Demeter>a, .registeredsec>em.Deméter>a {color:var(--demeter);}
