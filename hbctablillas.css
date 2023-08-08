@@ -103,6 +103,18 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #nonplayercharacters .gbnpc.clicked .gbnpcimg {padding-bottom:140px;}
 #nonplayercharacters .gbnpc.clicked:after {bottom:129px;}
 #nonplayercharacters .gbnpc.clicked .gbnpcdesc {height:130px!important; border-width:12px;}
+.gdcriaturas>br, .gdcriaturas>div.flex>br, .gdcriaturas .gdcriat>br, .gdcriaturas .gdcriat .gdcriatimg>br {display:none!important;}
+.gdcriaturas>div.flex {flex-wrap:wrap; gap:12px; justify-content:center; align-items:center;}
+.gdcriaturas .gdcriat {flex:1 0 40%; width:100%; max-width:400px; min-width:240px; position:relative; min-height:250px; overflow:hidden; border-radius:var(--bradius); border:var(--border1); --group:var(--accent) !important; --tgroup:var(--taccent) !important; background:var(--tback2); flex-wrap:wrap;}
+.gdcriaturas .gdcriat .gdcriatimg {position:relative; flex:1 0 40%; height:250px; border-right:var(--border1); text-align:right; justify-content:flex-end; align-items:flex-end; padding:12px;}
+.gdcriaturas .gdcriat .gdcriatblurb {flex:1 0 60%; overflow:auto; height:250px; padding:12px;}
+.gdcriaturas .gdcriat .gdcriatimg>img {position:absolute!important; z-index:0!important; height:100%; width:100%; object-position:center; object-fit:cover; filter:var(--filter2); opacity:0.6; inset:0;}
+.gdcriaturas .gdcriat .gdcriatimg * {position:relative; z-index:1;}
+.gdcriaturas .gdcriat .gdcriatimg .gdcriatname {text-transform:uppercase; font:bold var(--fs-text) var(--font2); color:var(--txt2); text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; line-height:120%; margin-bottom:4px; text-decoration-color:var(--tgroup);}
+.gdcriaturas .gdcriat .gdcriatimg .gdcriatcat {text-transform:uppercase; font:bold var(--fs-small) var(--font3); color:var(--txt4); line-height:100%;}
+.gdcriaturas .gdcriat .gdcriatstats {flex:1 0 100%; justify-content:space-around; flex-wrap:wrap; border-top:var(--border1); background:var(--tback1); padding:12px; align-items:center; gap:12px;}
+.gdcriaturas .gdcriat .gdcriatstats strong {padding:0px 12px; border-radius:var(--bradius); border-left:var(--border2); border-right:var(--border2); font:800 var(--fs-text) var(--font2); color:var(--txt4);}
+.gdcriaturas .gdcriat .gdcriatstats strong>i {font-style:normal; font-size:var(--fs-small); font-family:var(--font3); color:var(--accent);}
 /* MEDIA */
 /* media:width */
 @media (min-width:1700px) {
@@ -116,6 +128,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #guidelinks {top:112px!important;}
 .admintab {max-width:770px!important;}
 .admiman {max-width:500px!important;}
+.gdcriaturas .gdcriat {max-width:600px!important;}
+.gdcriaturas .gdcriat .gdcriatimg, .gdcriaturas .gdcriat .gdcriatblurb {height:300px!important;}
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
@@ -138,6 +152,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .registeredsec {margin:0px 12px!important;}
 .admiman {padding:20px!important;}
 .admiman h3 {font-size:var(--fs-h4)!important;}
+.gdcriaturas .gdcriat .gdcriatimg {flex:1 0 100%!important; height:150px!important; border-right:none!important; border-bottom:var(--border1);}
+.gdcriaturas .gdcriat .gdcriatblurb {height:210px!important;}
 }
 @media (max-width:450px) {
 #guidelinks, #guideconts, .blockquote, .reminder, .admtitleimg, .admintab, .admiman {padding:12px!important;}
@@ -153,4 +169,6 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #guidebook .admtitle>i, .admintab .admtitle>i {height:45px!important; width:45px!important;}
 .admiman>i {width:50px!important; height:50px!important;}
 #nonplayercharacters .gbnpc {height:400px!important; flex:1 0 40%!important;}
+.gdcriaturas .gdcriat .gdcriatimg {flex:1 0 100%!important; height:160px!important; border-right:none!important; border-bottom:var(--border1);}
+.gdcriaturas .gdcriat .gdcriatblurb {height:245px!important;}
 }
