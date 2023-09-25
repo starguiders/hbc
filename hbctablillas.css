@@ -165,7 +165,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab .expzhtraits>div>i {text-transform:uppercase; font:bold var(--fs-smaller) var(--font3); color:var(--txt4); font-style:normal; margin-bottom:6px; border-radius:var(--bradius); border-top:var(--tborder); border-left:var(--tborder); border-right:var(--tborder); padding:4px 6px; line-height:100%;}
 #expedtab .expzhtraits>div>b {text-transform:uppercase; font:900 var(--fs-big) var(--font2); color:var(--txt1); line-height:100%;}
 #expedtab .expzhtraits>div>em {text-transform:lowercase; font:normal var(--fs-text) var(--font1); font-style:italic; color:var(--txt3); line-height:110%;}
-#expedtab .expzhtraits>div:before {content:"X"; position:absolute; font:300 var(--fs-title) var(--font4); color:var(--tgroup); opacity:.2; z-index:0;}
+#expedtab .expzhtraits>div:before {content:"\e4fa"; position:absolute; font:300 var(--fs-title) var(--font4); color:var(--tgroup); opacity:.2; z-index:0;}
 #expedtab .expzhtraits>div * {position: relative; z-index: 1;}
 #expedtab .expzhtraits>div.expzhtflaw:before {content:"\f714";}
 #expedtab .expzhtraits>div.expzhtvirtue:before {content:"\f7d4";}
@@ -179,6 +179,24 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab .expzhskills>span {text-transform:uppercase; display:inline-block; padding:4px 6px; background:var(--group); border-radius:var(--bradius); font:800 var(--fs-smaller) var(--font3); line-height:100%; color:var(--back2); margin-right:6px;}
 #expedtab .expzhskills>u {color:var(--txt1); text-transform:uppercase; font-weight:800;}
 #expedtab .expzhskills>i {color:var(--txt4);}
+#expedtab .expzhtraits>div#nemesis:before, #expedtab .expzhtraits>div#NEMESIS:before, #expedtab .expzhtraits>div#némesis:before, #expedtab .expzhtraits>div#NÉMESIS:before, #expedtab .expzhtraits>div#Nemesis:before, #expedtab .expzhtraits>div#Némesis:before {content:"\f6cb"; color:var(--tnemesis);}
+#expedtab .expzhtraits>div#tyche:before, #expedtab .expzhtraits>div#TYCHE:before, #expedtab .expzhtraits>div#Tyche:before {content:"\e362"; color:var(--ttyche);}
+#expedtab .expzhtraits>div#afrodita:before, #expedtab .expzhtraits>div#AFRODITA:before, #expedtab .expzhtraits>div#Afrodita:before {content:"\f4ba"; color:var(--tafrodita);}
+#expedtab .expzhtraits>div#dioniso:before, #expedtab .expzhtraits>div#DIONISO:before, #expedtab .expzhtraits>div#Dioniso:before {content:"\f4e3"; color:var(--tdioniso);}
+#expedtab .expzhtraits>div#hades:before, #expedtab .expzhtraits>div#HADES:before, #expedtab .expzhtraits>div#Hades:before {content:"\f54c"; color:var(--thades);}
+#expedtab .expzhtraits>div#hecate:before, #expedtab .expzhtraits>div#HECATE:before, #expedtab .expzhtraits>div#hécate:before, #expedtab .expzhtraits>div#HÉCATE:before, #expedtab .expzhtraits>div#Hecate:before, #expedtab .expzhtraits>div#Hécate:before {content:"\f6bf"; color:var(--thecate);}
+#expedtab .expzhtraits>div#poseidon:before, #expedtab .expzhtraits>div#POSEIDON:before, #expedtab .expzhtraits>div#poseidón:before, #expedtab .expzhtraits>div#POSEIDÓN:before, #expedtab .expzhtraits>div#Poseidon:before, #expedtab .expzhtraits>div#Poseidón:before {content:"\f773"; color:var(--tposeidon);}
+#expedtab .expzhtraits>div#hypnos:before, #expedtab .expzhtraits>div#HYPNOS:before, #expedtab .expzhtraits>div#Hypnos:before {content:"\f34e"; color:var(--thypnos);}
+#expedtab .expzhtraits>div#khione:before, #expedtab .expzhtraits>div#KHIONE:before, #expedtab .expzhtraits>div#Khione:before {content:"\f2dc"; color:var(--tkhione);}
+#expedtab .expzhtraits>div#hebe:before, #expedtab .expzhtraits>div#HEBE:before, #expedtab .expzhtraits>div#Hebe:before {content:"\e588"; color:var(--thebe);}
+#expedtab .expzhtraits>div#atenea:before, #expedtab .expzhtraits>div#ATENEA:before, #expedtab .expzhtraits>div#Atenea:before {content:"\f5dc"; color:var(--tatenea);}
+#expedtab .expzhtraits>div#demeter:before, #expedtab .expzhtraits>div#DEMETER:before, #expedtab .expzhtraits>div#deméter:before, #expedtab .expzhtraits>div#DEMÉTER:before, #expedtab .expzhtraits>div#Demeter:before, #expedtab .expzhtraits>div#Deméter:before {content:"\f72d"; color:var(--tdemeter);}
+#expedtab .expzhtraits>div#iris:before, #expedtab .expzhtraits>div#IRIS:before, #expedtab .expzhtraits>div#Iris:before {content:"\f75b"; color:var(--tiris);}
+#expedtab .expzhtraits>div#hermes:before, #expedtab .expzhtraits>div#HERMES:before, #expedtab .expzhtraits>div#Hermes:before {content:"\f56b"; color:var(--thermes);}
+#expedtab .expzhtraits>div#apolo:before, #expedtab .expzhtraits>div#APOLO:before, #expedtab .expzhtraits>div#Apolo:before {content:"\f001"; color:var(--tapolo);}
+#expedtab .expzhtraits>div#zeus:before, #expedtab .expzhtraits>div#ZEUS:before, #expedtab .expzhtraits>div#Zeus:before {content:"\f0e7"; color:var(--tzeus);}
+#expedtab .expzhtraits>div#hefesto:before, #expedtab .expzhtraits>div#HEFESTO:before, #expedtab .expzhtraits>div#Hefesto:before {content:"\f7e4"; color:var(--thefesto);}
+#expedtab .expzhtraits>div#ares:before, #expedtab .expzhtraits>div#ARES:before, #expedtab .expzhtraits>div#Ares:before {content:"\f71d"; color:var(--tares);}
 /* MEDIA */
 /* media:width */
 @media (min-width:1700px) {
