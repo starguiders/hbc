@@ -204,6 +204,12 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #guidelinks {top:109px!important;}
 .admiman>i {width:50px!important; height:50px!important;}
 #nonplayercharacters .gbnpc {height:350px!important;}
+#expedtab .expzhtraits>div>b {font-size:var(--fs-text);}
+#expedtab .expzhtraits>div.expzhtclass>b {font-size:var(--fs-text);}
+#expedtab .expzhtraits>div>em {font-size:var(--fs-small);}
+#expedtab #expzdata {gap:20px;}
+#expedtab .expzhstats {flex:1; flex-direction:row!important;}
+#expedtab #expzrhoja {flex-direction:column-reverse!important;}
 }
 @media (min-width:2000px) {
 #guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:700px!important;}
@@ -212,6 +218,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .admiman {max-width:500px!important;}
 .gdcriaturas .gdcriat, #itemcatalogue .gdcitem {max-width:600px!important;}
 .gdcriaturas .gdcriat .gdcriatimg, .gdcriaturas .gdcriat .gdcriatblurb {height:300px!important;}
+#expedtab .expzhtraits {gap:10px;}
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
@@ -219,16 +226,35 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #guidelinks>strong {display:none!important;}
 #guidelinks>a {margin-left:0px!important;}
 #guidelinks>a.preactive:before {width:15px; margin-right:4px;}
+#expedtab .expzhstats {flex:1; flex-direction:row!important; flex-wrap:wrap;}
+#expedtab #expzrhoja {flex-direction:column-reverse!important;}
+#expedtab #expzdata {gap:25px;}
 }
 @media (max-width:800px) {
 #guidebook .admtitleimg>h2 {font-size:var(--fs-h2)!important;}
+#expedtab .expzhtraits {gap:10px; flex-wrap:wrap!important;}
+#expedtab #expzdata {gap:20px;}
+#expedtab .expzhstats>b {flex:1 0 25%;}
 }
 @media (max-width:700px) {
 #nonplayercharacters .gbnpc {flex:1 0 100%!important;}
+#expedtab .expzhtraits>div {flex:1 0 40%;}
+#expedtab .expzhtraits>div.expzhtvirtue {border-left:none!important;}
+#expedtab #expzhist, #expedtab #expzextr {border-width:20px; padding-right:12px; border-right-width:15px!important;}
+#expedtab #expzdata {padding:30px;}
+#expedtab .extbnam {padding:30px;}
+#expedtab #expimg {height:250px!important;}
 }
 @media (max-width:600px) {
 #guidebook .admtitleimg>h2 {font-size:var(--fs-h3)!important;}
 .admtitmain {padding:20px 0px!important;}
+#expedtab .expzhtraits>div {flex:1 0 100%;}
+#expedtab .expzhtraits {gap:0px;}
+#expedtab .expzhtraits>div.expzhtclass {padding:40px;}
+#expedtab .expzhtraits>div.expzhtvirtue {border-top:var(--border2); padding-top:30px;}
+#expedtab .expzhtraits>div.expzhtflaw {border-bottom:var(--border2); border-right:none!important; padding-bottom:30px;}
+#expedtab #expzrhoja {gap:20px; padding:20px;}
+#expedtab .extbnam>b {font-size:var(--fs-h3);}
 }
 @media (max-width:550px) {
 .registeredsec {margin:0px 12px!important;}
@@ -237,10 +263,16 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .gdcriaturas .gdcriat, #itemcatalogue .gdcitem {min-width:100%!important;}
 .gdcriaturas .gdcriat .gdcriatimg {flex:1 0 100%!important; height:150px!important; border-right:none!important; border-bottom:var(--border1);}
 .gdcriaturas .gdcriat .gdcriatblurb {height:210px!important;}
+#expedtab .extbnam {padding:20px;}
+#expedtab #expzhist, #expedtab #expzextr {border-width:15px; padding-right:7px; border-right-width:12px!important;}
+#expedtab #expzrhoja {gap:12px;}
+#expedtab #expzdata {padding:20px;}
+#expedtab #expimg {height:200px!important;}
 }
 @media (max-width:450px) {
 #guidelinks, #guideconts, .blockquote, .reminder, .admtitleimg, .admintab, .admiman {padding:12px!important;}
 .blockquote, .registeredsec {margin:0px 6px!important;}
+#expedtab #expzdata {padding:20px;}
 }
 /* media:height */
 @media (min-height: 1500px) {
@@ -255,4 +287,11 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .gdcriaturas .gdcriat .gdcriatimg {flex:1 0 100%!important; height:160px!important; border-right:none!important; border-bottom:var(--border1);}
 .gdcriaturas .gdcriat .gdcriatblurb {height:245px!important;}
 #itemcatalogue .gdcitem {flex:1 0 40%!important;}
+#expedtab .expzhtraits>div>b {font-size:var(--fs-text);}
+#expedtab .expzhtraits>div.expzhtclass>b {font-size:var(--fs-text);}
+#expedtab .expzhtraits>div>em {font-size:var(--fs-small);}
+#expedtab #expzdata {gap:20px;}
+#expedtab .expzhstats {flex:1; flex-direction:row!important;}
+#expedtab #expzrhoja {flex-direction:column-reverse!important;}
+#expedtab .expzhtraits {gap:10px;}
 }
