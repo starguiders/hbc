@@ -125,6 +125,60 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #itemcatalogue .gdcitem .gdciextras {width:100%; gap:0px 12px; text-align:left; flex-wrap:wrap; justify-content:flex-start; align-items:flex-start; gap:3px;}
 #itemcatalogue .gdcitem .gdciextras>strong {flex:1 0 100%; color:var(--txt4); font:700 var(--fs-text) var(--font2)!important; text-transform:uppercase; line-height:120%;}
 #itemcatalogue .gdcitem .gdciextras>strong>i {text-transform:uppercase; color:var(--txt1); font-weight:900; font-style:normal; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; text-decoration-color:var(--taccent);}
+/* EXPEDIENTE */
+#expedtab {border:var(--border1); border-radius:var(--bradius); width:100%; max-width:802px; margin:0 auto!important; overflow:hidden;}
+#expedtab>br, #expedtab .extbnam>br, #expedtab #extbcont>br, #expedtab #extbcinfo>br, #expedtab #extbclabels>br, #expedtab #expimg br, #expedtab #expzdata>br, #expedtab .expzone .exptitle>br, #expedtab #expzrhoja>br, #expedtab .expzhstats>br, #expedtab .expzhd>br, #expedtab .expzhtraits>br {display:none!important;}
+#expedtab .extbnam {background:var(--back1); border-bottom:var(--border1); padding:40px; justify-content:center; align-items:flex-start; text-align:left; gap:6px; width:100%;}
+#expedtab .extbnam>b {text-transform:uppercase; font:900 var(--fs-h2) var(--font1); line-height:85%; color:var(--txt1)!important; text-shadow:var(--shadow3);}
+#expedtab .extbnam>em {text-transform:lowercase; font:300 var(--fs-small) var(--font3); font-style:italic; color:var(--txt4); line-height:100%; display:block;}
+#expedtab .extbnam>em:before {content:""; width:60px; height:2px; display:inline-block; background:var(--tgroup); margin-right:8px; position:relative; top:-2px;}
+#expedtab #expimg {width:100%; height:300px; display:flex; justify-content:center; align-items:center;} #expedtab #expimg>img {width:100%; height:100%; object-fit:cover; object-position:center 30%; position:relative; z-index:0; filter:var(--filter2);}
+#expedtab #extbclabels {width:100%; justify-content:space-around; align-items:center; border-top:var(--border1); border-bottom:var(--border1); padding:12px; gap:6px 12px; background:var(--back2); flex-wrap:wrap;}
+#expedtab #extbclabels a {cursor:var(--crs2); text-transform:uppercase; border-radius:var(--bradius); font:800 var(--fs-small) var(--font3); text-align:center; border-left:var(--border2); border-right:var(--border2); padding:4px 6px; line-height:100%!important; color:var(--txt4)!important; transition:var(--trs1); border-top:2px solid transparent!important;}
+#expedtab #extbclabels a.preactive {color:var(--txt1)!important; border-top-color:var(--group)!important;}
+#expedtab #extbcinfo {position:relative; min-height:270px; justify-content:center; align-items:center;}
+#expedtab #extbcinfo:before {content:""; position:absolute; inset:0; z-index:0; width:100%; height:100%; background:var(--tback2); opacity:0.4;}
+#expedtab #extbcinfo .expzone {width:100%; position:relative; z-index:1;} #expedtab #extbcinfo .expzone:not(.preactive) {display:none;}
+#expedtab #expzdata {flex-wrap:wrap; justify-content:space-around; align-items:center; padding:50px; gap:35px; align-self:stretch;}
+#expedtab #expzdata>b {flex:1 0 30%; display:flex; flex-direction:column; text-align:left; text-transform:uppercase; font:700 var(--fs-body) var(--font2); color:var(--txt3); line-height:100%!important; gap:6px;}
+#expedtab #expzdata>b>u {color:var(--txt1); font:bold var(--fs-small) var(--font3); line-height:140%;}
+#expedtab #expzdata>dl.hidecode {flex:1 0 100%; margin-top:12px!important;}
+#expedtab #expzhist, #expedtab #expzextr {height:490px; overflow:auto; padding:12px; padding-right:32px; background:var(--back1); border:40px solid var(--back1); border-right-width:20px;}
+#expedtab #expzhist::-webkit-scrollbar, #expedtab #expzextr::-webkit-scrollbar {width:11px!important; height:11px!important;}
+#expedtab #expzhist::-webkit-scrollbar-thumb, #expedtab #expzextr::-webkit-scrollbar-thumb {background:var(--group)!important; border:4px solid var(--back1)!important; border-radius:var(--bradius)!important;}
+#expedtab #expzhist::-webkit-scrollbar-track, #expedtab #expzextr::-webkit-scrollbar-track {background:var(--border1-c);!important; border:5px solid var(--back1)!important;}
+#expedtab .colu {column-rule:var(--border1); column-gap:20px; display:inline-block;}
+#expedtab .colu.col2 {column-count:2; column-width:220px;}
+#expedtab .colu.col3 {column-count:3; column-width:140px;}
+#expedtab .expzone .exptitle {width:100%; display:inline-flex; flex-direction:column; text-align:center; align-items:center; justify-content:center; margin:0 auto; gap:4px;}
+#expedtab .expzone .exptitle {display:flex; flex-direction:column; text-align:center; align-items:center; justify-content:center; margin:0 auto; gap:4px;}
+#expedtab .expzone .exptitle>i {font-size:var(--fs-display); line-height:var(--fs-display); color:var(--group);}
+#expedtab .expzone .exptitle>b {text-transform:uppercase; font:900 var(--fs-bigger) var(--font2); color:var(--txt1)!important; text-decoration:underline; text-decoration-color:var(--tgroup); text-decoration-thickness:2px; text-underline-offset:3px; line-height:calc(var(--fs-bigger) + 20%);}
+#expedtab .expzone .exptitle>em {text-transform:lowercase; font:600 var(--fs-smaller) var(--font3); font-style:italic; color:var(--txt4); max-width:200px; width:100%; text-align:justify; text-align-last:center;}
+#expedtab #expzrhoja {flex-direction:row; gap:30px; padding:30px;}
+#expedtab .expzhstats {align-self:stretch; justify-content:space-between; align-items:stretch; gap:20px; flex:1 0 10%;}
+#expedtab .expzhstats>b {border-top:2px solid var(--tgroup); border-left:var(--border2); border-right:var(--border2); flex:1; display:flex; justify-content:center; align-items:center; border-radius:var(--bradius); padding:12px; gap:4px; text-align:center; text-transform:uppercase;}
+#expedtab .expzhstats>b>strong {color:var(--txt1); font:900 var(--fs-bigger) var(--font2)!important; line-height:100%!important;}
+#expedtab .expzhstats>b>em {font:700 var(--fs-small) var(--font3); font-style:italic; color:var(--txt3);}
+#expedtab .expzhd {gap:30px; align-items:stretch; flex:1 0 80%;} #expedtab .expzhtraits {gap:20px;}
+#expedtab .expzhtraits>div {text-align:center; justify-content:center; align-items:center; padding:12px; gap:2px; flex:1; position:relative;}
+#expedtab .expzhtraits>div>i {text-transform:uppercase; font:bold var(--fs-smaller) var(--font3); color:var(--txt4); font-style:normal; margin-bottom:6px; border-radius:var(--bradius); border-top:var(--tborder); border-left:var(--tborder); border-right:var(--tborder); padding:4px 6px; line-height:100%;}
+#expedtab .expzhtraits>div>b {text-transform:uppercase; font:900 var(--fs-big) var(--font2); color:var(--txt1); line-height:100%;}
+#expedtab .expzhtraits>div>em {text-transform:lowercase; font:normal var(--fs-text) var(--font1); font-style:italic; color:var(--txt3); line-height:110%;}
+#expedtab .expzhtraits>div:before {content:"X"; position:absolute; font:300 var(--fs-title) var(--font4); color:var(--tgroup); opacity:.2; z-index:0;}
+#expedtab .expzhtraits>div * {position: relative; z-index: 1;}
+#expedtab .expzhtraits>div.expzhtflaw:before {content:"\f714";}
+#expedtab .expzhtraits>div.expzhtvirtue:before {content:"\f7d4";}
+#expedtab .expzhskills {overflow:auto; height:290px; padding-right:12px; width: 100%;}
+#expedtab .expzhtraits>div.expzhtflaw {border-right:var(--border2);}
+#expedtab .expzhtraits>div.expzhtvirtue {border-left:var(--border2);}
+#expedtab .expzhtraits>div.expzhtclass:before {opacity:0.4; font-size:calc(var(--fs-title) + var(--fs-h4));}
+#expedtab .expzhtraits>div.expzhtclass>b {font-size:var(--fs-bigger); font-family:var(--font3); font-weight:800;}
+#expedtab .expzhskills h4.post-content {color:var(--group)!important; text-decoration:none!important; margin:0px 0px 12px 0px; display:flex!important; justify-content:center; align-items:center; gap:10px;}
+#expedtab .expzhskills h4.post-content:before, #expedtab .expzhskills h4.post-content:after {content:""; flex:1; height:1px; background:var(--border2-c);}
+#expedtab .expzhskills>span {text-transform:uppercase; display:inline-block; padding:4px 6px; background:var(--group); border-radius:var(--bradius); font:800 var(--fs-smaller) var(--font3); line-height:100%; color:var(--back2); margin-right:6px;}
+#expedtab .expzhskills>u {color:var(--txt1); text-transform:uppercase; font-weight:800;}
+#expedtab .expzhskills>i {color:var(--txt4);}
 /* MEDIA */
 /* media:width */
 @media (min-width:1700px) {
