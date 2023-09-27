@@ -156,7 +156,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab .expzone .exptitle>b {text-transform:uppercase; font:900 var(--fs-bigger) var(--font2); color:var(--txt1)!important; text-decoration:underline; text-decoration-color:var(--tgroup); text-decoration-thickness:2px; text-underline-offset:3px; line-height:calc(var(--fs-bigger) + 20%);}
 #expedtab .expzone .exptitle>em {text-transform:lowercase; font:600 var(--fs-smaller) var(--font3); font-style:italic; color:var(--txt4); max-width:200px; width:100%; text-align:justify; text-align-last:center;}
 #expedtab #expzrhoja {flex-direction:row; gap:30px; padding:30px;}
-#expedtab .expzhstats {align-self:stretch; justify-content:space-between; align-items:stretch; gap:20px; flex:1 0 10%;}
+#expedtab .expzhstats {align-self:stretch; justify-content:space-between; align-items:stretch; gap:20px; flex:1 0 7%;}
 #expedtab .expzhstats>b {border-top:2px solid var(--tgroup); border-left:var(--border2); border-right:var(--border2); flex:1; display:flex; justify-content:center; align-items:center; border-radius:var(--bradius); padding:12px; gap:4px; text-align:center; text-transform:uppercase;}
 #expedtab .expzhstats>b>strong {color:var(--txt1); font:900 var(--fs-bigger) var(--font2)!important; line-height:100%!important;}
 #expedtab .expzhstats>b>em {font:700 var(--fs-small) var(--font3); font-style:italic; color:var(--txt3);}
