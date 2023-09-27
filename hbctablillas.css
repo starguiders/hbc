@@ -147,7 +147,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab #expzhist::-webkit-scrollbar, #expedtab #expzextr::-webkit-scrollbar {width:11px!important; height:11px!important;}
 #expedtab #expzhist::-webkit-scrollbar-thumb, #expedtab #expzextr::-webkit-scrollbar-thumb {background:var(--group)!important; border:4px solid var(--back1)!important; border-radius:var(--bradius)!important;}
 #expedtab #expzhist::-webkit-scrollbar-track, #expedtab #expzextr::-webkit-scrollbar-track {background:var(--border1-c);!important; border:5px solid var(--back1)!important;}
-#expedtab .colu {column-rule:var(--border1); column-gap:20px; display:inline-block;}
+#expedtab .colu {width:100%; column-rule:var(--border1); column-gap:20px; display:inline-block;}
 #expedtab .colu.col2 {column-count:2; column-width:220px;}
 #expedtab .colu.col3 {column-count:3; column-width:140px;}
 #expedtab .expzone .exptitle {width:100%; display:inline-flex; flex-direction:column; text-align:center; align-items:center; justify-content:center; margin:0 auto; gap:4px;}
