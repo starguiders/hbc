@@ -325,4 +325,5 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab .expzhstats {flex:1; flex-direction:row!important;}
 #expedtab #expzrhoja {flex-direction:column-reverse!important;}
 #expedtab .expzhtraits {gap:10px;}
+.tabrol2 .tbroltit>b>i {-webkit-text-stroke-width:1px;}
 }
