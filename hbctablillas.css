@@ -205,7 +205,6 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tbrolcont {padding:50px;} .tbrolcont>b, .tbrolcont>strong { font-weight:800; color:var(--acento);}
 .tbrolinfo {text-align:center; width:100%; border-top:var(--border1); background:var(--back2); padding:20px;}
 .tbrolinfo>em {text-transform:uppercase; font:600 var(--fs-small) var(--font3); line-height:100%; font-style:normal;}
-.tbrolinfo>em i {color:var(--acento);}
 .tabrol1:after {content:""; width:calc(100% + 2px); height:6px; background:var(--acento); position:relative; left:-1px; bottom:-1px;}
 .tabrol1 .tbroltit {gap:10px; margin-bottom:-12px;}
 .tabrol1 .tbroltit>b {text-transform:uppercase; font:900 var(--fs-h2) var(--font1); text-shadow:1px 1px 1px var(--acento); color:var(--txt1); line-height:90%;}
@@ -216,12 +215,15 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabrol2 .tbroltit>b {text-transform:lowercase; color:var(--txt1); font:900 var(--fs-h2) var(--font1); line-height:100%; font-style:italic;}
 .tabrol2 .tbroltit>span { text-transform:uppercase; display:block; border-radius:var(--bradius); border-top:var(--tborder); border-left:var(--tborder); border-right:var(--tborder); font:600 var(--fs-smaller) var(--font3); color:var(--txt4); padding:4px 8px;}
 .tabrol2 .tbrolinfo {color:var(--txt1);}
+.tabrol2 .tbrolinfo>em i {color:var(--acento);}
+.tabrol2 .tbrolinfo>em a {color:var(--txt1);}
 .tabrol3 .tbroltit>b {text-transform:uppercase; font:900 var(--fs-h1) var(--font1); line-height:90%; color:var(--acento); position:relative; width:100%; opacity:0.6; z-index:0;}
 .tabrol2 .tbroltit>b>i {color:transparent; -webkit-text-stroke:0.5px var(--txt1);}
 .tabrol3 .tbroltit>span { text-transform:uppercase; position:absolute; z-index:1; background:var(--back2); border:var(--border1); border-radius:var(--bradius); font:700 var(--fs-small) var(--font2); line-height:100%; color:var(--txt2); padding:4px 6px;}
 .tabrol3 .tbroltit {position:relative; min-height:160px;}
 .tabrol3 .tbrolinfo {display:flex; justify-content:center; align-items:center; gap:12px 20px; flex-wrap:wrap;}
 .tabrol3 .tbrolinfo>em {background:var(--acento); padding:6px 8px; border-radius:var(--bradius); color:var(--back1); font-weight:800;}
+.tabrol3 .tbrolinfo>em a {color:var(--back1);}
 /* MEDIA */
 /* media:width */
 @media (min-width:1700px) {
