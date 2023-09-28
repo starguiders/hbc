@@ -201,7 +201,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabrol1, .tabrol2, .tabrol3 {display:flex; flex-direction:column; margin:0 auto; max-width:550px; width:100%; background:var(--back1); border:var(--border1);}
 .tabrol1, .tabrol2, .tabrol3 {--acento:var(--group);}
 .tabrol1>br, .tabrol2>br, .tabrol3>br, .tbroltit>br {display:none!important;}
-.tbroltit {width:100%; display:flex; flex-direction:column; text-align:center; justify-content:center; align-items:center; padding:50px; padding-bottom:0px!important;}
+.tbroltit {min-height:160px; width:100%; display:flex; flex-direction:column; text-align:center; justify-content:center; align-items:center; padding:50px; padding-bottom:0px!important;}
 .tbrolcont {padding:50px;} .tbrolcont>b, .tbrolcont>strong { font-weight:800; color:var(--acento);}
 .tbrolinfo {text-align:center; width:100%; border-top:var(--border1); background:var(--back2); padding:20px;}
 .tbrolinfo>em {text-transform:uppercase; font:600 var(--fs-small) var(--font3); line-height:100%; font-style:normal;}
@@ -217,10 +217,10 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabrol2 .tbrolinfo {color:var(--txt1);}
 .tabrol2 .tbrolinfo>em i {color:var(--acento);}
 .tabrol2 .tbrolinfo>em a {color:var(--txt1);}
+.tabrol3 .tbroltit {position:relative;}
 .tabrol3 .tbroltit>b {text-transform:uppercase; font:900 var(--fs-h1) var(--font1); line-height:90%; color:var(--acento); position:relative; width:100%; opacity:0.6; z-index:0;}
 .tabrol2 .tbroltit>b>i {color:transparent; -webkit-text-stroke:0.5px var(--txt1);}
 .tabrol3 .tbroltit>span { text-transform:uppercase; position:absolute; z-index:1; background:var(--back2); border:var(--border1); border-radius:var(--bradius); font:700 var(--fs-small) var(--font2); line-height:100%; color:var(--txt2); padding:4px 6px;}
-.tabrol3 .tbroltit {position:relative; min-height:160px;}
 .tabrol3 .tbrolinfo {display:flex; justify-content:center; align-items:center; gap:12px 20px; flex-wrap:wrap;}
 .tabrol3 .tbrolinfo>em {background:var(--acento); padding:6px 8px; border-radius:var(--bradius); color:var(--back1); font-weight:800;}
 .tabrol3 .tbrolinfo>em a {color:var(--back1);}
