@@ -224,6 +224,21 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabrol3 .tbrolinfo {display:flex; justify-content:center; align-items:center; gap:12px 20px; flex-wrap:wrap;}
 .tabrol3 .tbrolinfo>em {background:var(--acento); padding:6px 8px; border-radius:var(--bradius); color:var(--back1); font-weight:800;}
 .tabrol3 .tbrolinfo>em a {color:var(--back1);}
+/* FIRMA(S) */
+.previewfirma {background:var(--back1); border:var(--border1); overflow-x:auto; overflow-y:hidden;}
+.previewfirma * {box-sizing:content-box;}
+.hbcfirma {width:280px; height:180px; margin:10px auto; box-sizing:border-box; outline:2px solid var(--acento); outline-offset:8px; background:var(--back2); position:relative; --acento:var(--group); overflow:hidden;}
+.hbcfirma>br {display:none!important;}
+.hbcfirma * {box-sizing:border-box;}
+.hbcfirma .hbcfirmaback {width:280px; height:180px; position:absolute; z-index:0; filter:none; transition:var(--trs2); transition-delay:1s; background-position:center; background-size:cover;}
+.hbcfirma:hover .hbcfirmaback {filter:var(--filter2); transition-delay:0s;}
+.hbcfirma .hbcfirmaquote {width:280px; height:180px; position:absolute; display:flex; justify-content:center; align-items:center; text-align:justify; text-align-last:center; padding:30px; bottom:calc(100%); transition:var(--trs2); transition-delay:0s;}
+.hbcfirma:hover .hbcfirmaquote {bottom:0px; transition-delay:1s;}
+.hbcfirma .hbcfirmaquote:before {content:""; width:280px; height:180px; position:absolute; background:var(--acento); z-index:0; mix-blend-mode:multiply;}
+.hbcfirma .hbcfirmaquote>span {display:block; position:relative; z-index:1; text-transform:uppercase; font:600 11px var(--font2); color:var(--txt3);}
+.hbcfirma .hbcfirmaquote>span b, .hbcfirma .hbcfirmaquote>span strong {font-weight:900; color:var(--acento);}
+.hbcfirma .hbcfirmaquote>span i {font-weight:500; color:var(--txt1);}
+.hbcfirma .hbcfirmaquote>span u, .hbcfirma .hbcfirmaquote>span strike {font-weight:600; color:var(--txt2); text-decoration-color:var(--acento);}
 /* MEDIA */
 /* media:width */
 @media (min-width:1700px) {
