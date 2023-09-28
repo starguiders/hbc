@@ -227,9 +227,9 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 /* FIRMA(S) */
 .previewfirma {background:var(--back1); border:var(--border1); overflow-x:auto; overflow-y:hidden;}
 .previewfirma * {box-sizing:content-box;}
-.hbcfirma {width:280px; height:180px; margin:10px auto; box-sizing:border-box; outline:2px solid var(--acento); outline-offset:8px; background:var(--back2); position:relative; --acento:var(--group); overflow:hidden;}
+.hbcfirma {width:280px; height:180px; margin:10px auto; box-sizing:border-box!important; outline:2px solid var(--acento); outline-offset:8px; background:var(--back2); position:relative; --acento:var(--group); overflow:hidden;}
 .hbcfirma>br {display:none!important;}
-.hbcfirma * {box-sizing:border-box;}
+.hbcfirma * {box-sizing:border-box!important;}
 .hbcfirma .hbcfirmaback {width:280px; height:180px; position:absolute; z-index:0; filter:none; transition:var(--trs2); transition-delay:1s; background-position:center; background-size:cover;}
 .hbcfirma:hover .hbcfirmaback {filter:var(--filter2); transition-delay:0s;}
 .hbcfirma .hbcfirmaquote {width:280px; height:180px; position:absolute; display:flex; justify-content:center; align-items:center; text-align:justify; text-align-last:center; padding:30px; bottom:calc(100%); transition:var(--trs2); transition-delay:0s;}
