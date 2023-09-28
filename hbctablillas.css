@@ -217,6 +217,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabrol2 .tbroltit>span { text-transform:uppercase; display:block; border-radius:var(--bradius); border-top:var(--tborder); border-left:var(--tborder); border-right:var(--tborder); font:600 var(--fs-smaller) var(--font3); color:var(--txt4); padding:4px 8px;}
 .tabrol2 .tbrolinfo {color:var(--txt1);}
 .tabrol3 .tbroltit>b {text-transform:uppercase; font:900 var(--fs-h1) var(--font1); line-height:90%; color:var(--acento); position:relative; width:100%; opacity:0.6; z-index:0;}
+.tabrol2 .tbroltit>b>i {color:transparent; -webkit-text-stroke:0.5px var(--txt1);}
 .tabrol3 .tbroltit>span { text-transform:uppercase; position:absolute; z-index:1; background:var(--back2); border:var(--border1); border-radius:var(--bradius); font:700 var(--fs-small) var(--font2); line-height:100%; color:var(--txt2); padding:4px 6px;}
 .tabrol3 .tbroltit {position:relative; min-height:160px;}
 .tabrol3 .tbrolinfo {display:flex; justify-content:center; align-items:center; gap:12px 20px; flex-wrap:wrap;}
@@ -238,11 +239,12 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 @media (min-width:2000px) {
 #guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:700px!important;}
 #guidelinks {top:112px!important;}
-.admintab {max-width:770px!important;}
+.admintab, .tabrol1, .tabrol2, .tabrol3 {max-width:770px!important;}
 .admiman {max-width:500px!important;}
 .gdcriaturas .gdcriat, #itemcatalogue .gdcitem {max-width:600px!important;}
 .gdcriaturas .gdcriat .gdcriatimg, .gdcriaturas .gdcriat .gdcriatblurb {height:300px!important;}
 #expedtab .expzhtraits {gap:10px;}
+.tabrol2 .tbroltit>b>i {-webkit-text-stroke-width:1px;}
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
