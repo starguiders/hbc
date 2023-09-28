@@ -219,7 +219,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabrol2 .tbrolinfo>em a {color:var(--txt1);}
 .tabrol3 .tbroltit {position:relative;}
 .tabrol3 .tbroltit>b {text-transform:uppercase; font:900 var(--fs-h1) var(--font1); line-height:90%; color:var(--acento); position:relative; width:100%; opacity:0.6; z-index:0;}
-.tabrol2 .tbroltit>b>i {color:transparent; -webkit-text-stroke:0.5px var(--txt1);}
+.tabrol2 .tbroltit>b>i {-webkit-text-fill-color:transparent; -webkit-text-stroke:0.5px var(--txt1);}
 .tabrol3 .tbroltit>span { text-transform:uppercase; position:absolute; z-index:1; background:var(--back2); border:var(--border1); border-radius:var(--bradius); font:700 var(--fs-small) var(--font2); line-height:100%; color:var(--txt2); padding:4px 6px;}
 .tabrol3 .tbrolinfo {display:flex; justify-content:center; align-items:center; gap:12px 20px; flex-wrap:wrap;}
 .tabrol3 .tbrolinfo>em {background:var(--acento); padding:6px 8px; border-radius:var(--bradius); color:var(--back1); font-weight:800;}
