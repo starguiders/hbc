@@ -225,7 +225,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabrol3 .tbrolinfo>em {background:var(--acento); padding:6px 8px; border-radius:var(--bradius); color:var(--back1); font-weight:800;}
 .tabrol3 .tbrolinfo>em a {color:var(--back1);}
 /* FIRMA(S) */
-.previewfirma {background:var(--back1); border:var(--border1); overflow-x:auto; overflow-y:hidden;}
+.previewfirma {background:var(--back1); border:var(--border1); overflow-x:auto; overflow-y:hidden; padding:20px 0px;}
 .previewfirma * {box-sizing:initial;}
 .hbcfirma {width:280px; height:180px; margin:10px auto; box-sizing:border-box!important; outline:2px solid var(--acento); outline-offset:8px; background:var(--back2); position:relative; --acento:var(--group); overflow:hidden;}
 .hbcfirma>br {display:none!important;}
