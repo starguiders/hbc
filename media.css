@@ -301,6 +301,7 @@
   .tnbuttons>a {width:60px!important; height:60px!important;}
   .qmadminlinks>a {width:50px!important; height:50px!important;}
   .dicethrow .diceres>strong {flex:1 0 16%!important; max-width:145px!important;}
+  .phmparent:before {width:50px!important;}
 }
 
 @media (max-height:500px) {
