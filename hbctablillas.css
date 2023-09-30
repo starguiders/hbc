@@ -357,6 +357,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #guidelinks, #guideconts, .blockquote, .reminder, .admtitleimg, .admintab, .admiman {padding:12px!important;}
 .blockquote, .registeredsec {margin:0px 6px!important;}
 #expedtab #expzdata {padding:20px;}
+.tabusqres {padding:12px;}
 }
 /* media:height */
 @media (min-height: 1500px) {
