@@ -241,7 +241,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .hbcfirma .hbcfirmaquote>span u, .hbcfirma .hbcfirmaquote>span strike {font-weight:600; color:var(--txt2); text-decoration-color:var(--acento);}
 /* BÚSQUEDA */
 .tabusqres {margin:0 auto; width:100%; max-width:400px; background:var(--tback1); border:var(--border1); padding:30px; gap:20px; display:flex; flex-direction:column; --acento:var(--group);}
-.tabusqres>br, .tabusq>br, .tabutrama>br, .tabudatos>br, .tabudatos>div>br {display:none!important;}
+.tabusqres>br, .tabusq>br, .tabutrama>br, .tabupj>br, .tabudatos>br, .tabudatos>div>br {display:none!important;}
 .tabusqres .tbrestitle {text-align:center; font:800 var(--fs-bigger) var(--font2); text-transform:uppercase; color:var(--txt1); text-decoration:underline; text-decoration-thickness:2px; text-decoration-color:var(--acento); text-underline-offset:2px; line-height:120%;}
 .tabusqres .tbrescont {--group:var(--acento);}
 .tabusqres .blockquote.tbrcreq {border-color:transparent; margin:0px!important; padding-bottom:0px!important;}
@@ -303,6 +303,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab #expzrhoja {flex-direction:column-reverse!important;}
 #expedtab #expzdata {gap:25px;}
 .tbroltit, .tbrolcont {padding:40px;}
+.tabusq {padding:20px;}
+.tabupjimg {display:none!important;}
 }
 @media (max-width:800px) {
 #guidebook .admtitleimg>h2 {font-size:var(--fs-h2)!important;}
