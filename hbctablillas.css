@@ -199,10 +199,12 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab .expzhtraits>div#ares:before, #expedtab .expzhtraits>div#ARES:before, #expedtab .expzhtraits>div#Ares:before {content:"\f71d"; color:var(--tares);}
 /* TABLILLAS DE ROL */
 .tabrol1, .tabrol2, .tabrol3 {display:flex; flex-direction:column; margin:0 auto; max-width:550px; width:100%; background:var(--back1); border:var(--border1);}
-.tabrol1, .tabrol2, .tabrol3 {--acento:var(--group);}
+.tabrol1, .tabrol2, .tabrol3 {--acento:var(--group)}
 .tabrol1>br, .tabrol2>br, .tabrol3>br, .tbroltit>br {display:none!important;}
 .tbroltit {min-height:160px; width:100%; display:flex; flex-direction:column; text-align:center; justify-content:center; align-items:center; padding:50px; padding-bottom:0px!important;}
-.tbrolcont {padding:50px;} .tbrolcont>b, .tbrolcont>strong { font-weight:800; color:var(--acento);}
+.tbrolcont {padding:50px;}
+.tbrolcont {--group:var(--acento); --tgroup:var(--acento);}
+.tbrolcont>b, .tbrolcont>strong {font-weight:800; color:var(--acento);}
 .tbrolinfo {text-align:center; width:100%; border-top:var(--border1); background:var(--back2); padding:20px;}
 .tbrolinfo>em {text-transform:uppercase; font:600 var(--fs-small) var(--font3); line-height:100%; font-style:normal;}
 .tabrol1:after {content:""; width:calc(100% + 2px); height:6px; background:var(--acento); position:relative; left:-1px; bottom:-1px;}
@@ -243,7 +245,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabusqres {margin:0 auto; width:100%; max-width:400px; background:var(--tback1); border:var(--border1); padding:30px; gap:20px; display:flex; flex-direction:column; --acento:var(--group);}
 .tabusqres>br, .tabusq>br, .tabutrama>br, .tabupj>br, .tabudatos>br, .tabudatos>div>br {display:none!important;}
 .tabusqres .tbrestitle {text-align:center; font:800 var(--fs-bigger) var(--font2); text-transform:uppercase; color:var(--txt1); text-decoration:underline; text-decoration-thickness:2px; text-decoration-color:var(--acento); text-underline-offset:2px; line-height:120%;}
-.tabusqres .tbrescont {--group:var(--acento);}
+.tabusqres .tbrescont {--group:var(--acento); --tgroup:var(--acento);}
 .tabusqres .blockquote.tbrcreq {border-color:transparent; margin:0px!important; padding-bottom:0px!important;}
 .tabusq {max-width:550px; width:100%; margin:0 auto; background:var(--tback1); border:var(--border1); display:flex; flex-direction:column; padding:40px; gap:20px; --acento:var(--group);}
 .tabutrama, .tabupj {display:flex; flex-direction:row; flex-wrap:wrap; border:var(--border1); background:var(--tback1);}
@@ -252,7 +254,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabudatos>div>b {color:var(--acento); font:800 var(--fs-body) var(--font2); line-height:100%;}
 .tabudatos>div>em {color:var(--txt4); font:600 var(--fs-smaller) var(--font3); font-style:normal; line-height:100%;}
 .tabudatos>div>em i {color:var(--acento);} .tabudatos:after {content:""; background:var(--acento); color:var(--back1); font:800 var(--fs-small) var(--font3); line-height:100%; padding:6px 8px; text-transform:uppercase; border-radius:var(--bradius); flex-shrink:0;}
-.tabucont {--group:var(--acento); max-height:300px; overflow:auto; border:30px solid transparent; border-right-width:15px; padding-right:15px;}
+.tabucont {--group:var(--acento); --tgroup:var(--acento); max-height:300px; overflow:auto; border:30px solid transparent; border-right-width:15px; padding-right:15px;}
 .tabupj .tabucont {flex:1; border-width:23px; padding-right:12px; border-right-width:11px;}
 .tabupjimg {max-width:180px; height:300px; display:flex; justify-content:center; align-items:center; box-sizing:content-box; border-right:var(--border1); flex:1;}
 .tabupjimg img {filter:var(--filter2); width:100%; height:100%; object-fit:cover; object-position:center;}
