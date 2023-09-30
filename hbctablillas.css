@@ -305,6 +305,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tbroltit, .tbrolcont {padding:40px;}
 .tabusq {padding:20px;}
 .tabupjimg {display:none!important;}
+.tabutrama .tabucont {border-width:23px; padding-right:12px; border-right-width:11px;}
 }
 @media (max-width:800px) {
 #guidebook .admtitleimg>h2 {font-size:var(--fs-h2)!important;}
@@ -333,6 +334,9 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab .extbnam>b {font-size:var(--fs-h3);}
 .tbroltit, .tbrolcont {padding:30px;}
 .tabrol1 .tbroltit {margin-bottom:0px;}
+.tabusqres {padding:20px;}
+.tabusq {padding:12px; gap:12px;}
+.tabucont {border-width:15px!important; padding-right:7px!important; border-right-width:8px!important;}
 }
 @media (max-width:550px) {
 .registeredsec {margin:0px 12px!important;}
