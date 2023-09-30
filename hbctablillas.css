@@ -254,8 +254,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabudatos>div>b {color:var(--acento); font:800 var(--fs-body) var(--font2); line-height:100%;}
 .tabudatos>div>em {color:var(--txt4); font:600 var(--fs-smaller) var(--font3); font-style:normal; line-height:100%;}
 .tabudatos>div>em i {color:var(--acento);} .tabudatos:after {content:""; background:var(--acento); color:var(--back1); font:800 var(--fs-small) var(--font3); line-height:100%; padding:6px 8px; text-transform:uppercase; border-radius:var(--bradius); flex-shrink:0;}
-.tabucont {--group:var(--acento); --tgroup:var(--acento); max-height:300px; overflow:auto; border:31px solid transparent; border-right-width:16px; padding-right:15px;}
-.tabupj .tabucont {flex:1; border-width:23px; padding-right:12px; border-right-width:11px;}
+.tabucont {--group:var(--acento); --tgroup:var(--acento); flex:1; height:300px; overflow:auto; border:31px solid transparent; border-right-width:16px; padding-right:15px;}
+.tabupj .tabucont {border-width:23px; padding-right:12px; border-right-width:11px;}
 .tabupjimg {max-width:180px; height:300px; display:flex; justify-content:center; align-items:center; box-sizing:content-box; border-right:var(--border1); flex:1;}
 .tabupjimg img {filter:var(--filter2); width:100%; height:100%; object-fit:cover; object-position:center;}
 .tabutrama#libre .tabudatos:after, .tabutrama#Libre .tabudatos:after, .tabutrama#LIBRE .tabudatos:after, .tabupj#libre .tabudatos:after, .tabupj#Libre .tabudatos:after, .tabupj#LIBRE .tabudatos:after {content:"Libre";}
