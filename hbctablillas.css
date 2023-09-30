@@ -285,12 +285,13 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 @media (min-width:2000px) {
 #guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:700px!important;}
 #guidelinks {top:112px!important;}
-.admintab, .tabrol1, .tabrol2, .tabrol3 {max-width:770px!important;}
+.admintab, .tabrol1, .tabrol2, .tabrol3, .tabusq {max-width:770px!important;}
 .admiman {max-width:500px!important;}
 .gdcriaturas .gdcriat, #itemcatalogue .gdcitem {max-width:600px!important;}
 .gdcriaturas .gdcriat .gdcriatimg, .gdcriaturas .gdcriat .gdcriatblurb {height:300px!important;}
 #expedtab .expzhtraits {gap:10px;}
 .tabrol2 .tbroltit>b>i {-webkit-text-stroke-width:1px;}
+.tabusqres {max-width:550px;}
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
