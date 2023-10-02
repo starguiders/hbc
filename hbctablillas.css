@@ -401,14 +401,14 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab #expimg {height:200px!important;}
 .tbroltit, .tbrolcont {padding:20px;}
 .tbrolinfo {padding:12px;}
+.tabaul#tbfull .tbaulinks>a {flex:1 0 15%; text-align:center; font-size: var(--fs-h5);}
+.tabaul#tbfull .tbaulinks {gap:20px;}
 }
 @media (max-width:450px) {
 #guidelinks, #guideconts, .blockquote, .reminder, .admtitleimg, .admintab, .admiman {padding:12px!important;}
 .blockquote, .registeredsec {margin:0px 6px!important;}
 #expedtab #expzdata {padding:20px;}
 .tabusqres {padding:12px;}
-.tabaul#tbfull .tbaulinks>a {flex:1 0 15%; text-align:center; font-size: var(--fs-h5);}
-.tabaul#tbfull .tbaulinks {gap:20px;}
 }
 /* media:height */
 @media (min-height: 1500px) {
