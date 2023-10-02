@@ -325,6 +325,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab .expzhtraits {gap:10px;}
 .tabrol2 .tbroltit>b>i {-webkit-text-stroke-width:1px;}
 .tabusqres {max-width:550px;}
+.tabaul#tbfull {max-width:1100px;}
 }
 @media (max-width:1000px) {
 .tabaul#tbfull {gap:30px; padding:30px;}
@@ -428,4 +429,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab #expzrhoja {flex-direction:column-reverse!important;}
 #expedtab .expzhtraits {gap:10px;}
 .tabrol2 .tbroltit>b>i {-webkit-text-stroke-width:1px;}
+.tabaul#tbfull {flex-direction:column-reverse; justify-content:center; align-items:center;}
+.tabaul#tbfull .tbauimg {width:270px;}
+.tabaul#tbfull .tbauname {text-align:center;}
+.tabaul .tbfside1, .tabaul .tbfside2 {justify-content:center; align-items:center;}
 }
