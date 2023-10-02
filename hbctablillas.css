@@ -329,6 +329,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 @media (max-width:1000px) {
 .tabaul#tbfull {gap:30px; padding:30px;}
 .tabaul .tbfside1, .tabaul .tbfside2 {gap:30px;}
+.tabaul#tbsimple {padding:40px;}
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
@@ -344,6 +345,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabupjimg {display:none!important;}
 .tabutrama .tabucont {border-width:23px; padding-right:12px; border-right-width:11px;}
 .tabaul#tbfull .tbauimg {width:200px;}
+.tabaul .tbauimg {width:200px; height:200px;}
 }
 @media (max-width:800px) {
 #guidebook .admtitleimg>h2 {font-size:var(--fs-h2)!important;}
@@ -353,6 +355,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabaul#tbfull {flex-direction:column-reverse; justify-content:center; align-items:center;}
 .tabaul#tbfull .tbauimg {width:270px;}
 .tabaul#tbfull .tbauname {text-align:center;}
+.tabaul .tbauimg {width:270px; height:270px;}
 }
 @media (max-width:700px) {
 #nonplayercharacters .gbnpc {flex:1 0 100%!important;}
@@ -380,7 +383,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabucont {border-width:15px!important; padding-right:7px!important; border-right-width:8px!important;}
 .tabaul#tbsimple {padding:30px; gap:20px;}
 .tabaul .tbfside1, .tabaul .tbfside2 {justify-content:center; align-items:center;}
-.tabaul .tbauimg {width: 100%!important; max-width:270px!important; height:180px; flex-shrink:initial;}
+.tabaul .tbauimg {width: 100%!important; max-width:270px!important; height:180px!important; flex-shrink:initial;}
 .tabaul .tbauinfo>em {flex: 1 0 35%;}
 }
 @media (max-width:550px) {
