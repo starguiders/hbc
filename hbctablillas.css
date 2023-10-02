@@ -291,7 +291,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabaul#tbsimple .tbaulinks {gap:12px; justify-content:center;}
 .tabaul#tbsimple .tbaulinks>a {display:flex; justify-content:center; align-items:center; background:var(--tback2); font-size:var(--fs-big); border-radius:var(--bradius); border:var(--border1); width:40px; height:40px;}
 .tabaul#tbsimple  .tbaulinks>a:hover {background-color:var(--acento); border-color:var(--acento); color:var(--back1);}
-.tabaul#tbfull .tbaulinks {gap:12px 20px; justify-content:space-between;}
+.tabaul#tbfull .tbaulinks {gap:12px 20px; justify-content:space-around;}
 .tabaul#tbfull .tbaulinks>a {font-size:var(--fs-bigger);}
 .tabaul#tbfull  .tbaulinks>a:hover {color:var(--txt1);}
 .tabaul .tbfside1, .tabaul .tbfside2 {gap:40px;}
