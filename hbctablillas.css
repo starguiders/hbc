@@ -301,6 +301,27 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabaul .tbauinfo>em {flex:1 0 30%; display:flex; flex-direction:column; text-align:center; justify-content:center; align-items:center; font-style:normal; gap:6px;} .tabaul
 .tbauinfo>em>b {font:900 var(--fs-body) var(--font2); color:var(--txt1); text-decoration:underline; text-decoration-thickness:2px; text-decoration-color:var(--acento); text-underline-offset:2px; line-height:130%; text-transform:uppercase;}
 .tabaul .tbauinfo>em>span {display:block; font:600 var(--fs-smaller) var(--font3); font-style:italic; color:var(--txt4); text-transform:lowercase;}
+/* CRONOLOGÍA DE USUARIOS */
+.tabcrono {display:flex; flex-direction:column; border:var(--border1); background:var(--tback1); margin:0 auto; width:100%; max-width:550px; --group:var(--acento); --tgroup:var(--acento);}
+.tabcrono>br, .tabcrono .tabcronocont>br, .tabcrono .tabcrcothread>br, .tabcrono .tabcrcothread>br, .tabcrono .tabcrcothread>div>br {display:none!important;}
+.tabcrono .tabcronotitle {padding:30px; width:100%; border-bottom:var(--border1); background:var(--back1); text-transform:uppercase; text-align: center; font:700 var(--fs-small) var(--font3); color:var(--txt1); letter-spacing:2px; line-height:100%;}
+.tabcrono .tabcronocont {padding:40px; width:100%; gap:12px;}
+.tabcrono .tabcrcoyear {text-transform:lowercase; font:900 var(--fs-h4) var(--font1); color:var(--txt1); text-shadow:var(--shadow3); line-height:100%;}
+.tabcrono .tabcrcoyear:not(:first-of-type) {margin-top:12px;}
+.tabcrono .tabcrcomonth {text-transform:uppercase; font:600 var(--fs-small) var(--font3); font-style:italic; color:var(--txt4); display:block; line-height:100%; margin-bottom:6px;}
+.tabcrono .tabcrcomonth:before {content:""; width:40px; height:2px; display:inline-block; background:var(--acento); margin-right:8px; position:relative; top:-2px;}
+.tabcrono .tabcrcothread {align-items:center; justify-content:flex-start; gap:12px;}
+.tabcrono .tabcrcothread>i {width:40px; height:40px; flex-shrink:0; display:flex; justify-content:center; align-items:center; background:var(--tback2); border:var(--border1); border-radius:var(--bradius); transition:var(--trs1);}
+.tabcrono .tabcrcothread>i:before {content:""; color:var(--acento); font:400 var(--fs-big) var(--font4); transition:var(--trs1);}
+.tabcrono .tabcrcothread#abierto>i:before, .tabcrono .tabcrcothread#Abierto>i:before, .tabcrono .tabcrcothread#ABIERTO>i:before {content:"\f09c";}
+.tabcrono .tabcrcothread#cerrado>i:before, .tabcrono .tabcrcothread#Cerrado>i:before, .tabcrono .tabcrcothread#CERRADO>i:before {content:"\f023";}
+.tabcrono .tabcrcothread#inconcluso>i:before, .tabcrono .tabcrcothread#Inconcluso>i:before, .tabcrono .tabcrcothread#INCONCLUSO>i:before {content:"\f254";}
+.tabcrono .tabcrcothread>div {text-transform:uppercase; gap:4px;}
+.tabcrono .tabcrcothread>div>a {font:800 var(--fs-body) var(--font2); color:var(--txt1); text-decoration:underline; text-decoration-thickness:2px; text-decoration-color:var(--acento); text-underline-offset:2px; line-height:120%; transition:var(--trs1);}
+.tabcrono .tabcrcothread>div>em {text-transform:uppercase; font:600 var(--fs-small) var(--font3); color:var(--txt4); font-style:normal; line-height:100%;}
+.tabcrono .tabcrcothread>div>em i {color:var(--acento); font-style:normal;} .tabcrono .tabcrcothread:hover>i {background:var(--acento); border-color:var(--acento);}
+.tabcrono .tabcrcothread:hover>i:before {color:var(--back1);}
+.tabcrono .tabcrcothread:hover>div>a {color:var(--acento);}
 /* MEDIA */
 /* media:width */
 @media (min-width:1700px) {
