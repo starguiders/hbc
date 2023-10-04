@@ -389,6 +389,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab #expzdata {gap:20px;}
 #expedtab .expzhstats {flex:1; flex-direction:row!important;}
 #expedtab #expzrhoja {flex-direction:column-reverse!important;}
+.tabcrono .tabcrcothread>i {width:50px; height:50px;}
+.tabrelas .tabrlcochar .tabrlcocharimg {width:90px; height:90px;}
 }
 @media (min-width:2000px) {
 #guidebook .admtitleimg>h2, #guidebook .admtitleimg>em {max-width:700px!important;}
@@ -401,7 +403,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabrol2 .tbroltit>b>i {-webkit-text-stroke-width:1px;}
 .tabusqres {max-width:550px;}
 .tabaul#tbfull {max-width:1100px;}
-.tabcrono .tabcrcothread>i {width:60px; height:60px;}
+.tabcrono .tabcrcothread>i {width:60px!important; height:60px!important;}
+.tabrelas .tabrlcochar .tabrlcocharimg {width:100px!important; height:100px!important;}
 }
 @media (max-width:1000px) {
 .tabaul#tbfull {gap:30px; padding:30px;}
@@ -516,4 +519,5 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabaul#tbfull .tbauname {text-align:center;}
 .tabaul .tbfside1, .tabaul .tbfside2 {justify-content:center; align-items:center;}
 .tabcrono .tabcrcothread>i {width:60px; height:60px;}
+.tabrelas .tabrlcochar .tabrlcocharimg {width:100px; height:100px;}
 }
