@@ -323,6 +323,58 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabcrono .tabcrcothread:hover>i:before {color:var(--back1);}
 .tabcrono .tabcrcothread:hover>div>a {color:var(--acento);}
 /* RELACIONES DE USUARIOS */
+.tabrelas {display:flex; flex-direction:column; border:var(--border1); background:var(--tback1); margin:0 auto; width:100%; max-width:550px; --group:var(--acento); --tgroup:var(--acento);}
+.tabrelas>br, .tabrelas .tabrelascont>br, .tabrelas .tabrlcochar>br, .tabrelas .tabrlcochar>div>br, .tabrelas .tabrlcochar .tabrlcocharimg>br {display:none!important;}
+.tabrelas .tabrelastitle {padding:30px; width:100%; border-bottom:var(--border1); background:var(--back1); text-transform:uppercase; text-align: center; font:700 var(--fs-small) var(--font3); color:var(--txt1); letter-spacing:2px; line-height:100%;}
+.tabrelas .tabrelascont {padding:40px; width:100%; gap:12px;}
+.tabrelas .tabrlcochar {align-items:center; justify-content:flex-start; gap:12px;}
+.tabrelas .tabrlcochar#nemesis, .tabrelas .tabrlcochar#NEMESIS, .tabrelas .tabrlcochar#némesis, .tabrelas .tabrlcochar#NÉMESIS, .tabrelas .tabrlcochar#Nemesis, .tabrelas .tabrlcochar#Némesis {--acento:var(--nemesis);}
+.tabrelas .tabrlcochar#tyche, .tabrelas .tabrlcochar#TYCHE, .tabrelas .tabrlcochar#Tyche {--acento:var(--tyche);}
+.tabrelas .tabrlcochar#afrodita, .tabrelas .tabrlcochar#AFRODITA, .tabrelas .tabrlcochar#Afrodita {--acento:var(--afrodita);}
+.tabrelas .tabrlcochar#dioniso, .tabrelas .tabrlcochar#DIONISO, .tabrelas .tabrlcochar#Dioniso {--acento:var(--dioniso);}
+.tabrelas .tabrlcochar#hades, .tabrelas .tabrlcochar#HADES, .tabrelas .tabrlcochar#Hades {--acento:var(--hades);}
+.tabrelas .tabrlcochar#hecate, .tabrelas .tabrlcochar#HECATE, .tabrelas .tabrlcochar#hécate, .tabrelas .tabrlcochar#HÉCATE, .tabrelas .tabrlcochar#Hecate, .tabrelas .tabrlcochar#Hécate {--acento:var(--hecate);}
+.tabrelas .tabrlcochar#poseidon, .tabrelas .tabrlcochar#POSEIDON, .tabrelas .tabrlcochar#poseidón, .tabrelas .tabrlcochar#POSEIDÓN, .tabrelas .tabrlcochar#Poseidon, .tabrelas .tabrlcochar#Poseidón {--acento:var(--poseidon);}
+.tabrelas .tabrlcochar#hypnos, .tabrelas .tabrlcochar#HYPNOS, .tabrelas .tabrlcochar#Hypnos {--acento:var(--hypnos);}
+.tabrelas .tabrlcochar#khione, .tabrelas .tabrlcochar#KHIONE, .tabrelas .tabrlcochar#Khione {--acento:var(--khione);}
+.tabrelas .tabrlcochar#hebe, .tabrelas .tabrlcochar#HEBE, .tabrelas .tabrlcochar#Hebe {--acento:var(--hebe);}
+.tabrelas .tabrlcochar#atenea, .tabrelas .tabrlcochar#ATENEA, .tabrelas .tabrlcochar#Atenea {--acento:var(--atenea);}
+.tabrelas .tabrlcochar#demeter, .tabrelas .tabrlcochar#DEMETER, .tabrelas .tabrlcochar#deméter, .tabrelas .tabrlcochar#DEMÉTER, .tabrelas .tabrlcochar#Demeter, .tabrelas .tabrlcochar#Deméter {--acento:var(--demeter);}
+.tabrelas .tabrlcochar#iris, .tabrelas .tabrlcochar#IRIS, .tabrelas .tabrlcochar#Iris {--acento:var(--iris);}
+.tabrelas .tabrlcochar#hermes, .tabrelas .tabrlcochar#HERMES, .tabrelas .tabrlcochar#Hermes {--acento:var(--hermes);}
+.tabrelas .tabrlcochar#apolo, .tabrelas .tabrlcochar#APOLO, .tabrelas .tabrlcochar#Apolo {--acento:var(--apolo);}
+.tabrelas .tabrlcochar#zeus, .tabrelas .tabrlcochar#ZEUS, .tabrelas .tabrlcochar#Zeus {--acento:var(--zeus);}
+.tabrelas .tabrlcochar#hefesto, .tabrelas .tabrlcochar#HEFESTO, .tabrelas .tabrlcochar#Hefesto {--acento:var(--hefesto);}
+.tabrelas .tabrlcochar#ares, .tabrelas .tabrlcochar#ARES, .tabrelas .tabrlcochar#Ares {--acento:var(--ares);}
+.tabrelas .tabrlcochar>div>span:after {content:"Nadie";}
+.tabrelas .tabrlcochar#nemesis>div>span:after, .tabrelas .tabrlcochar#NEMESIS>div>span:after, .tabrelas .tabrlcochar#némesis>div>span:after, .tabrelas .tabrlcochar#NÉMESIS>div>span:after, .tabrelas .tabrlcochar#Nemesis>div>span:after, .tabrelas .tabrlcochar#Némesis>div>span:after {content:"Némesis";}
+.tabrelas .tabrlcochar#tyche>div>span:after, .tabrelas .tabrlcochar#TYCHE>div>span:after, .tabrelas .tabrlcochar#Tyche>div>span:after {content:"Tyche";}
+.tabrelas .tabrlcochar#afrodita>div>span:after, .tabrelas .tabrlcochar#AFRODITA>div>span:after, .tabrelas .tabrlcochar#Afrodita>div>span:after {content:"Afrodita";}
+.tabrelas .tabrlcochar#dioniso>div>span:after, .tabrelas .tabrlcochar#DIONISO>div>span:after, .tabrelas .tabrlcochar#Dioniso>div>span:after {content:"Dioniso";}
+.tabrelas .tabrlcochar#hades>div>span:after, .tabrelas .tabrlcochar#HADES>div>span:after, .tabrelas .tabrlcochar#Hades>div>span:after {content:"Hades";}
+.tabrelas .tabrlcochar#hecate>div>span:after, .tabrelas .tabrlcochar#HECATE>div>span:after, .tabrelas .tabrlcochar#hécate>div>span:after, .tabrelas .tabrlcochar#HÉCATE>div>span:after, .tabrelas .tabrlcochar#Hecate>div>span:after, .tabrelas .tabrlcochar#Hécate>div>span:after {content:"Hécate";}
+.tabrelas .tabrlcochar#poseidon>div>span:after, .tabrelas .tabrlcochar#POSEIDON>div>span:after, .tabrelas .tabrlcochar#poseidón>div>span:after, .tabrelas .tabrlcochar#POSEIDÓN>div>span:after, .tabrelas .tabrlcochar#Poseidon>div>span:after, .tabrelas .tabrlcochar#Poseidón>div>span:after {content:"Poseidón";}
+.tabrelas .tabrlcochar#hypnos>div>span:after, .tabrelas .tabrlcochar#HYPNOS>div>span:after, .tabrelas .tabrlcochar#Hypnos>div>span:after {content:"Hypnos";}
+.tabrelas .tabrlcochar#khione>div>span:after, .tabrelas .tabrlcochar#KHIONE>div>span:after, .tabrelas .tabrlcochar#Khione>div>span:after {content:"Khione";}
+.tabrelas .tabrlcochar#hebe>div>span:after, .tabrelas .tabrlcochar#HEBE>div>span:after, .tabrelas .tabrlcochar#Hebe>div>span:after {content:"Hebe";}
+.tabrelas .tabrlcochar#atenea>div>span:after, .tabrelas .tabrlcochar#ATENEA>div>span:after, .tabrelas .tabrlcochar#Atenea>div>span:after {content:"Atenea";}
+.tabrelas .tabrlcochar#demeter>div>span:after, .tabrelas .tabrlcochar#DEMETER>div>span:after, .tabrelas .tabrlcochar#deméter>div>span:after, .tabrelas .tabrlcochar#DEMÉTER>div>span:after, .tabrelas .tabrlcochar#Demeter>div>span:after, .tabrelas .tabrlcochar#Deméter>div>span:after {content:"Deméter";}
+.tabrelas .tabrlcochar#iris>div>span:after, .tabrelas .tabrlcochar#IRIS>div>span:after, .tabrelas .tabrlcochar#Iris>div>span:after {content:"Iris";}
+.tabrelas .tabrlcochar#hermes>div>span:after, .tabrelas .tabrlcochar#HERMES>div>span:after, .tabrelas .tabrlcochar#Hermes>div>span:after {content:"Hermes";}
+.tabrelas .tabrlcochar#apolo>div>span:after, .tabrelas .tabrlcochar#APOLO>div>span:after, .tabrelas .tabrlcochar#Apolo>div>span:after {content:"Apolo";}
+.tabrelas .tabrlcochar#zeus>div>span:after, .tabrelas .tabrlcochar#ZEUS>div>span:after, .tabrelas .tabrlcochar#Zeus>div>span:after {content:"Zeus";}
+.tabrelas .tabrlcochar#hefesto>div>span:after, .tabrelas .tabrlcochar#HEFESTO>div>span:after, .tabrelas .tabrlcochar#Hefesto>div>span:after {content:"Hefesto";}
+.tabrelas .tabrlcochar#ares>div>span:after, .tabrelas .tabrlcochar#ARES>div>span:after, .tabrelas .tabrlcochar#Ares>div>span:after {content:"Ares";}
+.tabrelas .tabrlcochar .tabrlcocharimg {width:70px; height:70px; flex-shrink:0; display:flex; justify-content:center; align-items:center; border:var(--border1); border-radius:var(--bradius); transition:var(--trs1); position:relative; overflow:hidden; transition:var(--trs1);}
+.tabrelas .tabrelascont .tabrlcocharimg:before {content:""; position:absolute; inset:0; height:100%; width:100%; background:var(--acento); mix-blend-mode:multiply; opacity:0; z-index:2; transition:var(--trs1);}
+.tabrelas .tabrelascont .tabrlcocharimg>img {width:100%; height:100%; object-fit:cover; object-position:center; filter:var(--filter2); position:relative; z-index:1;}
+.tabrelas .tabrlcochar>div {text-transform:uppercase; gap:4px;}
+.tabrelas .tabrlcochar>div>span {background:var(--acento); font:800 var(--fs-smaller) var(--font3); color:var(--back1); line-height:100%; border-radius:var(--bradius); padding:4px 6px; width:fit-content;}
+.tabrelas .tabrlcochar>div>a {font:800 var(--fs-body) var(--font2); color:var(--txt1); text-decoration:underline; text-decoration-thickness:2px; text-decoration-color:var(--acento); text-underline-offset:2px; line-height:120%; transition:var(--trs1);}
+.tabrelas .tabrlcochar>div>em {text-transform:uppercase; font:600 var(--fs-small) var(--font3); color:var(--txt4); font-style:normal; line-height:100%;}
+.tabrelas .tabrlcochar>div>em i {color:var(--acento); font-style:normal;}
+.tabrelas .tabrlcochar:hover .tabrlcocharimg:before {opacity:1;}
+.tabrelas .tabrlcochar:hover>div>a {color:var(--acento);}
 /* HOJA DE USUARIOS */
 /* MEDIA */
 /* media:width */
