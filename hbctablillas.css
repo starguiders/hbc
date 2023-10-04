@@ -308,7 +308,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabcrono .tabcronocont {padding:40px; width:100%; gap:12px;}
 .tabcrono .tabcrcoyear {text-transform:lowercase; font:900 var(--fs-h4) var(--font1); color:var(--txt1); text-shadow:var(--shadow3); line-height:100%;}
 .tabcrono .tabcrcoyear:not(:first-of-type) {margin-top:12px;}
-.tabcrono .tabcrcomonth {text-transform:uppercase; font:600 var(--fs-small) var(--font3); font-style:italic; color:var(--txt4); display:block; line-height:100%; margin-bottom:6px;}
+.tabcrono .tabcrcomonth {text-transform:uppercase; font:600 var(--fs-small) var(--font3); font-style:italic; color:var(--txt4); display:block; line-height:100%;}
 .tabcrono .tabcrcomonth:before {content:""; width:40px; height:2px; display:inline-block; background:var(--acento); margin-right:8px; position:relative; top:-2px;}
 .tabcrono .tabcrcothread {align-items:center; justify-content:flex-start; gap:12px;}
 .tabcrono .tabcrcothread>i {width:40px; height:40px; flex-shrink:0; display:flex; justify-content:center; align-items:center; background:var(--tback2); border:var(--border1); border-radius:var(--bradius); transition:var(--trs1);}
