@@ -497,6 +497,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #guidelinks>a {margin-left:0px!important;}
 #guidelinks>a.preactive:before {width:15px; margin-right:4px;}
 #guidebook .admtitle>i, .admintab .admtitle>i {height:45px!important; width:45px!important;}
+.admintab, .tabrol1, .tabrol2, .tabrol3, .tabusq, .tabcrono, .tabrelas, .tabhojaexp {max-width:770px!important;}
 .admiman>i {width:50px!important; height:50px!important;}
 #nonplayercharacters .gbnpc {height:400px!important; flex:1 0 40%!important;}
 .gdcriaturas .gdcriat .gdcriatimg {flex:1 0 100%!important; height:160px!important; border-right:none!important; border-bottom:var(--border1);}
@@ -514,4 +515,5 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .tabaul#tbfull .tbauimg {width:270px;}
 .tabaul#tbfull .tbauname {text-align:center;}
 .tabaul .tbfside1, .tabaul .tbfside2 {justify-content:center; align-items:center;}
+.tabcrono .tabcrcothread>i {width:60px; height:60px;}
 }
