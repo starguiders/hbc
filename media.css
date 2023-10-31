@@ -228,7 +228,7 @@
 }
 
 @media (min-height:1500px) {
-  :root, *, *::before, *::after {--bradius:12px!important;--fs-bigger:2.57rem!important;--fs-big:2.42rem!important;--fs-body:2.1rem!important;--fs-text:1.9rem!important;--fs-small:1.7rem!important;--fs-smaller:1.3rem!important;--fs-smallest:1.1rem!important;--fs-title:4.17rem!important;--fs-display:4.27rem!important;--fs-h1:3.87rem!important;--fs-h2:3.27rem!important;--fs-h3:2.47rem!important;--fs-h4:2.27rem!important;--fs-h5:1.93rem!important;}
+  :root, *, *::before, *::after {--bradius:12px!important;--fs-bigger:2.57rem!important;--fs-big:2.42rem!important;--fs-body:2.1rem!important;--fs-text:1.9rem!important;--fs-small:1.7rem!important;--fs-smaller:1.3rem!important;--fs-smallest:1.1rem!important;--fs-title:4.17rem!important;--fs-display:4.27rem!important;--fs-h1:4rem!important;--fs-h2:3.5rem!important;--fs-h3:2.7rem!important;--fs-h4:2.5rem!important;--fs-h5:2.2rem!important;}
   body {margin-left:125px!important;}
   header {max-height:800px;}
   .hdesc {width:100%;max-width:100%;}
@@ -249,14 +249,12 @@
   sdnav>a:before {font-size:var(--fs-h5)!important;}
   .nvtop {padding:20px;}
   ul#notif_list, .navigationpanel {top:90px!important;left:145px!important;max-width:380px!important;}
-  .tdesc, .tlocupd, .tlst {max-height:270px!important;height:270px!important;}
-  .tlocupd .tloc, .tlocupd .tupd {height:50%!important;}
+  .tdesc, .tadm, .tlocupd, .teve, .tlst {max-height:300px!important;height:300px!important;}
   .tadm, .teve {flex-direction:row!important;width:100%;}
   .tlupst {display:none!important;}
   .tlupst:nth-of-type(1), .tlupst:nth-of-type(2), .tlupst:nth-of-type(3), .tlupst:nth-of-type(4), .tlupst:nth-of-type(5), .tlupst:nth-of-type(6) {display:block!important;}
   .tlupst:nth-of-type(6) {margin-bottom:0px!important;}
   .tlocupd, .teve {flex:1 0 100%!important;}
-  .tadm, .teve {max-height:200px;height:200px;}
   .tadm>a, .teve .teeve {height:100%;}
   .forum {max-width:none;}
   .forum .forcont, #c3 .forum .forava {padding:30px;}
