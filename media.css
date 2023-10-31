@@ -101,6 +101,7 @@
 }
 @media (max-width: 900px) {
   header>a {font-size:var(--fs-display);}
+  header>a>span {font-size:calc(var(--fs-display) - 0.085rem);}
   #profile {flex-direction:column;}
   .tab {padding:60px 80px!important;}
   .right-tabs {right:25px!important;}
@@ -120,7 +121,7 @@
 }
 @media (max-width: 700px) {
   .nvtree>a>span {max-width:80px;}
-  header>a {font-size:var(--fs-h1);}
+  header>a>span {font-size:calc(var(--fs-h1) - 0.055rem);}
   .afherm {width:100%; max-height:none!important;}
   #profile .profcont {min-width:auto!important;}
   .tab {padding:40px 60px!important;}
@@ -159,6 +160,7 @@
   header {padding:30px;}
   .himg {background-image:var(--pngimg-3);}
   header>a {font-size:var(--fs-h2);}
+  header>a>span {font-size:calc(var(--fs-h2) - 0.045rem);}
   .nvside {width:50px; padding:15px 10px;}
   .nvava {height:30px; width:30px; display:none!important;}
   a#fa_notifications>span#notif_unread {left:170%; top:20px;}
