@@ -228,7 +228,7 @@
 }
 
 @media (min-height:1500px) {
-  :root, *, *::before, *::after {--bradius:12px!important;--fs-bigger:2.57rem!important;--fs-big:2.42rem!important;--fs-body:2.1rem!important;--fs-text:1.9rem!important;--fs-small:1.7rem!important;--fs-smaller:1.3rem!important;--fs-smallest:1.1rem!important;--fs-title:4.17rem!important;--fs-display:4.27rem!important;--fs-h1:4rem!important;--fs-h2:3.5rem!important;--fs-h3:2.7rem!important;--fs-h4:2.5rem!important;--fs-h5:2.2rem!important;}
+  :root, *, *::before, *::after {--bradius:12px!important;--fs-bigger:2.57rem!important;--fs-big:2.42rem!important;--fs-body:2.1rem!important;--fs-text:1.9rem!important;--fs-small:1.5rem!important;--fs-smaller:1.1rem!important;--fs-smallest:0.9rem!important;--fs-title:4.17rem!important;--fs-display:4.27rem!important;--fs-h1:4rem!important;--fs-h2:3.5rem!important;--fs-h3:2.7rem!important;--fs-h4:2.5rem!important;--fs-h5:2.2rem!important;}
   body {margin-left:125px!important;}
   header {max-height:800px;}
   .hdesc {width:100%;max-width:100%;}
@@ -249,7 +249,8 @@
   sdnav>a:before {font-size:var(--fs-h5)!important;}
   .nvtop {padding:20px;}
   ul#notif_list, .navigationpanel {top:90px!important;left:145px!important;max-width:380px!important;}
-  .tdesc, .tadm, .tlocupd, .teve, .tlst {max-height:300px!important;height:300px!important;}
+  .tlocupd .tloc {display:none!important;}
+  .tdesc, .tadm, .tlocupd, .teve, .tlst, .tlocupd .tupd {max-height:300px!important;height:300px!important;}
   .tadm, .teve {flex-direction:row!important;width:100%;}
   .tlupst {display:none!important;}
   .tlupst:nth-of-type(1), .tlupst:nth-of-type(2), .tlupst:nth-of-type(3), .tlupst:nth-of-type(4), .tlupst:nth-of-type(5), .tlupst:nth-of-type(6) {display:block!important;}
@@ -269,7 +270,7 @@
   #c3 .fralastpost {padding:0px!important;border-top:none!important;}
   .statlinks, .statsright {flex:1 0 100%;flex-direction:row!important;}
   .statonline, .stattwenty {max-height:auto;}
-  #statistics .statgroups>a {flex: 1 0 9%;}
+  #statistics .statgroups>a {flex:1 0 9%; height:62px!important;}
   #profile .profcont, #car-hold {min-height:600px!important;}
   .tab {padding:60px 80px!important;}
   .right-tabs {right:25px!important;}
@@ -307,6 +308,7 @@
   .qmadminlinks>a {width:50px!important;height:50px!important;}
   .dicethrow .diceres>strong {flex:1 0 16%!important;max-width:145px!important;}
   .phmparent:before {width:50px!important;}
+  .afcred {max-height:242px!important;}
 }
 
 @media (max-height:500px) {
