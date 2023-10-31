@@ -192,7 +192,7 @@
   .statlastu>.stlstuava {width:90px;height:90px;}
   .stlstunam>strong {font-size:var(--fs-bigger);}
   .statsright, .statonline, .stattwenty {min-width:auto;}
-  .statonline, .stattwenty {max-height:auto;}
+  .statonline, .stattwenty {max-height:auto!important;}
   .pfcuser {font-size:var(--fs-h3)!important;}
   #profile .profcont, #car-hold {min-height:500px!important;}
   .pfcmain>div {flex:1 0 30%!important;}
@@ -260,7 +260,8 @@
   .tadm>a, .teve .teeve {height:100%;}
   .forum {max-width:none;}
   .forum .forcont, #c3 .forum .forava {padding:30px;}
-  .forcont .frcinfo .frcdesc {height:110px;}
+  .forcont .frcinfo .frcdesc {height:150px;}
+  .navigationpanel>em {line-height:100%!important;}
   .forcont .frcinfo .frclinks {margin-top:20px;} 
   .forum .forava .fraava {position:relative!important;height:300px;}
   .forum .forava {padding:0px;display:block!important;}
@@ -270,7 +271,7 @@
   #c3 .forum .forava {display:flex!important;}
   #c3 .fralastpost {padding:0px!important;border-top:none!important;}
   .statlinks, .statsright {flex:1 0 100%;flex-direction:row!important;}
-  .statonline, .stattwenty {max-height:auto;}
+  .statonline, .stattwenty {max-height:230px!important;}
   #statistics .statgroups>a {flex:1 0 9%; height:62px!important;}
   #profile .profcont, #car-hold {min-height:600px!important;}
   .tab {padding:60px 80px!important;}
@@ -313,6 +314,9 @@
   .mbsmclinks {gap:16px!important;}
   a.usgp {flex:1 0 40%!important;}
   #cp-main.ucp-vigi table.table1 thead th:nth-of-type(3), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(4), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(6), #cp-main.ucp-vigi table tbody tr td:nth-of-type(3), #cp-main.ucp-vigi table tbody tr td:nth-of-type(4), #cp-main.ucp-vigi table tbody tr td:nth-of-type(6), #cp-main.ucp-drafts table.table1 thead th:nth-of-type(1), #cp-main.ucp-drafts table.table1 tbody tr td:nth-of-type(1), #cp-main.ucp-drafts table.table1 thead th:nth-of-type(3), #cp-main.ucp-drafts table.table1 tbody tr td:nth-of-type(3) {display:none!important;}
+  .forcont .frcinfo .frclinks {line-height:75%!important;}
+  .forcont .frcinfo .frclinks > a {font-size:var(--fs-smaller)!important;}
+  #c3 .forum .frcdesc {display:none!important;}
 }
 
 @media (max-height:500px) {
