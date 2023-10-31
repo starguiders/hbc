@@ -1,5 +1,7 @@
 /*MEDIA*/
-@media (min-width: 1700px) {
+@media (min-width: 1600px) {
+  :root, *, *::before, *::after {--bradius:8px!important;--fs-bigger:1.3em!important;--fs-big:1.15em!important;--fs-body:1em!important;--fs-text:0.92em!important;--fs-small:0.75em!important;--fs-smaller:0.69em!important;--fs-smallest:0.65em!important;--fs-title:6em!important;--fs-display:4em!important;--fs-h1:3.6em!important;--fs-h2:3em!important;--fs-h3:2.2em!important;--fs-h4:2em!important;--fs-h5:1.66em!important;}
+  header>a>span {font-size:calc(var(--fs-title) - 5.02em);}
   #page-footer .skincredit>img {height:40px;}
   .nvtree>a:first-of-type {font-size:var(--fs-body);}
   .nvtree>a {font-size:var(--fs-text);}
@@ -33,7 +35,7 @@
   .phmparent:before {width:140px!important;}
   .dicethrow .diceres>strong {flex:1 0 11%!important; max-width:115px!important;}
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   body {margin-left:125px!important;}
   header {max-height:800px;}
   .himg {background-image:var(--pngimg-2);}
