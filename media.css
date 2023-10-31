@@ -154,6 +154,7 @@
 }
 @media (max-width: 600px) {
   .phmname, .pbsearchpost, .phsubject {font-size:var(--fs-h4)!important;}
+  #cp-main.ucp-drafts table.table1 thead th:nth-of-type(1), #cp-main.ucp-drafts table.table1 tbody tr td:nth-of-type(1), #cp-main.ucp-drafts table.table1 thead th:nth-of-type(3), #cp-main.ucp-drafts table.table1 tbody tr td:nth-of-type(3) {display:none!important;}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
@@ -311,7 +312,7 @@
   .afcred {max-height:242px!important;}
   .mbsmclinks {gap:16px!important;}
   a.usgp {flex:1 0 40%!important;}
-  #cp-main.ucp-vigi table.table1 thead th:nth-of-type(3), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(4), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(6), #cp-main.ucp-vigi table tbody tr td:nth-of-type(3), #cp-main.ucp-vigi table tbody tr td:nth-of-type(4), #cp-main.ucp-vigi table tbody tr td:nth-of-type(6) {display:none!important;}
+  #cp-main.ucp-vigi table.table1 thead th:nth-of-type(3), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(4), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(6), #cp-main.ucp-vigi table tbody tr td:nth-of-type(3), #cp-main.ucp-vigi table tbody tr td:nth-of-type(4), #cp-main.ucp-vigi table tbody tr td:nth-of-type(6), #cp-main.ucp-drafts table.table1 thead th:nth-of-type(1), #cp-main.ucp-drafts table.table1 tbody tr td:nth-of-type(1), #cp-main.ucp-drafts table.table1 thead th:nth-of-type(3), #cp-main.ucp-drafts table.table1 tbody tr td:nth-of-type(3) {display:none!important;}
 }
 
 @media (max-height:500px) {
