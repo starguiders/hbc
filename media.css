@@ -248,7 +248,7 @@
   sdnav>a:after {margin:0px 16px!important;}
   sdnav>a:before {font-size:var(--fs-h5)!important;}
   .nvtop {padding:20px;}
-  ul#notif_list, .navigationpanel {top:90px!important;left:145px!important;max-width:380px!important;}
+  ul#notif_list, .navigationpanel {top:90px!important;left:145px!important;max-width:480px!important;}
   .tlocupd .tloc {display:none!important;}
   .tdesc, .tadm, .tlocupd, .teve, .tlst, .tlocupd .tupd {max-height:300px!important;height:300px!important;}
   .tadm, .teve {flex-direction:row!important;width:100%;}
