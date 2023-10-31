@@ -1,6 +1,6 @@
 /*MEDIA*/
 @media (min-width: 1600px) {
-  :root, *, *::before, *::after {--bradius:8px!important;--fs-bigger:1.3em!important;--fs-big:1.15em!important;--fs-body:1em!important;--fs-text:0.92em!important;--fs-small:0.75em!important;--fs-smaller:0.69em!important;--fs-smallest:0.65em!important;--fs-title:6em!important;--fs-display:4em!important;--fs-h1:3.6em!important;--fs-h2:3em!important;--fs-h3:2.2em!important;--fs-h4:2em!important;--fs-h5:1.66em!important;}
+  :root, *, *::before, *::after {--bradius:8px!important;--fs-bigger:1.3em!important;--fs-big:1.15em!important;--fs-body:1em!important;--fs-text:.92em!important;--fs-small:.75em!important;--fs-smaller:.69em!important;--fs-smallest:.65em!important;--fs-title:6em!important;--fs-display:4em!important;--fs-h1:3.6em!important;--fs-h2:3em!important;--fs-h3:2.2em!important;--fs-h4:2em!important;--fs-h5:1.66em!important;}
   header>a>span {font-size:calc(var(--fs-title) - 5.02em);}
   #page-footer .skincredit>img {height:40px;}
   .nvtree>a:first-of-type {font-size:var(--fs-body);}
@@ -34,10 +34,11 @@
   .phmparent:before {width:140px!important;}
   .dicethrow .diceres>strong {flex:1 0 11%!important; max-width:115px!important;}
   .nvtree>a {font-size:.69rem!important;}
-  .nvtree>a:first-of-type, .statregist>strong, .statlogged>strong {font-size:.92em!important;}
+  .nvtree>a:first-of-type {font-size:.75rem!important;}
+  .statregist>strong, .statlogged>strong {font-size:.92rem!important;}
 }
 @media (min-width: 1800px) {
-  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.37em!important;--fs-big:1.22em!important;--fs-body:1.07em!important;--fs-text:0.99em!important;--fs-small:0.82em!important;--fs-smaller:0.76em!important;--fs-smallest:0.72em!important;--fs-title:6.07em!important;--fs-display:4.07em!important;--fs-h1:3.67em!important;--fs-h2:3.07em!important;--fs-h3:2.27em!important;--fs-h4:2.07em!important;--fs-h5:1.73em!important;}
+  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.37em!important;--fs-big:1.22em!important;--fs-body:1.07em!important;--fs-text:.99em!important;--fs-small:.82em!important;--fs-smaller:.76em!important;--fs-smallest:.72em!important;--fs-title:6.07em!important;--fs-display:4.07em!important;--fs-h1:3.67em!important;--fs-h2:3.07em!important;--fs-h3:2.27em!important;--fs-h4:2.07em!important;--fs-h5:1.73em!important;}
   header>a>span {font-size:calc(var(--fs-title) - 5.09em);}
   body {margin-left:125px!important;}
   header {max-height:800px;}
@@ -67,15 +68,17 @@
   .dicethrow .diceres>strong {max-width:132px!important;}
   .pbinfo {top:70px!important;}
   .nvtree>a {font-size:.76rem!important;}
-  .nvtree>a:first-of-type, .statregist>strong, .statlogged>strong {font-size:.99em!important;}
+  .nvtree>a:first-of-type {font-size:.82rem!important;}
+  .statregist>strong, .statlogged>strong {font-size:.99rem!important;}
 }
 @media (min-width: 2000px) {
-  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.47em!important;--fs-big:1.32em!important;--fs-body:1.17em!important;--fs-text:1.09em!important;--fs-small:0.92em!important;--fs-smaller:0.86em!important;--fs-smallest:0.82em!important;--fs-title:6.17em!important;--fs-display:4.17em!important;--fs-h1:3.77em!important;--fs-h2:3.17em!important;--fs-h3:2.37em!important;--fs-h4:2.17em!important;--fs-h5:1.83em!important;}
+  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.47em!important;--fs-big:1.32em!important;--fs-body:1.17em!important;--fs-text:1.09em!important;--fs-small:.92em!important;--fs-smaller:.86em!important;--fs-smallest:.82em!important;--fs-title:6.17em!important;--fs-display:4.17em!important;--fs-h1:3.77em!important;--fs-h2:3.17em!important;--fs-h3:2.37em!important;--fs-h4:2.17em!important;--fs-h5:1.83em!important;}
   header>a>span {font-size:calc(var(--fs-title) - 5.19em);}
   .nvnlinks, .nvupanel {gap:30px;}
   .nvnlinks>a:before, .nvupanel a:before {font-size:var(--fs-h4)!important;}
   .nvtree>a {font-size:.86rem!important;}
-  .nvtree>a:first-of-type, .statregist>strong, .statlogged>strong {font-size:1.09em!important;}
+  .nvtree>a:first-of-type {font-size:.92rem!important;}
+  .statregist>strong, .statlogged>strong {font-size:1.09rem!important;}
 }
 @media (max-width: 1100px) {
   body {margin-left:70px!important;}
@@ -235,7 +238,7 @@
 }
 
 @media (min-height:1500px) {
-  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.47em!important;--fs-big:1.32em!important;--fs-body:1.17em!important;--fs-text:1.09em!important;--fs-small:0.92em!important;--fs-smaller:0.86em!important;--fs-smallest:0.82em!important;--fs-title:6.17em!important;--fs-display:4.17em!important;--fs-h1:3.77em!important;--fs-h2:3.17em!important;--fs-h3:2.37em!important;--fs-h4:2.17em!important;--fs-h5:1.83em!important;}
+  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.47em!important;--fs-big:1.32em!important;--fs-body:1.17em!important;--fs-text:1.09em!important;--fs-small:.92em!important;--fs-smaller:.86em!important;--fs-smallest:.82em!important;--fs-title:6.17em!important;--fs-display:4.17em!important;--fs-h1:3.77em!important;--fs-h2:3.17em!important;--fs-h3:2.37em!important;--fs-h4:2.17em!important;--fs-h5:1.83em!important;}
   body {margin-left:125px!important;}
   header {max-height:800px;}
   .himg {background-image:var(--pngimg-2);}
@@ -309,7 +312,8 @@
   .dicethrow .diceres>strong {flex:1 0 16%!important; max-width:145px!important;}
   .phmparent:before {width:50px!important;}
   .nvtree>a {font-size:.86rem!important;}
-  .nvtree>a:first-of-type, .statregist>strong, .statlogged>strong {font-size:1.09em!important;}
+  .nvtree>a:first-of-type {font-size:.92rem!important;}
+  .statregist>strong, .statlogged>strong {font-size:1.09rem!important;}
 }
 
 @media (max-height:500px) {
