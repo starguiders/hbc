@@ -1,7 +1,7 @@
 /*MEDIA*/
 @media (min-width: 1600px) {
-  :root, *, *::before, *::after {--bradius:8px!important;--fs-bigger:1.3em!important;--fs-big:1.15em!important;--fs-body:1em!important;--fs-text:.92em!important;--fs-small:.75em!important;--fs-smaller:.69em!important;--fs-smallest:.65em!important;--fs-title:6em!important;--fs-display:4em!important;--fs-h1:3.6em!important;--fs-h2:3em!important;--fs-h3:2.2em!important;--fs-h4:2em!important;--fs-h5:1.66em!important;}
-  header>a>span {font-size:calc(var(--fs-title) - 5.02em);}
+  :root, *, *::before, *::after {--bradius:8px!important;--fs-bigger:1.3rem!important;--fs-big:1.15rem!important;--fs-body:1rem!important;--fs-text:.92rem!important;--fs-small:.75rem!important;--fs-smaller:.69rem!important;--fs-smallest:.65rem!important;--fs-title:6rem!important;--fs-display:4rem!important;--fs-h1:3.6rem!important;--fs-h2:3rem!important;--fs-h3:2.2rem!important;--fs-h4:2rem!important;--fs-h5:1.66rem!important;}
+  header>a>span {font-size:calc(var(--fs-title) - 5.02rem);}
   #page-footer .skincredit>img {height:40px;}
   .nvtree>a:first-of-type {font-size:var(--fs-body);}
   .nvtree>a {font-size:var(--fs-text);}
@@ -33,13 +33,10 @@
   .qmadminlinks>a {width:50px!important; height:50px!important;}
   .phmparent:before {width:140px!important;}
   .dicethrow .diceres>strong {flex:1 0 11%!important; max-width:115px!important;}
-  .nvtree>a {font-size:.69rem!important;}
-  .nvtree>a:first-of-type {font-size:.75rem!important;}
-  .statregist>strong, .statlogged>strong {font-size:.92rem!important;}
 }
 @media (min-width: 1800px) {
-  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.37em!important;--fs-big:1.22em!important;--fs-body:1.07em!important;--fs-text:.99em!important;--fs-small:.82em!important;--fs-smaller:.76em!important;--fs-smallest:.72em!important;--fs-title:6.07em!important;--fs-display:4.07em!important;--fs-h1:3.67em!important;--fs-h2:3.07em!important;--fs-h3:2.27em!important;--fs-h4:2.07em!important;--fs-h5:1.73em!important;}
-  header>a>span {font-size:calc(var(--fs-title) - 5.09em);}
+  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.37rem!important;--fs-big:1.22rem!important;--fs-body:1.07rem!important;--fs-text:.99rem!important;--fs-small:.82rem!important;--fs-smaller:.76rem!important;--fs-smallest:.72rem!important;--fs-title:6.07rem!important;--fs-display:4.07rem!important;--fs-h1:3.67rem!important;--fs-h2:3.07rem!important;--fs-h3:2.27rem!important;--fs-h4:2.07rem!important;--fs-h5:1.73rem!important;}
+  header>a>span {font-size:calc(var(--fs-title) - 5.09rem);}
   body {margin-left:125px!important;}
   header {max-height:800px;}
   .himg {background-image:var(--pngimg-2);}
@@ -67,18 +64,12 @@
   .postbody ul li:before {top:13px!important;}
   .dicethrow .diceres>strong {max-width:132px!important;}
   .pbinfo {top:70px!important;}
-  .nvtree>a {font-size:.76rem!important;}
-  .nvtree>a:first-of-type {font-size:.82rem!important;}
-  .statregist>strong, .statlogged>strong {font-size:.99rem!important;}
 }
 @media (min-width: 2000px) {
-  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.47em!important;--fs-big:1.32em!important;--fs-body:1.17em!important;--fs-text:1.09em!important;--fs-small:.92em!important;--fs-smaller:.86em!important;--fs-smallest:.82em!important;--fs-title:6.17em!important;--fs-display:4.17em!important;--fs-h1:3.77em!important;--fs-h2:3.17em!important;--fs-h3:2.37em!important;--fs-h4:2.17em!important;--fs-h5:1.83em!important;}
-  header>a>span {font-size:calc(var(--fs-title) - 5.19em);}
+  :root, *, *::before, *::after {--bradius:10px!important;--fs-bigger:1.47rem!important;--fs-big:1.32rem!important;--fs-body:1.17rem!important;--fs-text:1.09rem!important;--fs-small:.92rem!important;--fs-smaller:.86rem!important;--fs-smallest:.82rem!important;--fs-title:6.17rem!important;--fs-display:4.17rem!important;--fs-h1:3.77rem!important;--fs-h2:3.17rem!important;--fs-h3:2.37rem!important;--fs-h4:2.17rem!important;--fs-h5:1.83rem!important;}
+  header>a>span {font-size:calc(var(--fs-title) - 5.19rem);}
   .nvnlinks, .nvupanel {gap:30px;}
   .nvnlinks>a:before, .nvupanel a:before {font-size:var(--fs-h4)!important;}
-  .nvtree>a {font-size:.86rem!important;}
-  .nvtree>a:first-of-type {font-size:.92rem!important;}
-  .statregist>strong, .statlogged>strong {font-size:1.09rem!important;}
 }
 @media (max-width: 1100px) {
   body {margin-left:70px!important;}
@@ -238,10 +229,10 @@
 }
 
 @media (min-height:1500px) {
-  :root, *, *::before, *::after {--bradius:12px!important;--fs-bigger:1.57em!important;--fs-big:1.42em!important;--fs-body:1.27em!important;--fs-text:1.19em!important;--fs-small:1.02em!important;--fs-smaller:.96em!important;--fs-smallest:.92em!important;--fs-title:6.17em!important;--fs-display:4.27em!important;--fs-h1:3.87em!important;--fs-h2:3.27em!important;--fs-h3:2.47em!important;--fs-h4:2.27em!important;--fs-h5:1.93em!important;}
+  :root, *, *::before, *::after {--bradius:12px!important;--fs-bigger:1.57rem!important;--fs-big:1.42rem!important;--fs-body:1.27rem!important;--fs-text:1.19rem!important;--fs-small:1.02rem!important;--fs-smaller:.96rem!important;--fs-smallest:.92rem!important;--fs-title:6.17rem!important;--fs-display:4.27rem!important;--fs-h1:3.87rem!important;--fs-h2:3.27rem!important;--fs-h3:2.47rem!important;--fs-h4:2.27rem!important;--fs-h5:1.93rem!important;}
   body {margin-left:125px!important;}
   header {max-height:800px;}
-  header>a>span {font-size:calc(var(--fs-title) - 5.2em);}
+  header>a>span {font-size:calc(var(--fs-title) - 5.2rem);}
   .himg {background-image:var(--pngimg-2);}
   #page-footer .navbar ul {gap:12px; justify-content:space-between;}
   #page-footer ul.linklist li.footer-home {font-size:0px;}
@@ -312,9 +303,6 @@
   .qmadminlinks>a {width:50px!important; height:50px!important;}
   .dicethrow .diceres>strong {flex:1 0 16%!important; max-width:145px!important;}
   .phmparent:before {width:50px!important;}
-  .nvtree>a {font-size:.86rem!important;}
-  .nvtree>a:first-of-type {font-size:.92rem!important;}
-  .statregist>strong, .statlogged>strong {font-size:1.09rem!important;}
 }
 
 @media (max-height:500px) {
