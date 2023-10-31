@@ -309,6 +309,9 @@
   .dicethrow .diceres>strong {flex:1 0 16%!important;max-width:145px!important;}
   .phmparent:before {width:50px!important;}
   .afcred {max-height:242px!important;}
+  .mbsmclinks {gap:16px!important;}
+  a.usgp {flex:1 0 40%!important;}
+  #cp-main.ucp-vigi table.table1 thead th:nth-of-type(3), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(4), #cp-main.ucp-vigi table.table1 thead th:nth-of-type(6), #cp-main.ucp-vigi table tbody tr td:nth-of-type(3), #cp-main.ucp-vigi table tbody tr td:nth-of-type(4), #cp-main.ucp-vigi table tbody tr td:nth-of-type(6) {display:none!important;}
 }
 
 @media (max-height:500px) {
