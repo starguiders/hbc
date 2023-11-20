@@ -119,7 +119,7 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #itemcatalogue>div.flex {flex-wrap:wrap; gap:12px; justify-content:center; align-items:stretch;}
 #itemcatalogue .gdcitem {flex:1 0 30%; width:100%; max-width:400px; min-width:180px; position:relative; border-radius:var(--bradius); border:var(--border1); --group:var(--accent)!important; --tgroup:var(--taccent)!important; background:var(--tback2); flex-wrap:wrap; padding:12px; gap:12px;}
 #itemcatalogue .gdcitem .gdcititle {gap:4px;}
-#itemcatalogue .gdcitem .gdcititle>b {text-transform:uppercase; font:800 var(--fs-bigger) var(--font3); color:var(--accent); line-height:100%;}
+#itemcatalogue .gdcitem .gdcititle>b {text-transform:uppercase; font:800 var(--fs-bigger) var(--font3); color:var(--accent); line-height:100%; text-align:left;}
 #itemcatalogue .gdcitem .gdcititle>em {text-transform:lowercase; font:300 var(--fs-small) var(--font3); font-style:italic; color:var(--txt4); line-height:100%; display:block;}
 #itemcatalogue .gdcitem .gdcititle>em:before {content:""; width:20px; height:2px; display:inline-block; background:var(--tgroup); margin-right:6px; position:relative; top:-2px;}
 #itemcatalogue .gdcitem .gdciextras {width:100%; gap:0px 12px; text-align:left; flex-wrap:wrap; justify-content:flex-start; align-items:flex-start; gap:3px;}
