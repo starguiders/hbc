@@ -112,7 +112,7 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .gdcriaturas .gdcriat .gdcriatimg * {position:relative; z-index:1;}
 .gdcriaturas .gdcriat .gdcriatimg .gdcriatname {text-transform:uppercase; font:bold var(--fs-text) var(--font2); color:var(--txt2); text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; line-height:120%; margin-bottom:4px; text-decoration-color:var(--tgroup);}
 .gdcriaturas .gdcriat .gdcriatimg .gdcriatcat {text-transform:uppercase; font:bold var(--fs-small) var(--font3); color:var(--txt4); line-height:100%;}
-.gdcriaturas .gdcriat .gdcriatstats {flex:1 0 100%; justify-content:space-around; flex-wrap:wrap; border-top:var(--border1); background:var(--tback1); padding:12px; align-items:center; gap:12px;}
+.gdcriaturas .gdcriat .gdcriatstats {flex:1 0 100%; justify-content:space-around; flex-wrap:wrap; border-top:var(--border1); background:var(--tback1); padding:12px; align-items:center; gap:10px;}
 .gdcriaturas .gdcriat .gdcriatstats strong {padding:0px 12px; border-radius:var(--bradius); border-left:var(--border2); border-right:var(--border2); font:800 var(--fs-text) var(--font2); color:var(--txt4);}
 .gdcriaturas .gdcriat .gdcriatstats strong>i {font-style:normal; font-size:var(--fs-small); font-family:var(--font3); color:var(--accent);}
 #itemcatalogue>br, #itemcatalogue>div.flex>br, #itemcatalogue .gdcitem>br, #itemcatalogue .gdcitem .gdcititle>br, #itemcatalogue .gdcitem .gdciextras>br {display:none!important;}
