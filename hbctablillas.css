@@ -2,7 +2,7 @@
 .guidecont:not(.preactive) {display:none;}
 #guidebook {justify-content:space-between;align-items:flex-start; gap:12px;}
 #guidebook>br, #guidelinks>br, #guideconts>br, .admtitleimg>br, .admtitle>br, .admtitmain>br, .admiman>br {display:none!important;}
-#guidelinks {position:sticky; top:92px; text-align:left; padding:20px; border:var(--border1); border-radius:var(--bradius); background:var(--back2); gap:6px; flex:1 0 15%; min-width:145px;} 
+#guidelinks {position:sticky; top:92px; text-align:left; padding:20px; border:var(--border1); border-radius:var(--bradius); background:var(--back2); gap:6px; flex:1 0 15%; min-width:163px;} 
 #guidelinks>strong {text-transform:uppercase; color:var(--txt1); font:900 var(--fs-body) var(--font2); line-height:120%; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; text-decoration-color:var(--taccent);}
 #guidelinks>strong:not(:first-of-type) {margin-top:4px;}
 #guidelinks>a {cursor:var(--crs2); text-transform:uppercase;font:bold var(--fs-small) var(--font3); line-height:100%; color:var(--txt4); margin-left:6px;}
