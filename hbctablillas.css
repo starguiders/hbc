@@ -542,7 +542,8 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #expedtab .expzhtraits>div.expzhtclass>b {font-size:var(--fs-text);}
 #expedtab .expzhtraits>div>em {font-size:var(--fs-small);}
 #expedtab #expzdata {gap:20px;}
-#expedtab .expzhstats {flex:1; flex-direction:row!important;}
+#expedtab .expzhstats {flex:1; flex-direction:row!important; flex-wrap:wrap!important;}
+#expedtab .expzhstats>b {flex:1 0 30%!important;}
 #expedtab #expzrhoja {flex-direction:column-reverse!important;}
 #expedtab .expzhtraits {gap:10px;}
 .tabrol2 .tbroltit>b>i {-webkit-text-stroke-width:1px;}
