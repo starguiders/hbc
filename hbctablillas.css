@@ -138,7 +138,8 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #expedtab #extbclabels a.preactive {color:var(--txt1)!important; border-top-color:var(--group)!important;}
 #expedtab #extbcinfo {position:relative; min-height:270px; justify-content:center; align-items:center;}
 #expedtab #extbcinfo:before {content:""; position:absolute; inset:0; z-index:0; width:100%; height:100%; background:var(--tback2); opacity:0.4;}
-#expedtab #extbcinfo .expzone {width:100%; position:relative; z-index:1;} #expedtab #extbcinfo .expzone:not(.preactive) {display:none;}
+#expedtab #extbcinfo .expzone {width:100%; position:relative; z-index:1; scrollbar-color:var(--group) transparent;}
+#expedtab #extbcinfo .expzone:not(.preactive) {display:none;}
 #expedtab #expzdata {flex-wrap:wrap; justify-content:space-around; align-items:center; padding:50px; gap:35px; align-self:stretch;}
 #expedtab #expzdata>b {flex:1 0 30%; display:flex; flex-direction:column; text-align:left; text-transform:uppercase; font:700 var(--fs-body) var(--font2); color:var(--txt3); line-height:100%!important; gap:6px;}
 #expedtab #expzdata>b>u {color:var(--txt1); font:bold var(--fs-small) var(--font3); line-height:140%;}
