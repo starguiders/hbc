@@ -215,10 +215,12 @@
   .sigcont .signature_div>br:first-of-type {display:none!important;}
 }
 @media (max-width:500px) {
+  mainbody {padding:15px;}
   .mhava {display:none!important;}
   .phmname, .pbsearchpost, .phsubject {font-size:var(--fs-h5)!important;}
 }
 @media (max-width:450px) {
+  mainbody {padding:12px;}
   .afherm, .afcred, .tdesc, .tupd, .tlst, .tlult, .afcred, .tlocupd, .teve {min-width:auto!important;flex:1 0 100%;}
   #profile .profcont, #car-hold {min-height:560px!important;}
   .pfctraits {flex-direction:column!important;}
