@@ -520,6 +520,7 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .tabaul#tbfull .tbaulinks>a {flex:1 0 15%; text-align:center; font-size:var(--fs-h5);}
 .tabaul#tbfull .tbaulinks {gap:20px;}
 .tabcrono .tabcronotitle, .tabrelas .tabrelastitle, .tabhojaexp .tabhojexptitle {padding:20px;}
+#expedtab .expzhstats>b {min-width:40%;}
 }
 @media (max-width:450px) {
 #guidelinks, #guideconts, .blockquote, .reminder, .admtitleimg, .admintab, .admiman {padding:12px!important;}
