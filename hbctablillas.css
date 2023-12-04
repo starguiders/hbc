@@ -125,6 +125,9 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #itemcatalogue .gdcitem .gdciextras {width:100%; gap:0px 12px; text-align:left; flex-wrap:wrap; justify-content:flex-start; align-items:flex-start; gap:3px;}
 #itemcatalogue .gdcitem .gdciextras>strong {flex:1 0 100%; color:var(--txt4); font:700 var(--fs-text) var(--font2)!important; text-transform:uppercase; line-height:120%;}
 #itemcatalogue .gdcitem .gdciextras>strong>i {text-transform:uppercase; color:var(--txt1); font-weight:900; font-style:normal; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; text-decoration-color:var(--taccent);}
+.admintab details>summary::marker {display:none; content:"";}
+.admintab details>summary>strong {border:var(--border1); border-radius:var(--bradius); padding:0px 6px; background:var(--back2); cursor:var(--crs2); color:var(--accent);}
+.admintab details[open=""] span {margin-top:12px!important; display:block; margin-left:12px;}
 /* EXPEDIENTE */
 #expedtab {border:var(--border1); border-radius:var(--bradius); width:100%; max-width:802px; margin:0 auto!important; overflow:hidden;}
 #expedtab>br, #expedtab .extbnam>br, #expedtab #extbcont>br, #expedtab #extbcinfo>br, #expedtab #extbclabels>br, #expedtab #expimg br, #expedtab #expzdata>br, #expedtab .expzone .exptitle>br, #expedtab #expzrhoja>br, #expedtab .expzhstats>br, #expedtab .expzhd>br, #expedtab .expzhtraits>br {display:none!important;}
