@@ -137,7 +137,8 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #expedtab .extbnam>b {text-transform:uppercase; font:900 var(--fs-h2) var(--font1); line-height:85%; color:var(--txt1)!important; text-shadow:var(--shadow3);}
 #expedtab .extbnam>em {text-transform:lowercase; font:300 var(--fs-small) var(--font3); font-style:italic; color:var(--txt4); line-height:100%; display:block;}
 #expedtab .extbnam>em:before {content:""; width:60px; height:2px; display:inline-block; background:var(--tgroup); margin-right:8px; position:relative; top:-2px;}
-#expedtab #expimg {width:100%; height:300px; display:flex; justify-content:center; align-items:center;} #expedtab #expimg>img {width:100%; height:100%; object-fit:cover; object-position:center 30%; position:relative; z-index:0; filter:var(--filter2);}
+#expedtab #expimg {width:100%; height:300px; display:flex; justify-content:center; align-items:center;}
+#expedtab #expimg>img {width:100%; height:100%; object-fit:cover; object-position:center 30%; position:relative; z-index:0; filter:var(--filter2);}
 #expedtab #extbclabels {width:100%; justify-content:space-around; align-items:center; border-top:var(--border1); border-bottom:var(--border1); padding:12px; gap:6px 12px; background:var(--back2); flex-wrap:wrap;}
 #expedtab #extbclabels a {cursor:var(--crs2); text-transform:uppercase; border-radius:var(--bradius); font:800 var(--fs-small) var(--font3); text-align:center; border-left:var(--border2); border-right:var(--border2); padding:4px 6px; line-height:100%!important; color:var(--txt4)!important; transition:var(--trs1); border-top:2px solid transparent!important;}
 #expedtab #extbclabels a.preactive {color:var(--txt1)!important; border-top-color:var(--group)!important;}
@@ -163,7 +164,8 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #expedtab .expzhstats>b {border-top:2px solid var(--tgroup); border-left:var(--border2); border-right:var(--border2); flex:1; display:flex; justify-content:center; align-items:center; border-radius:var(--bradius); padding:12px; gap:4px; text-align:center; text-transform:uppercase;}
 #expedtab .expzhstats>b>strong {color:var(--txt1); font:900 var(--fs-bigger) var(--font2)!important; line-height:100%!important;}
 #expedtab .expzhstats>b>em {font:700 var(--fs-small) var(--font3); font-style:italic; color:var(--txt3);}
-#expedtab .expzhd {gap:30px; align-items:stretch; flex:1 0 80%;} #expedtab .expzhtraits {gap:20px;}
+#expedtab .expzhd {gap:30px; align-items:stretch; flex:1 0 80%;}
+#expedtab .expzhtraits {gap:20px;}
 #expedtab .expzhtraits>div {text-align:center; justify-content:center; align-items:center; padding:12px; gap:2px; flex:1; position:relative;}
 #expedtab .expzhtraits>div>i {text-transform:uppercase; font:bold var(--fs-smaller) var(--font3); color:var(--txt4); font-style:normal; margin-bottom:6px; border-radius:var(--bradius); border-top:var(--tborder); border-left:var(--tborder); border-right:var(--tborder); padding:4px 6px; line-height:100%;}
 #expedtab .expzhtraits>div>b {text-transform:uppercase; font:900 var(--fs-big) var(--font2); color:var(--txt1); line-height:100%;}
@@ -178,7 +180,7 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #expedtab .expzhtraits>div.expzhtclass:before {opacity:0.4; font-size:calc(var(--fs-title) + var(--fs-h4));}
 #expedtab .expzhtraits>div.expzhtclass>b {font-size:var(--fs-bigger); font-family:var(--font3); font-weight:800;}
 #expedtab .expzhskills h4.post-content {color:var(--group)!important; text-decoration:none!important; margin:0px 0px 12px 0px; display:flex!important; justify-content:center; align-items:center; gap:10px;}
-#expedtab .expzhskills h4.post-content:before, #expedtab .expzhskills h4.post-content:after {content:""; flex:1; height:1px; background:var(--border2-c);}
+#expedtab .expzhskills h4.post-content:before, #expedtab .expzhskills h4.post-content:after {content:""; flex:1; height:1px; background:var(--border2-c); min-width:40px;}
 #expedtab .expzhskills>span {text-transform:uppercase; display:inline-block; padding:4px 6px; background:var(--group); border-radius:var(--bradius); font:800 var(--fs-smaller) var(--font3); line-height:100%; color:var(--back2); margin-right:6px;}
 #expedtab .expzhskills>u {color:var(--txt1); text-transform:uppercase; font-weight:800;}
 #expedtab .expzhskills>i {color:var(--txt4);}
