@@ -241,7 +241,7 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #tabcombatmn {display:flex; margin:0 auto; max-width:550px; width:100%; background:var(--back1); border:var(--border1); padding:20px; gap:12px; min-height:280px; justify-content:space-between; align-items:center; --acento:var(--accent);}
 #tabcombatmn strong {color:var(--acento);}
 #tabcombatmn u, #tabcombatmn strike {text-decoration-color:var(--acento);}
-#tabcombatpj>br, #tabcombatpj>div>br, #tabcombatmn>br, #tabcombatmn>div>br, .tabcomdata>br, .tbcmdtname>br, .tabcomstats>br, .tabcombless>br {display:none!important;}
+#tabcombatpj>br, #tabcombatpj>div>br, #tabcombatmn>br, #tabcombatmn>div>br, .tabcomdata>br, .tbcmdtname>br, .tabcomstats>br, .tabcombless br, .tabcommlife br, .tabcombatfull>br {display:none!important;}
 .tabcomainblock, .tabcotxtblock {height:calc(280px - 42px); justify-content: space-between; gap:12px; align-items:stretch; flex:1; max-width:calc(50% - 6px);}
 .tabcomdata>i {width:40px; height:40px; border-radius:var(--bradius); color:var(--acento); background:var(--back2); border:var(--border1); display:flex; justify-content:center; align-items:center; text-align:center; flex-shrink:0;}
 .tabcomdata>i:before {content:"\e4fa"; font:600 var(--fs-bigger) var(--font4);}
@@ -260,9 +260,9 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #tbcmblbar>span {height:100%; display:block; background:var(--acento);}
 .tabcotskills {height:100%; overflow:auto; padding-right:12px; line-height:110%; border-left:var(--border2); padding-left:12px;}
 .tabcotskills h3.post-content {display:inline-block; width:100%; text-align:left; text-align-last:left; font:800 var(--fs-big) var(--font3)!important; color:var(--txt1)!important; margin-bottom:12px!important;}
-.tabcotskills h4.post-content {text-align:left; text-align-last:left; text-transform:uppercase; font:800 var(--fs-body) var(--font2)!important; text-decoration-color:var(--acento)!important; color:var(--txt3); margin-top:0px; margin-bottom:4px;}
+.tabcotskills h4.post-content {text-align:left; text-align-last:left; text-transform:uppercase; font:800 var(--fs-body) var(--font2)!important; text-decoration-color:var(--acento)!important; color:var(--txt3); margin-top:0px; margin-bottom:8px;}
 .tabcotskills h3.post-content:first-of-type {margin-top:0px!important;}
-.tbctbl {display:inline-block; width:100%; margin-bottom:6px; font:400 var(--fs-body) var(--font2); line-height:115%;}
+.tbctbl {display:inline-block; width:100%; margin-bottom:8px; font:400 var(--fs-body) var(--font2); line-height:115%;}
 .tbctbl:last-of-type {margin-bottom:0px;}
 .tabcotskills h3.post-content:not(:first-of-type) {margin-top:8px;}
 .tbctbl>strong {text-transform:uppercase; font-weight:900;}
@@ -277,6 +277,13 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .tbctbl#objactivo:before, .tbctbl#Objactivo:before, .tbctbl#OBJACTIVO:before {content:"Obj. Activo";}
 .tbctbl#inactiva:before, .tbctbl#Inactiva:before, .tbctbl#INACTIVA:before {content:"Inactiva";}
 .tbctbl#activa:before, .tbctbl#Activa:before, .tbctbl#ACTIVA:before {content:"Activa";}
+#tabcombatmn .tabcomstats>div {flex:1 0 40%;}
+.tabcommlife {width:100%; height:25px; background:var(--border2-c); border:4px solid var(--back2); border-radius:var(--bradius); overflow:hidden; position:relative;}
+#tbcmmlbar {position:absolute; width:100%; height:100%; border-radius:var(--bradius); overflow:hidden; z-index:1; padding:1px; text-align:center;}
+#tbcmmlbar>span {border-radius:var(--bradius); overflow:hidden; height:100%; display:block; background:var(--acento); position:absolute; z-index:0; top:0px; left:0px; opacity:0.9;}
+#tbcmmlbar:before, #tbcmmlbar:after {position:relative; z-index:1;}
+#tbcmmlbar:after {content:attr(actual) '/' attr(total); color:avr(--txt1); font:700 var(--fs-small) var(--font2); margin-left:4px; color:var(--acento); mix-blend-mode:difference;}
+.tabcombatfull {display:flex; flex-direction:column; gap:12px;}
 /* FIRMA(S) */
 .previewfirma {background:var(--back1); border:var(--border1); overflow-x:auto; overflow-y:hidden; padding:20px 0px;}
 .previewfirma * {box-sizing:initial;}
