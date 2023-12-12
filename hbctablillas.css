@@ -492,11 +492,20 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .tabaul#tbfull {max-width:1100px;}
 .tabcrono .tabcrcothread>i, .tabhojaexp .tabhojcogoalitem>i {width:60px!important; height:60px!important;}
 .tabrelas .tabrlcochar .tabrlcocharimg {width:100px!important; height:100px!important;}
+#tabcombatpj, #tabcombatmn {max-width:770px!important; min-height:320px;}
+.tabcomainblock, .tabcotxtblock {height:calc(320px - 42px);}
+.tabcomcalcs {max-height:71px;}
+.tabcomdata>i {width:50px; height:50px;}
 }
 @media (max-width:1000px) {
 .tabaul#tbfull {gap:30px; padding:30px;}
 .tabaul .tbfside1, .tabaul .tbfside2 {gap:30px;}
 .tabaul#tbsimple {padding:40px;}
+#tabcombatpj, #tabcombatmn {flex-direction:column;}
+.tabcomainblock, .tabcotxtblock {max-width:none; width:100%; align-self:stretch; flex:1;}
+.tabcotskills {height:inherit; padding-left:0px; border-left:none; border-top:var(--border2); padding-top:12px;}
+.tabcomainblock {min-height:240px;}
+.tabcotxtblock {max-height:230px;}
 }
 @media (max-width:900px) {
 #guidebook {flex-wrap:wrap!important;}
@@ -524,6 +533,11 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .tabaul#tbfull .tbauimg {width:270px;}
 .tabaul#tbfull .tbauname {text-align:center;}
 .tabaul .tbauimg {width:270px; height:270px;}
+#tabcombatpj, #tabcombatmn {flex-direction:row;}
+.tabcomainblock, .tabcotxtblock {max-width: calc(50% - 6px);width:100%; align-self:stretch;}
+.tabcotskills {height:inherit; padding-left:12px; border-left:var(--border2); border-top:none; padding-top:0px;}
+.tabcomainblock {min-height:none!important; height:calc(280px - 42px); max-height:none!important;}
+.tabcotxtblock {min-height:none!important; height:calc(280px - 42px); max-height:none!important;}
 }
 @media (max-width:700px) {
 #nonplayercharacters .gbnpc {flex:1 0 100%!important;}
@@ -535,6 +549,11 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #expedtab #expimg {height:250px!important;}
 .tabhojaexp .tabhojcodata {flex-direction:column;}
 .tabhojaexp .tabhojcodata>em {height:1px; width:200px;}
+#tabcombatpj, #tabcombatmn {flex-direction:column;}
+.tabcomainblock, .tabcotxtblock {max-width:none; width:100%; align-self:stretch;}
+.tabcotskills {height:inherit; padding-left:0px; border-left:none; border-top:var(--border2); padding-top:12px;}
+.tabcomainblock {min-height:240px!important;}
+.tabcotxtblock {max-height:230px!important;}
 }
 @media (max-width:600px) {
 #guidebook .admtitleimg>h2 {font-size:var(--fs-h3)!important;}
@@ -581,6 +600,7 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .blockquote, .registeredsec {margin:0px 6px!important;}
 #expedtab #expzdata {padding:20px;}
 .tabusqres {padding:12px;}
+#tabcombatpj, #tabcombatmn {padding:12px;}
 }
 /* media:height */
 @media (min-height:1500px) {
@@ -611,4 +631,10 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .tabaul .tbfside1, .tabaul .tbfside2 {justify-content:center; align-items:center;}
 .tabcrono .tabcrcothread>i, .tabhojaexp .tabhojcogoalitem>i {width:60px; height:60px;}
 .tabrelas .tabrlcochar .tabrlcocharimg {width:100px; height:100px;}
+#tabcombatpj, #tabcombatmn {max-width:770px!important; min-height:420px;}
+.tabcomainblock, .tabcotxtblock {height:calc(420px - 42px);}
+.tabcomcalcs {max-height:106px;}
+.tabcomdata>i {width:70px; height:70px;}
+.tabcommlife {height:45px;}
+.tbcmdtinfo:before {top:-8px;}
 }
