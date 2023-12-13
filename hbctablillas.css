@@ -320,6 +320,9 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 #tabcombatpj.zeus .tabcomdata>i:before, #tabcombatpj.ZEUS .tabcomdata>i:before, #tabcombatpj.Zeus .tabcomdata>i:before {content:"\f0e7";}
 #tabcombatpj.hefesto .tabcomdata>i:before, #tabcombatpj.HEFESTO .tabcomdata>i:before, #tabcombatpj.Hefesto .tabcomdata>i:before {content:"\f7e4";}
 #tabcombatpj.ares .tabcomdata>i:before, #tabcombatpj.ARES .tabcomdata>i:before, #tabcombatpj.Ares .tabcomdata>i:before {content:"\f71d";}
+#tabcombatmn.monstruox .tabcomdata>i:before, #tabcombatmn.MONSTRUOX .tabcomdata>i:before, #tabcombatmn.Monstruox .tabcomdata>i:before, #tabcombatmn.MonstruoX .tabcomdata>i:before {content:"\f56b";}
+#tabcombatmn.monstruoxx .tabcomdata>i:before, #tabcombatmn.MONSTRUOXX .tabcomdata>i:before, #tabcombatmn.Monstruoxx .tabcomdata>i:before, #tabcombatmn.MonstruoXx .tabcomdata>i:before, #tabcombatmn.MonstruoXX .tabcomdata>i:before {content:"\f702";}
+#tabcombatmn.monstruoxxx .tabcomdata>i:before, #tabcombatmn.MONSTRUOXXX .tabcomdata>i:before, #tabcombatmn.Monstruoxxx .tabcomdata>i:before, #tabcombatmn.MonstruoXxx .tabcomdata>i:before, #tabcombatmn.MonstruoXXx .tabcomdata>i:before, #tabcombatmn.MonstruoXXX .tabcomdata>i:before {content:"\f6d5";}
 /* FIRMA(S) */
 .previewfirma {background:var(--back1); border:var(--border1); overflow-x:auto; overflow-y:hidden; padding:20px 0px;}
 .previewfirma * {box-sizing:initial;}
