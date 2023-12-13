@@ -279,8 +279,8 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .tbctbl#activa:before, .tbctbl#Activa:before, .tbctbl#ACTIVA:before {content:"Activa";}
 #tabcombatmn .tabcomstats>div {flex:1 0 40%;}
 .tabcommlife {width:100%; height:25px; background:var(--border2-c); border:4px solid var(--back2); border-radius:var(--bradius); overflow:hidden; position:relative;}
-#tbcmmlbar {position:absolute; width:100%; height:100%; border-radius:var(--bradius); overflow:hidden; z-index:1; padding:1px; text-align:center;}
-#tbcmmlbar>span {border-radius:var(--bradius); overflow:hidden; height:100%; display:block; background:var(--acento); position:absolute; z-index:0; top:0px; left:0px; opacity:0.9;}
+#tbcmmlbar {position:absolute; width:100%; height:100%; overflow:hidden; z-index:1; padding:1px; text-align:center;}
+#tbcmmlbar>span {overflow:hidden; height:100%; display:block; background:var(--acento); position:absolute; z-index:0; top:0px; left:0px; opacity:0.9;}
 #tbcmmlbar:before, #tbcmmlbar:after {position:relative; z-index:1;}
 #tbcmmlbar:after {content:attr(actual) '/' attr(total); color:avr(--txt1); font:700 var(--fs-small) var(--font2); margin-left:4px; color:var(--acento); mix-blend-mode:difference;}
 .tabcombatfull {display:flex; flex-direction:column; gap:12px;}
