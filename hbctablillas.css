@@ -245,8 +245,8 @@ div.reminder:before {content:"Aviso:"; color:var(--back1); font-weight:900!impor
 .tabcomainblock, .tabcotxtblock {height:calc(280px - 42px); justify-content: space-between; gap:12px; align-items:stretch; flex:1; max-width:calc(50% - 6px);}
 .tabcomdata>i {width:40px; height:40px; border-radius:var(--bradius); color:var(--acento); background:var(--back2); border:var(--border1); display:flex; justify-content:center; align-items:center; text-align:center; flex-shrink:0;}
 .tabcomdata>i:before {content:"\e4fa"; font:600 var(--fs-bigger) var(--font4);}
+.tbcmdtname {align-items:flex-start; gap:4px; justify-content:center; text-align:left;}
 .tbcmdtname>b {text-transform:uppercase; font:800 var(--fs-h5) var(--font2); color:var(--txt1); text-shadow:1px 1px 1px var(--acento); line-height:80%; margin-top:2px;}
-.tbcmdtname {align-items:flex-start; gap:4px; justify-content:center;}
 .tbcmdtinfo {text-transform:lowercase; font:300 var(--fs-small) var(--font3); font-style:italic; color:var(--txt4); line-height:100%; display:block;}
 .tbcmdtinfo:before {content:""; width:35px; height:2px; display:inline-block; background:var(--acento); margin-right:8px; position:relative; top:-2px;}
 .tabcomdata {gap:12px; justify-content:flex-start; align-items:center;}
