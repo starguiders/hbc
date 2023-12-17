@@ -9,7 +9,7 @@
   ul#notif_list, .navigationpanel {top:70px!important;max-width:380px!important;}
   .tdesc, .tadm, .tlocupd, .teve, .tlst {max-height:240px;height:240px;}
   .tadm>a, .tlocupd .tloc, .tlocupd .tupd, .teve .teeve {height:110px;}
-  .forcont .frcinfo .frcdesc {height:110px;}
+  .forcont .frcinfo .frcdesc {max-height:110px;}
   .forcont .frcinfo .frclinks {margin-top:20px;}
   .forum .forcont, #c3 .forum .forava {padding:30px;}
   .forum .forava .fraava {position:relative!important;height:300px;}
@@ -263,7 +263,7 @@
   .tadm>a, .teve .teeve {height:100%;}
   .forum {max-width:none;}
   .forum .forcont, #c3 .forum .forava {padding:30px;}
-  .forcont .frcinfo .frcdesc {height:150px;}
+  .forcont .frcinfo .frcdesc {max-height:155px;}
   .navigationpanel>em {line-height:100%!important;}
   .forcont .frcinfo .frclinks {margin-top:20px;} 
   .forum .forava .fraava {position:relative!important;height:300px;}
