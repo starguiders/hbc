@@ -156,6 +156,16 @@
 @media (max-width: 600px) {
   .phmname, .pbsearchpost, .phsubject {font-size:var(--fs-h4)!important;}
   #cp-main.ucp-drafts table.table1 thead th:nth-of-type(1), #cp-main.ucp-drafts table.table1 tbody tr td:nth-of-type(1), #cp-main.ucp-drafts table.table1 thead th:nth-of-type(3), #cp-main.ucp-drafts table.table1 tbody tr td:nth-of-type(3) {display:none!important;}
+  .forum {flex-direction:column!important;flex:1 0 100%;}
+  .forum .forcont {border-right:none;}
+  .forum .forava {width:100%;max-width:none!important;border-top:var(--border1);min-height:auto;min-width:auto;padding:20px;position:initial!important;gap:20px;flex-direction:row-reverse;align-items:flex-end;justify-content:end;}
+  .forum .forava:before {display:none!important;}
+  .forava .fraava {outline:var(--baborder);filter:none;outline-color:var(--group);outline-offset:2px;}
+  .forum .forava:empty:before, .forava .fraava img {filter:var(--filter1)!important;}
+  .forava .fraava, .forum .forava:empty:before, .forava .fraava img {position:relative!important;width:60px;height:60px;border-radius:var(--bradius);overflow:hidden;flex-shrink:0;}
+  .fralicon {top:initial!important;right:initial!important;bottom:72px!important;left:13px!important;}
+  #c3 .forum .forcont {min-height:300px;position:relative;}
+  #c3 .forum .forava {background:var(--back1);}
 }
 @media (max-width: 550px) {
   body {margin-left:50px!important;}
@@ -179,16 +189,6 @@
   .tlupst:nth-of-type(1), .tlupst:nth-of-type(2), .tlupst:nth-of-type(3), .tlupst:nth-of-type(4), .tlupst:nth-of-type(5), .tlupst:nth-of-type(6) {display:block!important;}
   .tlupst:nth-of-type(6) {margin-bottom:0px!important;}
   .tlocupd, .teve {flex:1 0 100%!important;}
-  .forum {flex-direction:column!important;flex:1 0 100%;}
-  .forum .forcont {border-right:none;}
-  .forum .forava {width:100%;max-width:none!important;border-top:var(--border1);min-height:auto;min-width:auto;padding:20px;position:initial!important;gap:20px;flex-direction:row-reverse;align-items:flex-end;justify-content:end;}
-  .forum .forava:before {display:none!important;}
-  .forava .fraava {outline:var(--baborder);filter:none;outline-color:var(--group);outline-offset:2px;}
-  .forum .forava:empty:before, .forava .fraava img {filter:var(--filter1)!important;}
-  .forava .fraava, .forum .forava:empty:before, .forava .fraava img {position:relative!important;width:60px;height:60px;border-radius:var(--bradius);overflow:hidden;flex-shrink:0;}
-  .fralicon {top:initial!important;right:initial!important;bottom:72px!important;left:13px!important;}
-  #c3 .forum .forcont {min-height:300px;position:relative;}
-  #c3 .forum .forava {background:var(--back1);}
   .statlinks, .statsright {flex:1 0 100%;flex-direction:row!important;}
   .statlastu>.stlstuava {width:90px;height:90px;}
   .stlstunam>strong {font-size:var(--fs-bigger);}
