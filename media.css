@@ -166,8 +166,6 @@
   .fralicon {top:initial!important;right:initial!important;bottom:72px!important;left:13px!important;}
   #c3 .forum .forcont {min-height:300px;position:relative;}
   #c3 .forum .forava {background:var(--back1);}
-}
-@media (max-width: 550px) {
   body {margin-left:50px!important;}
   header {padding:30px;}
   .himg {background-image:var(--pngimg-3);}
